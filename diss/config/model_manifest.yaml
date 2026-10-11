@@ -1,0 +1,322 @@
+culture_locales: [ko, es, zh, ar, ja, fr]
+reasoning_locales: [ko, es, zh, ar, ja, fr]
+
+models:
+  - id: goldfish-ko
+    hf_name: goldfish-models/kor_hang_1000mb
+    regime: monolingual
+    architecture: gpt2_like
+    locales: [ko]
+    eval_locales: [ko]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: goldfish-es
+    hf_name: goldfish-models/spa_latn_1000mb
+    regime: monolingual
+    architecture: gpt2_like
+    locales: [es]
+    eval_locales: [es]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: goldfish-zh
+    hf_name: goldfish-models/zho_hans_1000mb
+    regime: monolingual
+    architecture: gpt2_like
+    locales: [zh]
+    eval_locales: [zh]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: goldfish-ar
+    hf_name: goldfish-models/arb_arab_1000mb
+    regime: monolingual
+    architecture: gpt2_like
+    locales: [ar]
+    eval_locales: [ar]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: goldfish-ja
+    hf_name: goldfish-models/jpn_jpan_1000mb
+    regime: monolingual
+    architecture: gpt2_like
+    locales: [ja]
+    eval_locales: [ja]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: goldfish-fr
+    hf_name: goldfish-models/fra_latn_1000mb
+    regime: monolingual
+    architecture: gpt2_like
+    locales: [fr]
+    eval_locales: [fr]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: ko-en-intermediate
+    hf_name: yejiheo/ko-en-intermediate
+    regime: bilingual
+    architecture: gpt2_like
+    locales: [ko, en]
+    eval_locales: [ko]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: es-en-intermediate
+    hf_name: RA-ALTA/es-en-intermediate
+    regime: bilingual
+    architecture: gpt2_like
+    locales: [es, en]
+    eval_locales: [es]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: zh-en-intermediate
+    hf_name: RA-ALTA/zh-en-intermediate
+    regime: bilingual
+    architecture: gpt2_like
+    locales: [zh, en]
+    eval_locales: [zh]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: ar-en-intermediate
+    hf_name: RA-ALTA/ar-en-intermediate
+    regime: bilingual
+    architecture: gpt2_like
+    locales: [ar, en]
+    eval_locales: [ar]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: fr-en-intermediate
+    hf_name: RA-ALTA/fr-en-intermediate
+    regime: bilingual
+    architecture: gpt2_like
+    locales: [fr, en]
+    eval_locales: [fr]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: ja-en-intermediate
+    hf_name: yejiheo/ja-en-intermediate
+    regime: bilingual
+    architecture: gpt2_like
+    locales: [ja, en]
+    eval_locales: [ja]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: xglm-564m
+    hf_name: facebook/xglm-564M
+    regime: multilingual
+    architecture: xglm_like
+    locales: [ko, es, zh, ar, ja, fr, en]
+    eval_locales: [ko, es, zh, ar, ja, fr]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: xglm-1p7b
+    hf_name: facebook/xglm-1.7B
+    regime: multilingual
+    architecture: xglm_like
+    locales: [ko, es, zh, ar, ja, fr, en]
+    eval_locales: [ko, es, zh, ar, fr]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: qwen3-0p6b-base
+    hf_name: Qwen/Qwen3-0.6B-Base
+    regime: multilingual
+    architecture: llama_like
+    locales: [ko, es, zh, ar, ja, fr, en]
+    eval_locales: [ko, es, zh, ar, fr]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: qwen3-1p7b-base
+    hf_name: Qwen/Qwen3-1.7B-Base
+    regime: multilingual
+    architecture: llama_like
+    locales: [ko, es, zh, ar, ja, fr, en]
+    eval_locales: [ko, es, zh, ar, fr]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: qwen3-4b-base
+    hf_name: Qwen/Qwen3-4B-Base
+    regime: multilingual
+    architecture: llama_like
+    locales: [ko, es, zh, ar, ja, fr, en]
+    eval_locales: [ja]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: false
+    enabled: true
+
+  - id: kanana-1p5-2p1b-base
+    hf_name: kakaocorp/kanana-1.5-2.1b-base
+    regime: bilingual
+    architecture: llama_like
+    locales: [ko, en]
+    eval_locales: [ko]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: rinna-monolingual-neox-3p6b
+    hf_name: ToPo-ToPo/rinna-japanese-gpt-neox-3.6b
+    regime: monolingual
+    architecture: gpt_neox_like
+    locales: [ja]
+    eval_locales: [ja]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: rinna-bilingual-neox-4b
+    hf_name: rinna/bilingual-gpt-neox-4b
+    regime: bilingual
+    architecture: gpt_neox_like
+    locales: [ja, en]
+    eval_locales: [ja]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: croissantllm-base
+    hf_name: croissantllm/CroissantLLMBase
+    regime: bilingual
+    architecture: llama_like
+    locales: [fr, en]
+    eval_locales: [fr]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: jais-family-1p3b
+    hf_name: inceptionai/jais-family-1p3b
+    regime: bilingual
+    architecture: gpt2_like
+    locales: [ar, en]
+    eval_locales: [ar]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: hplt2c-kor
+    hf_name: HPLT/hplt2c_kor_checkpoints
+    regime: monolingual
+    architecture: llama_like
+    locales: [ko]
+    eval_locales: [ko]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: hplt2c-ara
+    hf_name: HPLT/hplt2c_ara_checkpoints
+    regime: monolingual
+    architecture: llama_like
+    locales: [ar]
+    eval_locales: [ar]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: hplt2c-fra
+    hf_name: HPLT/hplt2c_fra_checkpoints
+    regime: monolingual
+    architecture: llama_like
+    locales: [fr]
+    eval_locales: [fr]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: hplt2c-zhos
+    hf_name: HPLT/hplt2c_zhos_checkpoints
+    regime: monolingual
+    architecture: llama_like
+    locales: [zh]
+    eval_locales: [zh]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: hplt2c-spa
+    hf_name: HPLT/hplt2c_spa_checkpoints
+    regime: monolingual
+    architecture: llama_like
+    locales: [es]
+    eval_locales: [es]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: tiny-aya-base
+    hf_name: CohereLabs/tiny-aya-base
+    regime: multilingual
+    architecture: llama_like
+    locales: [ko, es, zh, ar, ja, fr, en]
+    eval_locales: [ko, es, zh, ar, ja, fr]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true
+
+  - id: eurollm-1p7b
+    hf_name: utter-project/EuroLLM-1.7B
+    regime: multilingual
+    architecture: llama_like
+    locales: [ko, es, zh, ar, ja, fr, en]
+    eval_locales: [ko, es, zh, ar, ja, fr]
+    culture_enabled: true
+    reasoning_enabled: true
+    neuron_enabled: true
+    enabled: true

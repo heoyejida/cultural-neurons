@@ -1,0 +1,57 @@
+defaults:
+  data_root: diss/data
+  blend_csv: diss/data/eBLEnD/eblend_final.csv
+  random_seeds: [0, 1, 2, 3, 4]
+  mlp_threshold: 0.01
+  countryrc_threshold: 0.01
+  batch_size: 8
+  score_batch_size: 8
+  dtype: bfloat16
+  max_seq_len: 1024
+  cross_locale_policy: anchor_only
+
+runs:
+  - id: hplt2c-kor-trace
+    architecture: llama_like
+    locales: [ko]
+    source:
+      kind: hf_revisions
+      repo: HPLT/hplt2c_kor_checkpoints
+      revisions:
+        - "checkpoint_0001000"
+        - "checkpoint_0002000"
+        - "checkpoint_0004000"
+        - "checkpoint_0007000"
+        - "checkpoint_0016000"
+        - "checkpoint_0032000"
+        - "checkpoint_0047000"   # final (anchor)
+
+  - id: hplt2c-ara-trace
+    architecture: llama_like
+    locales: [ar]
+    source:
+      kind: hf_revisions
+      repo: HPLT/hplt2c_ara_checkpoints
+      revisions:
+        - "checkpoint_0001000"
+        - "checkpoint_0002000"
+        - "checkpoint_0004000"
+        - "checkpoint_0007000"
+        - "checkpoint_0016000"
+        - "checkpoint_0032000"
+        - "checkpoint_0047000"   # final (anchor)
+
+  - id: hplt2c-fra-trace
+    architecture: llama_like
+    locales: [fr]
+    source:
+      kind: hf_revisions
+      repo: HPLT/hplt2c_fra_checkpoints
+      revisions:
+        - "checkpoint_0001000"
+        - "checkpoint_0002000"
+        - "checkpoint_0004000"
+        - "checkpoint_0007000"
+        - "checkpoint_0016000"
+        - "checkpoint_0032000"
+        - "checkpoint_0047000"   # final (anchor)
