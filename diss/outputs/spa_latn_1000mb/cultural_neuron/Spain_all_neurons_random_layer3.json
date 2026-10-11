@@ -1,0 +1,2203 @@
+{
+  "model_name": "goldfish-models/spa_latn_1000mb",
+  "revision": null,
+  "dataset_ids": {
+    "blend_mcq": [
+      "eblnd-es-ES_0001",
+      "eblnd-es-ES_0002",
+      "eblnd-es-ES_0003",
+      "eblnd-es-ES_0004",
+      "eblnd-es-ES_0005",
+      "eblnd-es-ES_0085",
+      "eblnd-es-ES_0086",
+      "eblnd-es-ES_0087",
+      "eblnd-es-ES_0088",
+      "eblnd-es-ES_0089",
+      "eblnd-es-ES_0090",
+      "eblnd-es-ES_0091",
+      "eblnd-es-ES_0092",
+      "eblnd-es-ES_0093",
+      "eblnd-es-ES_0375",
+      "eblnd-es-ES_0376",
+      "eblnd-es-ES_0377",
+      "eblnd-es-ES_0378",
+      "eblnd-es-ES_0379",
+      "eblnd-es-ES_0380",
+      "eblnd-es-ES_0381",
+      "eblnd-es-ES_0382",
+      "eblnd-es-ES_0383",
+      "eblnd-es-ES_0384",
+      "eblnd-es-ES_0385",
+      "eblnd-es-ES_0386",
+      "eblnd-es-ES_0387",
+      "eblnd-es-ES_0388",
+      "eblnd-es-ES_0389",
+      "eblnd-es-ES_0405",
+      "eblnd-es-ES_0406",
+      "eblnd-es-ES_0407",
+      "eblnd-es-ES_0408",
+      "eblnd-es-ES_0409",
+      "eblnd-es-ES_0424",
+      "eblnd-es-ES_0425",
+      "eblnd-es-ES_0426",
+      "eblnd-es-ES_0454",
+      "eblnd-es-ES_0455",
+      "eblnd-es-ES_0456",
+      "eblnd-es-ES_0457",
+      "eblnd-es-ES_0458",
+      "eblnd-es-ES_0459",
+      "eblnd-es-ES_0478",
+      "eblnd-es-ES_0479",
+      "eblnd-es-ES_0480",
+      "eblnd-es-ES_0481",
+      "eblnd-es-ES_0482",
+      "eblnd-es-ES_0508",
+      "eblnd-es-ES_0509",
+      "eblnd-es-ES_0510",
+      "eblnd-es-ES_0511",
+      "eblnd-es-ES_0512",
+      "eblnd-es-ES_0628",
+      "eblnd-es-ES_0629",
+      "eblnd-es-ES_0630",
+      "eblnd-es-ES_0631",
+      "eblnd-es-ES_0632",
+      "eblnd-es-ES_0994",
+      "eblnd-es-ES_0995",
+      "eblnd-es-ES_0996",
+      "eblnd-es-ES_0997",
+      "eblnd-es-ES_0998",
+      "eblnd-es-ES_1004",
+      "eblnd-es-ES_1005",
+      "eblnd-es-ES_1006",
+      "eblnd-es-ES_1007",
+      "eblnd-es-ES_1008",
+      "eblnd-es-ES_1010",
+      "eblnd-es-ES_1011",
+      "eblnd-es-ES_1012",
+      "eblnd-es-ES_1013",
+      "eblnd-es-ES_1014",
+      "eblnd-es-ES_1015",
+      "eblnd-es-ES_1016",
+      "eblnd-es-ES_1017",
+      "eblnd-es-ES_1018",
+      "eblnd-es-ES_1019",
+      "eblnd-es-ES_1020",
+      "eblnd-es-ES_1021",
+      "eblnd-es-ES_1022",
+      "eblnd-es-ES_1023",
+      "eblnd-es-ES_1024",
+      "eblnd-es-ES_1040",
+      "eblnd-es-ES_1041",
+      "eblnd-es-ES_1042",
+      "eblnd-es-ES_1045",
+      "eblnd-es-ES_1046",
+      "eblnd-es-ES_1047",
+      "eblnd-es-ES_1048",
+      "eblnd-es-ES_1049",
+      "eblnd-es-ES_1170",
+      "eblnd-es-ES_1171",
+      "eblnd-es-ES_1172",
+      "eblnd-es-ES_1173",
+      "eblnd-es-ES_1174",
+      "eblnd-es-ES_1175",
+      "eblnd-es-ES_1176",
+      "eblnd-es-ES_1177",
+      "eblnd-es-ES_1183",
+      "eblnd-es-ES_1184",
+      "eblnd-es-ES_1185",
+      "eblnd-es-ES_1186",
+      "eblnd-es-ES_1187",
+      "eblnd-es-ES_1218",
+      "eblnd-es-ES_1219",
+      "eblnd-es-ES_1220",
+      "eblnd-es-ES_1221",
+      "eblnd-es-ES_1222",
+      "eblnd-es-ES_1276",
+      "eblnd-es-ES_1277",
+      "eblnd-es-ES_1278",
+      "eblnd-es-ES_1279",
+      "eblnd-es-ES_1280",
+      "eblnd-es-ES_1281",
+      "eblnd-es-ES_1282",
+      "eblnd-es-ES_1283",
+      "eblnd-es-ES_1284",
+      "eblnd-es-ES_1285",
+      "eblnd-es-ES_1286",
+      "eblnd-es-ES_1287",
+      "eblnd-es-ES_1289",
+      "eblnd-es-ES_1290",
+      "eblnd-es-ES_1291",
+      "eblnd-es-ES_1292",
+      "eblnd-es-ES_1293",
+      "eblnd-es-ES_1373",
+      "eblnd-es-ES_1374",
+      "eblnd-es-ES_1375",
+      "eblnd-es-ES_1376",
+      "eblnd-es-ES_1377",
+      "eblnd-es-ES_1378",
+      "eblnd-es-ES_1409",
+      "eblnd-es-ES_1410",
+      "eblnd-es-ES_1411",
+      "eblnd-es-ES_1412",
+      "eblnd-es-ES_1423",
+      "eblnd-es-ES_1424",
+      "eblnd-es-ES_1425",
+      "eblnd-es-ES_1426",
+      "eblnd-es-ES_1427",
+      "eblnd-es-ES_1428",
+      "eblnd-es-ES_1445",
+      "eblnd-es-ES_1446",
+      "eblnd-es-ES_1447",
+      "eblnd-es-ES_1448",
+      "eblnd-es-ES_1449",
+      "eblnd-es-ES_1694",
+      "eblnd-es-ES_1695",
+      "eblnd-es-ES_1696",
+      "eblnd-es-ES_1767",
+      "eblnd-es-ES_1768",
+      "eblnd-es-ES_1769",
+      "eblnd-es-ES_1770",
+      "eblnd-es-ES_1771",
+      "eblnd-es-ES_1789",
+      "eblnd-es-ES_1790",
+      "eblnd-es-ES_1791",
+      "eblnd-es-ES_1839",
+      "eblnd-es-ES_1840",
+      "eblnd-es-ES_1841",
+      "eblnd-es-ES_1842",
+      "eblnd-es-ES_1843",
+      "eblnd-es-ES_1844"
+    ]
+  },
+  "thresholds": {
+    "random_seed": 3,
+    "match_neuron_file": "diss/outputs/spa_latn_1000mb/cultural_neuron/Spain_neurons_blend_mcq.json",
+    "selection_kind": "same_layer_random"
+  },
+  "top_neurons": [
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 974,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2427,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2229,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 534,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1515,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2473,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1941,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2562,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2379,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 268,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2480,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 53,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1921,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1062,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2256,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 959,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 785,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2937,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1926,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2215,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2251,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1951,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1626,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2617,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 616,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 949,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2600,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 621,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2142,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1597,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3036,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 62,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2750,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 262,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 652,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2421,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 175,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1233,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 127,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1103,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1936,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2436,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2944,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1587,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2925,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1748,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1617,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2982,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2363,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1821,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 549,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1497,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 399,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 146,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 556,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2027,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 888,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1056,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2752,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1786,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2566,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1725,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2077,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1580,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2351,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1437,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2187,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2396,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1669,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2393,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 951,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1379,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2793,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 117,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1145,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2481,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2749,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2849,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 668,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2861,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1336,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2219,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2342,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2331,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 426,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2923,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2684,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 864,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2592,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2349,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1093,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1167,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 509,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 259,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1974,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2616,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1980,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 362,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1409,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 272,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1681,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 617,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 82,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1203,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1749,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1700,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 487,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 181,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2478,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2517,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 184,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1547,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2942,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2401,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1355,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2256,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1143,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2070,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 966,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 147,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1268,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 29,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 315,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 442,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2456,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2193,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 128,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 808,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1670,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1194,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2500,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1078,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 639,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2825,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 173,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1391,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1285,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1475,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 566,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1547,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1543,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1885,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2130,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1581,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2637,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2439,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2789,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2290,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 420,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2540,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2076,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1111,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1766,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2598,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2950,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2931,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 973,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1233,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1791,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1057,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2134,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1241,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2246,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1388,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 46,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1700,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2375,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1289,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 82,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1542,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2522,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2413,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2589,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 545,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 246,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2594,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2569,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1361,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1909,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1445,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2782,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1444,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2493,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2895,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1142,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3022,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2005,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 90,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2414,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 248,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2768,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 87,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1512,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1028,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2572,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1869,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1223,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2427,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2463,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1310,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 726,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1490,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 758,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1280,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1512,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2439,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1081,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1230,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1544,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 429,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 110,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2331,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2800,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3011,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 538,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1269,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2048,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 911,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2677,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1103,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 977,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1342,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 767,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2777,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1782,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2660,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2859,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 397,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 417,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2460,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1318,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1367,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2764,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 919,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1795,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 693,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 327,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1379,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3039,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2663,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 893,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2328,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1847,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1108,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 921,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 495,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 138,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2169,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 781,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1290,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2354,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 751,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1141,
+      "attribute_score": 0.0,
+      "scores": null
+    }
+  ]
+}

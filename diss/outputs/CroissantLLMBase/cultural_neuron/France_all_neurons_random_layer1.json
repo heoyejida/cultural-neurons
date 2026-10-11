@@ -1,0 +1,7257 @@
+{
+  "model_name": "croissantllm/CroissantLLMBase",
+  "revision": null,
+  "dataset_ids": {
+    "blend_mcq": [
+      "eblnd-fr-FR_0006",
+      "eblnd-fr-FR_0007",
+      "eblnd-fr-FR_0008",
+      "eblnd-fr-FR_0009",
+      "eblnd-fr-FR_0010",
+      "eblnd-fr-FR_0011",
+      "eblnd-fr-FR_0012",
+      "eblnd-fr-FR_0014",
+      "eblnd-fr-FR_0015",
+      "eblnd-fr-FR_0017",
+      "eblnd-fr-FR_0018",
+      "eblnd-fr-FR_0019",
+      "eblnd-fr-FR_0020",
+      "eblnd-fr-FR_0021",
+      "eblnd-fr-FR_0022",
+      "eblnd-fr-FR_0023",
+      "eblnd-fr-FR_0024",
+      "eblnd-fr-FR_0025",
+      "eblnd-fr-FR_0028",
+      "eblnd-fr-FR_0029",
+      "eblnd-fr-FR_0030",
+      "eblnd-fr-FR_0031",
+      "eblnd-fr-FR_0032",
+      "eblnd-fr-FR_0049",
+      "eblnd-fr-FR_0050",
+      "eblnd-fr-FR_0051",
+      "eblnd-fr-FR_0052",
+      "eblnd-fr-FR_0053",
+      "eblnd-fr-FR_0058",
+      "eblnd-fr-FR_0059",
+      "eblnd-fr-FR_0068",
+      "eblnd-fr-FR_0071",
+      "eblnd-fr-FR_0072",
+      "eblnd-fr-FR_0073",
+      "eblnd-fr-FR_0074",
+      "eblnd-fr-FR_0075",
+      "eblnd-fr-FR_0076",
+      "eblnd-fr-FR_0077",
+      "eblnd-fr-FR_0078",
+      "eblnd-fr-FR_0079",
+      "eblnd-fr-FR_0080",
+      "eblnd-fr-FR_0081",
+      "eblnd-fr-FR_0082",
+      "eblnd-fr-FR_0084",
+      "eblnd-fr-FR_0085",
+      "eblnd-fr-FR_0086",
+      "eblnd-fr-FR_0087",
+      "eblnd-fr-FR_0088",
+      "eblnd-fr-FR_0125",
+      "eblnd-fr-FR_0126",
+      "eblnd-fr-FR_0127",
+      "eblnd-fr-FR_0128",
+      "eblnd-fr-FR_0129",
+      "eblnd-fr-FR_0130",
+      "eblnd-fr-FR_0131",
+      "eblnd-fr-FR_0132",
+      "eblnd-fr-FR_0133",
+      "eblnd-fr-FR_0134",
+      "eblnd-fr-FR_0138",
+      "eblnd-fr-FR_0139",
+      "eblnd-fr-FR_0140",
+      "eblnd-fr-FR_0141",
+      "eblnd-fr-FR_0145",
+      "eblnd-fr-FR_0146",
+      "eblnd-fr-FR_0147",
+      "eblnd-fr-FR_0148",
+      "eblnd-fr-FR_0151",
+      "eblnd-fr-FR_0152",
+      "eblnd-fr-FR_0153",
+      "eblnd-fr-FR_0154",
+      "eblnd-fr-FR_0155",
+      "eblnd-fr-FR_0186",
+      "eblnd-fr-FR_0187",
+      "eblnd-fr-FR_0188",
+      "eblnd-fr-FR_0189",
+      "eblnd-fr-FR_0190",
+      "eblnd-fr-FR_0191",
+      "eblnd-fr-FR_0192",
+      "eblnd-fr-FR_0208",
+      "eblnd-fr-FR_0209",
+      "eblnd-fr-FR_0210",
+      "eblnd-fr-FR_0211",
+      "eblnd-fr-FR_0212",
+      "eblnd-fr-FR_0213",
+      "eblnd-fr-FR_0214",
+      "eblnd-fr-FR_0215",
+      "eblnd-fr-FR_0218",
+      "eblnd-fr-FR_0220",
+      "eblnd-fr-FR_0221",
+      "eblnd-fr-FR_0222",
+      "eblnd-fr-FR_0226",
+      "eblnd-fr-FR_0233",
+      "eblnd-fr-FR_0234",
+      "eblnd-fr-FR_0235",
+      "eblnd-fr-FR_0236",
+      "eblnd-fr-FR_0237",
+      "eblnd-fr-FR_0238",
+      "eblnd-fr-FR_0240",
+      "eblnd-fr-FR_0241",
+      "eblnd-fr-FR_0245",
+      "eblnd-fr-FR_0246",
+      "eblnd-fr-FR_0266",
+      "eblnd-fr-FR_0267",
+      "eblnd-fr-FR_0288",
+      "eblnd-fr-FR_0289",
+      "eblnd-fr-FR_0290",
+      "eblnd-fr-FR_0291",
+      "eblnd-fr-FR_0293",
+      "eblnd-fr-FR_0294",
+      "eblnd-fr-FR_0295",
+      "eblnd-fr-FR_0296",
+      "eblnd-fr-FR_0297",
+      "eblnd-fr-FR_0300",
+      "eblnd-fr-FR_0301"
+    ]
+  },
+  "thresholds": {
+    "random_seed": 1,
+    "match_neuron_file": "diss/outputs/CroissantLLMBase/cultural_neuron/France_neurons_blend_mcq.json",
+    "selection_kind": "same_layer_random"
+  },
+  "top_neurons": [
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1100,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4662,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 516,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2089,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 965,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4058,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3682,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3868,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 5337,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3109,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1719,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 768,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3996,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 232,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3193,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3545,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4976,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 17,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3648,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2181,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1874,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4842,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 837,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2600,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 250,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 182,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 208,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 5321,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4435,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 75,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3122,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1774,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3457,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 237,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4322,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1816,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3587,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4061,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4529,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1909,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2831,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1891,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1792,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3765,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2373,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 176,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3409,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4558,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 5261,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 819,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1522,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 5155,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2428,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 990,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2725,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4102,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 4159,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 5491,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1555,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2485,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2327,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 4813,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 4090,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 4139,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3222,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 4825,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 282,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3934,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1988,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3311,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3394,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 5445,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1417,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3007,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 4495,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3069,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 708,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3595,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 5437,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 4165,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 884,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1341,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 4267,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3221,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3035,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 4011,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 242,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3844,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 356,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2527,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 5036,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 4859,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4736,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3224,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 5301,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1395,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1381,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4114,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1859,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 100,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1634,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4420,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4491,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1901,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3313,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4208,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2816,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4733,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2894,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3761,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2205,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 5400,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4489,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4988,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 46,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3143,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4198,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1058,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4249,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 4598,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1683,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3490,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 459,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3941,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2987,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 4669,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 4541,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1637,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 4134,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3386,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3972,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2922,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3394,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2835,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 12,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 4411,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 4424,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 5107,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 5017,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2712,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3753,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 4914,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 229,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1880,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 5204,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1451,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 4511,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 4787,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1480,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 750,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 4514,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2091,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 265,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 577,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 681,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 136,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3710,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 119,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2303,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2044,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2200,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 896,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 5118,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1512,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2821,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2378,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 569,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1371,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1307,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2090,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 4320,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1377,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 5379,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2235,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 5310,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2412,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3724,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2637,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 4067,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3881,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 935,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 193,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2555,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3166,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2812,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3448,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1540,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2116,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 890,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2076,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 4178,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1712,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 4961,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3536,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 170,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1846,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 146,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3254,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1199,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 289,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1312,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3650,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 4147,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3495,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 4462,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1807,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 5167,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 4231,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3693,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1828,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 4291,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 5312,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 251,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3235,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 4717,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2631,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 5405,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 5168,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3492,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 481,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2446,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1029,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1737,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 388,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2509,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 579,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 626,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2542,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2440,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1296,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3409,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 4627,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2067,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1068,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 69,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 4593,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 310,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 4838,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1782,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 4671,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3775,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1405,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 5103,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 4168,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 306,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3096,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1641,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2842,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 811,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1685,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 4697,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3546,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 4844,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1590,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 4033,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 855,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 5455,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3195,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2425,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 4129,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 4094,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 140,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2665,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 5014,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3295,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2304,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 148,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1285,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1645,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2684,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 4614,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1107,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2777,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3516,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1745,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2183,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 789,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3106,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 4486,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2816,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 4377,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3969,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 4362,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1922,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 535,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 330,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 693,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1089,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1390,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1364,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 4409,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1744,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2195,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2721,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 4916,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 4144,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2091,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3015,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2775,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2787,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 933,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2385,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1926,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 4947,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 4004,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1108,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 4751,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 4515,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 854,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2627,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 320,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3330,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 599,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3114,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1206,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1024,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2792,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 939,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 5039,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 4812,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3096,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 627,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 4675,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 4507,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1832,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 4636,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 669,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2185,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2989,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2421,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 4623,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 4376,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 936,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3750,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2270,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 882,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 374,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2422,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 101,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 5027,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 5492,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 119,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 751,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3387,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 942,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 327,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1539,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1963,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 4807,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3448,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1327,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 946,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3693,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1371,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1977,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1302,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 842,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3564,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3098,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 4447,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2408,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 4507,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2075,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3907,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2576,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 820,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1700,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 5341,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2600,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 324,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 223,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 86,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2421,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 4887,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2623,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3685,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3205,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2566,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3264,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 515,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 525,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2599,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 4927,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3734,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 912,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2048,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1762,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 5061,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3841,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 5421,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2914,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2122,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1500,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 4436,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1702,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2517,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1631,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2018,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2952,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 666,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2300,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 732,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3669,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 741,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 5341,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 4705,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 5271,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2776,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1863,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3198,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2513,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 336,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2680,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1530,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2594,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 4743,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2480,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2013,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2738,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 826,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 4458,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 5008,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 4882,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 754,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2007,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1803,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 166,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1996,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3291,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 592,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2195,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 4515,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 580,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 615,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 176,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 5205,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 81,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2382,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2942,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 4040,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3840,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1263,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 4107,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2687,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 631,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 4171,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 5449,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1419,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1471,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1225,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1159,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2619,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2503,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 875,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 4213,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 4930,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2404,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1034,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1693,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1160,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 4468,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 260,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2589,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 5107,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 4529,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1682,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1459,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2448,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3544,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 4403,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1293,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 397,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 5470,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2025,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2069,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 527,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3659,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3523,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 4499,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2049,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 4434,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3599,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 4407,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3713,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 89,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3241,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2774,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1405,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2113,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3979,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 199,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 5295,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3413,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 4674,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 154,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 510,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2907,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 4751,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1132,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 4862,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1025,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1134,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2122,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2268,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3258,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 4620,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3285,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1410,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 5017,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 731,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1913,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3981,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 61,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1454,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 4331,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2598,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 4103,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 5315,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3590,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 5235,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1849,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1952,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2563,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 4055,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3922,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1843,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3377,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2760,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 4590,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 5007,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 5352,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2254,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 5295,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1797,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 394,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 586,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4191,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 5286,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3020,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1306,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1669,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2554,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2447,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2454,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4524,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3044,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1353,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3807,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4870,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 696,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1009,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4965,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4210,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4679,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3090,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1444,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1276,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2052,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3495,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1782,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4665,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 427,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4055,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3224,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 5218,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2850,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3145,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4219,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1350,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4458,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 333,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 4294,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 740,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2090,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 5148,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 827,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2191,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 685,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1139,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 5053,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 5404,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 671,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3645,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1974,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3132,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3546,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3254,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1349,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2666,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3589,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1034,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 5098,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3997,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1736,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 976,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3532,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 4920,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 4374,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3344,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 967,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 5410,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2420,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2274,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2033,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3103,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 4582,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 32,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1555,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 4328,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3594,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 4743,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 172,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 252,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 5140,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 4961,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1984,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2133,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1692,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1416,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2332,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1215,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4442,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1642,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2238,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2548,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4798,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2055,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3656,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1376,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4467,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2924,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4020,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3440,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 997,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1711,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4673,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3139,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1677,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2326,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 885,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 197,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 967,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4663,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 108,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4466,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2428,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 5319,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1118,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 615,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4099,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3061,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4690,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2549,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3581,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4120,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2923,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4328,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2651,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 6,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1014,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3623,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3682,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2868,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2496,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4417,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3271,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2780,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4681,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4032,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 926,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 5305,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3092,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3132,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1670,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 4562,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 31,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2274,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 5206,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4900,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4185,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 1629,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3781,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4922,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4234,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3350,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2501,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 1395,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3681,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 5079,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 5479,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4349,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 1616,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2944,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4310,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 28,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3188,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4746,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3488,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3319,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2752,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 5092,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4787,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 554,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4036,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2028,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 5245,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 5314,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2382,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 5158,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 170,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3334,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 5154,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 1278,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 5191,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3254,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2213,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 1459,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 601,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4959,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 82,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2862,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2167,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3368,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 4458,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2487,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 1245,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3785,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2124,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3969,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1389,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3826,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 4180,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 371,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2218,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 807,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 4838,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3461,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 571,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2909,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 548,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 5380,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3624,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 161,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1344,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 4154,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1324,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 762,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3292,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 5209,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2259,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 4956,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2493,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1711,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 4326,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1701,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1943,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2735,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2204,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 561,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 613,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 4286,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 5396,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 3016,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 3833,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 4190,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 4568,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 407,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 1380,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2432,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 5349,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 4556,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2209,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2915,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 4994,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 1901,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 3215,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 4596,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 3274,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 1411,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 3961,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2126,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 5000,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2700,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 1821,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2119,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 4996,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2000,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 5413,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 250,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 5099,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 3298,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2593,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 3537,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2035,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2204,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 1555,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 594,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 5127,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1356,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 4744,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 3633,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 4763,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1213,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 4966,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 2146,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 3763,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 4313,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1331,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1135,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1131,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 3610,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 2958,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 2537,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 3282,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1970,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 948,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 1689,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 2502,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 558,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 871,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 1864,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 3252,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 2632,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 4033,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 818,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 1529,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 368,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 453,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 4894,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 190,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 1774,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 284,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 4050,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 4329,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 5023,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 3623,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 2805,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 5430,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 2249,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 967,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 5023,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 1414,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 780,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 1819,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 3274,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 1910,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 4055,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 3684,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 3095,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 1381,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 1898,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 1931,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 2323,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 3789,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 4481,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 4750,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3191,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1735,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3700,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2112,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2704,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 4065,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 4862,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 908,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1751,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 645,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 378,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 126,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 42,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3935,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2617,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3138,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 4753,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2352,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1604,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3276,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1311,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 5292,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1247,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 249,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 124,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3172,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1189,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 5446,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 4444,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 467,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 4626,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3108,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2082,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1064,
+      "attribute_score": 0.0,
+      "scores": null
+    },
+    {
+      "family": "llama_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 651,
+      "attribute_score": 0.0,
+      "scores": null
+    }
+  ]
+}

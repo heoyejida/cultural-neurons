@@ -1,0 +1,5589 @@
+{
+  "model_name": "RA-ALTA/zh-en-intermediate",
+  "target_country": "China",
+  "revision": null,
+  "dataset_ids": {
+    "blend_mcq": [
+      "eblnd-zh-CN_0001",
+      "eblnd-zh-CN_0002",
+      "eblnd-zh-CN_0003",
+      "eblnd-zh-CN_0004",
+      "eblnd-zh-CN_0087",
+      "eblnd-zh-CN_0088",
+      "eblnd-zh-CN_0089",
+      "eblnd-zh-CN_0090",
+      "eblnd-zh-CN_0091",
+      "eblnd-zh-CN_0093",
+      "eblnd-zh-CN_0094",
+      "eblnd-zh-CN_0095",
+      "eblnd-zh-CN_0096",
+      "eblnd-zh-CN_0097",
+      "eblnd-zh-CN_0313",
+      "eblnd-zh-CN_0314",
+      "eblnd-zh-CN_0315",
+      "eblnd-zh-CN_0316",
+      "eblnd-zh-CN_0317",
+      "eblnd-zh-CN_0318",
+      "eblnd-zh-CN_0319",
+      "eblnd-zh-CN_0320",
+      "eblnd-zh-CN_0321",
+      "eblnd-zh-CN_0322",
+      "eblnd-zh-CN_0323",
+      "eblnd-zh-CN_0324",
+      "eblnd-zh-CN_0325",
+      "eblnd-zh-CN_0326",
+      "eblnd-zh-CN_0327",
+      "eblnd-zh-CN_0328",
+      "eblnd-zh-CN_0329",
+      "eblnd-zh-CN_0333",
+      "eblnd-zh-CN_0334",
+      "eblnd-zh-CN_0335",
+      "eblnd-zh-CN_0336",
+      "eblnd-zh-CN_0337",
+      "eblnd-zh-CN_0354",
+      "eblnd-zh-CN_0355",
+      "eblnd-zh-CN_0356",
+      "eblnd-zh-CN_0357",
+      "eblnd-zh-CN_0358",
+      "eblnd-zh-CN_0380",
+      "eblnd-zh-CN_0381",
+      "eblnd-zh-CN_0382",
+      "eblnd-zh-CN_0383",
+      "eblnd-zh-CN_0384",
+      "eblnd-zh-CN_0385",
+      "eblnd-zh-CN_0410",
+      "eblnd-zh-CN_0411",
+      "eblnd-zh-CN_0412",
+      "eblnd-zh-CN_0413",
+      "eblnd-zh-CN_0414",
+      "eblnd-zh-CN_0466",
+      "eblnd-zh-CN_0467",
+      "eblnd-zh-CN_0468",
+      "eblnd-zh-CN_0469",
+      "eblnd-zh-CN_0470",
+      "eblnd-zh-CN_0522",
+      "eblnd-zh-CN_0523",
+      "eblnd-zh-CN_0524",
+      "eblnd-zh-CN_0525",
+      "eblnd-zh-CN_0526",
+      "eblnd-zh-CN_0745",
+      "eblnd-zh-CN_0746",
+      "eblnd-zh-CN_0747",
+      "eblnd-zh-CN_0748",
+      "eblnd-zh-CN_0749",
+      "eblnd-zh-CN_0765",
+      "eblnd-zh-CN_0766",
+      "eblnd-zh-CN_0767",
+      "eblnd-zh-CN_0768",
+      "eblnd-zh-CN_0769",
+      "eblnd-zh-CN_0771",
+      "eblnd-zh-CN_0772",
+      "eblnd-zh-CN_0773",
+      "eblnd-zh-CN_0774",
+      "eblnd-zh-CN_0775",
+      "eblnd-zh-CN_0776",
+      "eblnd-zh-CN_0777",
+      "eblnd-zh-CN_0778",
+      "eblnd-zh-CN_0779",
+      "eblnd-zh-CN_0780",
+      "eblnd-zh-CN_0781",
+      "eblnd-zh-CN_0797",
+      "eblnd-zh-CN_0798",
+      "eblnd-zh-CN_0802",
+      "eblnd-zh-CN_0803",
+      "eblnd-zh-CN_0804",
+      "eblnd-zh-CN_0805",
+      "eblnd-zh-CN_0806",
+      "eblnd-zh-CN_0812",
+      "eblnd-zh-CN_0813",
+      "eblnd-zh-CN_0814",
+      "eblnd-zh-CN_0980",
+      "eblnd-zh-CN_0981",
+      "eblnd-zh-CN_0982",
+      "eblnd-zh-CN_0983",
+      "eblnd-zh-CN_0984",
+      "eblnd-zh-CN_0985",
+      "eblnd-zh-CN_0986",
+      "eblnd-zh-CN_0987",
+      "eblnd-zh-CN_0993",
+      "eblnd-zh-CN_0994",
+      "eblnd-zh-CN_0995",
+      "eblnd-zh-CN_0996",
+      "eblnd-zh-CN_0997",
+      "eblnd-zh-CN_1003",
+      "eblnd-zh-CN_1004",
+      "eblnd-zh-CN_1005",
+      "eblnd-zh-CN_1006",
+      "eblnd-zh-CN_1007",
+      "eblnd-zh-CN_1064",
+      "eblnd-zh-CN_1065",
+      "eblnd-zh-CN_1066",
+      "eblnd-zh-CN_1067",
+      "eblnd-zh-CN_1068",
+      "eblnd-zh-CN_1069",
+      "eblnd-zh-CN_1070",
+      "eblnd-zh-CN_1071",
+      "eblnd-zh-CN_1072",
+      "eblnd-zh-CN_1073",
+      "eblnd-zh-CN_1074",
+      "eblnd-zh-CN_1075",
+      "eblnd-zh-CN_1076",
+      "eblnd-zh-CN_1077",
+      "eblnd-zh-CN_1078",
+      "eblnd-zh-CN_1079",
+      "eblnd-zh-CN_1080",
+      "eblnd-zh-CN_1132",
+      "eblnd-zh-CN_1133",
+      "eblnd-zh-CN_1134",
+      "eblnd-zh-CN_1135",
+      "eblnd-zh-CN_1136",
+      "eblnd-zh-CN_1137",
+      "eblnd-zh-CN_1138",
+      "eblnd-zh-CN_1139",
+      "eblnd-zh-CN_1140",
+      "eblnd-zh-CN_1146",
+      "eblnd-zh-CN_1187",
+      "eblnd-zh-CN_1188",
+      "eblnd-zh-CN_1189",
+      "eblnd-zh-CN_1190",
+      "eblnd-zh-CN_1191",
+      "eblnd-zh-CN_1192",
+      "eblnd-zh-CN_1193",
+      "eblnd-zh-CN_1203",
+      "eblnd-zh-CN_1204",
+      "eblnd-zh-CN_1205",
+      "eblnd-zh-CN_1206",
+      "eblnd-zh-CN_1207",
+      "eblnd-zh-CN_1699",
+      "eblnd-zh-CN_1700",
+      "eblnd-zh-CN_1701",
+      "eblnd-zh-CN_1702",
+      "eblnd-zh-CN_1703",
+      "eblnd-zh-CN_1715",
+      "eblnd-zh-CN_1716",
+      "eblnd-zh-CN_1717",
+      "eblnd-zh-CN_1718",
+      "eblnd-zh-CN_1719",
+      "eblnd-zh-CN_1752",
+      "eblnd-zh-CN_1753",
+      "eblnd-zh-CN_1810",
+      "eblnd-zh-CN_1811",
+      "eblnd-zh-CN_1812",
+      "eblnd-zh-CN_1813",
+      "eblnd-zh-CN_1814",
+      "eblnd-zh-CN_1815",
+      "eblnd-zh-CN_1816"
+    ],
+    "countryrc_localized": [
+      "zh-china-0",
+      "zh-china-1",
+      "zh-china-10",
+      "zh-china-11",
+      "zh-china-12",
+      "zh-china-13",
+      "zh-china-14",
+      "zh-china-15",
+      "zh-china-16",
+      "zh-china-17",
+      "zh-china-18",
+      "zh-china-19",
+      "zh-china-2",
+      "zh-china-20",
+      "zh-china-21",
+      "zh-china-22",
+      "zh-china-23",
+      "zh-china-24",
+      "zh-china-3",
+      "zh-china-4",
+      "zh-china-5",
+      "zh-china-6",
+      "zh-china-7",
+      "zh-china-8",
+      "zh-china-9"
+    ]
+  },
+  "thresholds": {
+    "mlp_threshold": 0.01,
+    "countryrc_threshold": 0.01
+  },
+  "top_neurons": [
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1347,
+      "attribute_score": 0.02902077217779216,
+      "scores": {
+        "China": 0.02902077217779216
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3282,
+      "attribute_score": 0.02807215402817585,
+      "scores": {
+        "China": 0.02807215402817585
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 739,
+      "attribute_score": 0.01808861726839867,
+      "scores": {
+        "China": 0.01808861726839867
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2493,
+      "attribute_score": 0.017107359756379437,
+      "scores": {
+        "China": 0.017107359756379437
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3206,
+      "attribute_score": 0.016945412878454084,
+      "scores": {
+        "China": 0.016945412878454084
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 525,
+      "attribute_score": 0.01675674619053948,
+      "scores": {
+        "China": 0.01675674619053948
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2446,
+      "attribute_score": 0.016172033795238246,
+      "scores": {
+        "China": 0.016172033795238246
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 201,
+      "attribute_score": 0.016129558608376768,
+      "scores": {
+        "China": 0.016129558608376768
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1556,
+      "attribute_score": 0.01587720453386476,
+      "scores": {
+        "China": 0.01587720453386476
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1224,
+      "attribute_score": 0.0154101241975141,
+      "scores": {
+        "China": 0.0154101241975141
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2005,
+      "attribute_score": 0.015100343692937546,
+      "scores": {
+        "China": 0.015100343692937546
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3314,
+      "attribute_score": 0.014424606187809148,
+      "scores": {
+        "China": 0.014424606187809148
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2458,
+      "attribute_score": 0.01429091684917021,
+      "scores": {
+        "China": 0.01429091684917021
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 193,
+      "attribute_score": 0.014226710302589913,
+      "scores": {
+        "China": 0.014226710302589913
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2921,
+      "attribute_score": 0.01419139613766642,
+      "scores": {
+        "China": 0.01419139613766642
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 2633,
+      "attribute_score": 0.014135758552325548,
+      "scores": {
+        "China": 0.014135758552325548
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3004,
+      "attribute_score": 0.014071583042483357,
+      "scores": {
+        "China": 0.014071583042483357
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 979,
+      "attribute_score": 0.01385089772692799,
+      "scores": {
+        "China": 0.01385089772692799
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 667,
+      "attribute_score": 0.01369257368279632,
+      "scores": {
+        "China": 0.01369257368279632
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 213,
+      "attribute_score": 0.013225752926437108,
+      "scores": {
+        "China": 0.013225752926437108
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1372,
+      "attribute_score": 0.012943730551815597,
+      "scores": {
+        "China": 0.012943730551815597
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2402,
+      "attribute_score": 0.012928309525258442,
+      "scores": {
+        "China": 0.012928309525258442
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 386,
+      "attribute_score": 0.012896368489462948,
+      "scores": {
+        "China": 0.012896368489462948
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1176,
+      "attribute_score": 0.01285670918120435,
+      "scores": {
+        "China": 0.01285670918120435
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 99,
+      "attribute_score": 0.012581368169840977,
+      "scores": {
+        "China": 0.012581368169840977
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1859,
+      "attribute_score": 0.012546612666203426,
+      "scores": {
+        "China": 0.012546612666203426
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3152,
+      "attribute_score": 0.012520129864032451,
+      "scores": {
+        "China": 0.012520129864032451
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 994,
+      "attribute_score": 0.012372561460415992,
+      "scores": {
+        "China": 0.012372561460415992
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3416,
+      "attribute_score": 0.012335294802513348,
+      "scores": {
+        "China": 0.012335294802513348
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2295,
+      "attribute_score": 0.012297650060710118,
+      "scores": {
+        "China": 0.012297650060710118
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 154,
+      "attribute_score": 0.012289780836838942,
+      "scores": {
+        "China": 0.012289780836838942
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2968,
+      "attribute_score": 0.01222029240173701,
+      "scores": {
+        "China": 0.01222029240173701
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 1781,
+      "attribute_score": 0.012131832055086215,
+      "scores": {
+        "China": 0.012131832055086215
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3073,
+      "attribute_score": 0.01209255365224985,
+      "scores": {
+        "China": 0.01209255365224985
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2956,
+      "attribute_score": 0.012035860817813309,
+      "scores": {
+        "China": 0.012035860817813309
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1984,
+      "attribute_score": 0.011997541732336643,
+      "scores": {
+        "China": 0.011997541732336643
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 334,
+      "attribute_score": 0.011826929961435894,
+      "scores": {
+        "China": 0.011826929961435894
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1746,
+      "attribute_score": 0.011749538444203032,
+      "scores": {
+        "China": 0.011749538444203032
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1683,
+      "attribute_score": 0.011647670226689626,
+      "scores": {
+        "China": 0.011647670226689626
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1960,
+      "attribute_score": 0.011643346244766867,
+      "scores": {
+        "China": 0.011643346244766867
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1153,
+      "attribute_score": 0.011512524982881264,
+      "scores": {
+        "China": 0.011512524982881264
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1938,
+      "attribute_score": 0.011430772803944243,
+      "scores": {
+        "China": 0.011430772803944243
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3478,
+      "attribute_score": 0.011387791153947276,
+      "scores": {
+        "China": 0.011387791153947276
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1981,
+      "attribute_score": 0.011361977052406446,
+      "scores": {
+        "China": 0.011361977052406446
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1631,
+      "attribute_score": 0.011293738551393769,
+      "scores": {
+        "China": 0.011293738551393769
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 552,
+      "attribute_score": 0.011109360576381344,
+      "scores": {
+        "China": 0.011109360576381344
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1641,
+      "attribute_score": 0.011027432052341439,
+      "scores": {
+        "China": 0.011027432052341439
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1800,
+      "attribute_score": 0.010936203792955748,
+      "scores": {
+        "China": 0.010936203792955748
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1750,
+      "attribute_score": 0.010929268492749456,
+      "scores": {
+        "China": 0.010929268492749456
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 842,
+      "attribute_score": 0.010915160884518596,
+      "scores": {
+        "China": 0.010915160884518596
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1332,
+      "attribute_score": 0.010852051909858659,
+      "scores": {
+        "China": 0.010852051909858659
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1656,
+      "attribute_score": 0.010808338074994511,
+      "scores": {
+        "China": 0.010808338074994511
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3012,
+      "attribute_score": 0.010801703266843536,
+      "scores": {
+        "China": 0.010801703266843536
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3222,
+      "attribute_score": 0.010789476202789848,
+      "scores": {
+        "China": 0.010789476202789848
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2559,
+      "attribute_score": 0.0106377347686587,
+      "scores": {
+        "China": 0.0106377347686587
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 943,
+      "attribute_score": 0.01059920406905857,
+      "scores": {
+        "China": 0.01059920406905857
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 200,
+      "attribute_score": 0.010384965930464705,
+      "scores": {
+        "China": 0.010384965930464705
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 86,
+      "attribute_score": 0.010278346270499145,
+      "scores": {
+        "China": 0.010278346270499145
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 778,
+      "attribute_score": 0.01024684398131963,
+      "scores": {
+        "China": 0.01024684398131963
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3578,
+      "attribute_score": 0.01022295415754149,
+      "scores": {
+        "China": 0.01022295415754149
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1297,
+      "attribute_score": 0.010217728699452778,
+      "scores": {
+        "China": 0.010217728699452778
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3546,
+      "attribute_score": 0.010146090264856463,
+      "scores": {
+        "China": 0.010146090264856463
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1433,
+      "attribute_score": 0.010135673206938794,
+      "scores": {
+        "China": 0.010135673206938794
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1620,
+      "attribute_score": 0.010122572881935616,
+      "scores": {
+        "China": 0.010122572881935616
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3045,
+      "attribute_score": 0.010118586071849575,
+      "scores": {
+        "China": 0.010118586071849575
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2668,
+      "attribute_score": 0.01004312165390105,
+      "scores": {
+        "China": 0.01004312165390105
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2758,
+      "attribute_score": 0.01001628898304595,
+      "scores": {
+        "China": 0.01001628898304595
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2170,
+      "attribute_score": 0.010013411030966854,
+      "scores": {
+        "China": 0.010013411030966854
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 801,
+      "attribute_score": 0.00997698518651477,
+      "scores": {
+        "China": 0.00997698518651477
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3163,
+      "attribute_score": 0.00997671149891509,
+      "scores": {
+        "China": 0.00997671149891509
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2023,
+      "attribute_score": 0.009968046605939695,
+      "scores": {
+        "China": 0.009968046605939695
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2282,
+      "attribute_score": 0.00993653867371689,
+      "scores": {
+        "China": 0.00993653867371689
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 97,
+      "attribute_score": 0.00988888881615633,
+      "scores": {
+        "China": 0.00988888881615633
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 408,
+      "attribute_score": 0.009859446237778522,
+      "scores": {
+        "China": 0.009859446237778522
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2221,
+      "attribute_score": 0.009833025509083765,
+      "scores": {
+        "China": 0.009833025509083765
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1305,
+      "attribute_score": 0.009760128675833256,
+      "scores": {
+        "China": 0.009760128675833256
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1393,
+      "attribute_score": 0.009754254267765926,
+      "scores": {
+        "China": 0.009754254267765926
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 159,
+      "attribute_score": 0.009740231305184449,
+      "scores": {
+        "China": 0.009740231305184449
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2931,
+      "attribute_score": 0.009709513399022571,
+      "scores": {
+        "China": 0.009709513399022571
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3022,
+      "attribute_score": 0.009696204281417577,
+      "scores": {
+        "China": 0.009696204281417577
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3411,
+      "attribute_score": 0.009641122535841,
+      "scores": {
+        "China": 0.009641122535841
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1843,
+      "attribute_score": 0.009640129360221546,
+      "scores": {
+        "China": 0.009640129360221546
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 20,
+      "attribute_score": 0.00956242465408596,
+      "scores": {
+        "China": 0.00956242465408596
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 989,
+      "attribute_score": 0.009551968094865245,
+      "scores": {
+        "China": 0.009551968094865245
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3568,
+      "attribute_score": 0.009540422428289109,
+      "scores": {
+        "China": 0.009540422428289109
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 742,
+      "attribute_score": 0.00953299054027309,
+      "scores": {
+        "China": 0.00953299054027309
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1448,
+      "attribute_score": 0.00949791902621117,
+      "scores": {
+        "China": 0.00949791902621117
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1698,
+      "attribute_score": 0.009475679792596038,
+      "scores": {
+        "China": 0.009475679792596038
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2414,
+      "attribute_score": 0.009445438723592364,
+      "scores": {
+        "China": 0.009445438723592364
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1540,
+      "attribute_score": 0.009436397157477204,
+      "scores": {
+        "China": 0.009436397157477204
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1379,
+      "attribute_score": 0.009427902966561402,
+      "scores": {
+        "China": 0.009427902966561402
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2611,
+      "attribute_score": 0.009411281382543801,
+      "scores": {
+        "China": 0.009411281382543801
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2642,
+      "attribute_score": 0.009395142278727696,
+      "scores": {
+        "China": 0.009395142278727696
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2702,
+      "attribute_score": 0.009365747666217871,
+      "scores": {
+        "China": 0.009365747666217871
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 445,
+      "attribute_score": 0.009360420633349898,
+      "scores": {
+        "China": 0.009360420633349898
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3011,
+      "attribute_score": 0.009359351276646,
+      "scores": {
+        "China": 0.009359351276646
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 472,
+      "attribute_score": 0.00933060279259315,
+      "scores": {
+        "China": 0.00933060279259315
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2939,
+      "attribute_score": 0.009311680963053506,
+      "scores": {
+        "China": 0.009311680963053506
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1747,
+      "attribute_score": 0.009293426423383183,
+      "scores": {
+        "China": 0.009293426423383183
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2898,
+      "attribute_score": 0.009291325800517607,
+      "scores": {
+        "China": 0.009291325800517607
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 989,
+      "attribute_score": 0.009267756219446307,
+      "scores": {
+        "China": 0.009267756219446307
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3515,
+      "attribute_score": 0.009261334436179618,
+      "scores": {
+        "China": 0.009261334436179618
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 447,
+      "attribute_score": 0.009213550556340867,
+      "scores": {
+        "China": 0.009213550556340867
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1861,
+      "attribute_score": 0.009176344561153614,
+      "scores": {
+        "China": 0.009176344561153614
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1171,
+      "attribute_score": 0.009164166873728735,
+      "scores": {
+        "China": 0.009164166873728735
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3541,
+      "attribute_score": 0.009157414267049033,
+      "scores": {
+        "China": 0.009157414267049033
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1513,
+      "attribute_score": 0.00913952088214942,
+      "scores": {
+        "China": 0.00913952088214942
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1674,
+      "attribute_score": 0.00913829069871169,
+      "scores": {
+        "China": 0.00913829069871169
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 900,
+      "attribute_score": 0.009123962306412013,
+      "scores": {
+        "China": 0.009123962306412013
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2838,
+      "attribute_score": 0.00911883630696133,
+      "scores": {
+        "China": 0.00911883630696133
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 364,
+      "attribute_score": 0.009109403960098177,
+      "scores": {
+        "China": 0.009109403960098177
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2080,
+      "attribute_score": 0.009102465838370238,
+      "scores": {
+        "China": 0.009102465838370238
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3424,
+      "attribute_score": 0.00909139983047395,
+      "scores": {
+        "China": 0.00909139983047395
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1304,
+      "attribute_score": 0.009084662036782891,
+      "scores": {
+        "China": 0.009084662036782891
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3408,
+      "attribute_score": 0.009065486975675503,
+      "scores": {
+        "China": 0.009065486975675503
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1503,
+      "attribute_score": 0.009058135501026401,
+      "scores": {
+        "China": 0.009058135501026401
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1171,
+      "attribute_score": 0.009039890131301428,
+      "scores": {
+        "China": 0.009039890131301428
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3234,
+      "attribute_score": 0.009033078978047568,
+      "scores": {
+        "China": 0.009033078978047568
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3137,
+      "attribute_score": 0.00901459801126514,
+      "scores": {
+        "China": 0.00901459801126514
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3318,
+      "attribute_score": 0.009002503558728822,
+      "scores": {
+        "China": 0.009002503558728822
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 343,
+      "attribute_score": 0.008984582663993159,
+      "scores": {
+        "China": 0.008984582663993159
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3155,
+      "attribute_score": 0.008951781064095582,
+      "scores": {
+        "China": 0.008951781064095582
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 925,
+      "attribute_score": 0.008928225590632511,
+      "scores": {
+        "China": 0.008928225590632511
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3578,
+      "attribute_score": 0.008909967524060132,
+      "scores": {
+        "China": 0.008909967524060132
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1996,
+      "attribute_score": 0.00890150578064326,
+      "scores": {
+        "China": 0.00890150578064326
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 511,
+      "attribute_score": 0.008823902649286937,
+      "scores": {
+        "China": 0.008823902649286937
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1101,
+      "attribute_score": 0.008823027977576623,
+      "scores": {
+        "China": 0.008823027977576623
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 470,
+      "attribute_score": 0.008819946875939002,
+      "scores": {
+        "China": 0.008819946875939002
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 848,
+      "attribute_score": 0.00881189989620412,
+      "scores": {
+        "China": 0.00881189989620412
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3298,
+      "attribute_score": 0.008791991239468727,
+      "scores": {
+        "China": 0.008791991239468727
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2351,
+      "attribute_score": 0.00877519754263071,
+      "scores": {
+        "China": 0.00877519754263071
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1529,
+      "attribute_score": 0.008747382982242742,
+      "scores": {
+        "China": 0.008747382982242742
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1875,
+      "attribute_score": 0.008740523863120898,
+      "scores": {
+        "China": 0.008740523863120898
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1807,
+      "attribute_score": 0.008704445065831292,
+      "scores": {
+        "China": 0.008704445065831292
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1053,
+      "attribute_score": 0.008683103076099643,
+      "scores": {
+        "China": 0.008683103076099643
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1954,
+      "attribute_score": 0.008670936674761348,
+      "scores": {
+        "China": 0.008670936674761348
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1742,
+      "attribute_score": 0.008665498191788351,
+      "scores": {
+        "China": 0.008665498191788351
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1439,
+      "attribute_score": 0.008656039040469559,
+      "scores": {
+        "China": 0.008656039040469559
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2270,
+      "attribute_score": 0.008589809462868955,
+      "scores": {
+        "China": 0.008589809462868955
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2479,
+      "attribute_score": 0.008587306773168801,
+      "scores": {
+        "China": 0.008587306773168801
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 527,
+      "attribute_score": 0.008560221576126369,
+      "scores": {
+        "China": 0.008560221576126369
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1628,
+      "attribute_score": 0.008549571742672893,
+      "scores": {
+        "China": 0.008549571742672893
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1187,
+      "attribute_score": 0.008546547071468196,
+      "scores": {
+        "China": 0.008546547071468196
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1468,
+      "attribute_score": 0.008533218203211677,
+      "scores": {
+        "China": 0.008533218203211677
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3333,
+      "attribute_score": 0.008515829165306316,
+      "scores": {
+        "China": 0.008515829165306316
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 251,
+      "attribute_score": 0.008504918341100568,
+      "scores": {
+        "China": 0.008504918341100568
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2717,
+      "attribute_score": 0.008491640260233682,
+      "scores": {
+        "China": 0.008491640260233682
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1930,
+      "attribute_score": 0.008491090063512678,
+      "scores": {
+        "China": 0.008491090063512678
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2575,
+      "attribute_score": 0.008490350824841382,
+      "scores": {
+        "China": 0.008490350824841382
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 3421,
+      "attribute_score": 0.008473412525018997,
+      "scores": {
+        "China": 0.008473412525018997
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2119,
+      "attribute_score": 0.008458955753484421,
+      "scores": {
+        "China": 0.008458955753484421
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2528,
+      "attribute_score": 0.008443296308348164,
+      "scores": {
+        "China": 0.008443296308348164
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 925,
+      "attribute_score": 0.00843924389788385,
+      "scores": {
+        "China": 0.00843924389788385
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 711,
+      "attribute_score": 0.008436874525081477,
+      "scores": {
+        "China": 0.008436874525081477
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1306,
+      "attribute_score": 0.008427332138874121,
+      "scores": {
+        "China": 0.008427332138874121
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2784,
+      "attribute_score": 0.008422507336859167,
+      "scores": {
+        "China": 0.008422507336859167
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1449,
+      "attribute_score": 0.008405177550908376,
+      "scores": {
+        "China": 0.008405177550908376
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1627,
+      "attribute_score": 0.008400739297358947,
+      "scores": {
+        "China": 0.008400739297358947
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1941,
+      "attribute_score": 0.008382036841127294,
+      "scores": {
+        "China": 0.008382036841127294
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2564,
+      "attribute_score": 0.008372775196323734,
+      "scores": {
+        "China": 0.008372775196323734
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2039,
+      "attribute_score": 0.00837040511814095,
+      "scores": {
+        "China": 0.00837040511814095
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 732,
+      "attribute_score": 0.008358416472666363,
+      "scores": {
+        "China": 0.008358416472666363
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3008,
+      "attribute_score": 0.008349525857959273,
+      "scores": {
+        "China": 0.008349525857959273
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1835,
+      "attribute_score": 0.008337590821395964,
+      "scores": {
+        "China": 0.008337590821395964
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2303,
+      "attribute_score": 0.008319595156336677,
+      "scores": {
+        "China": 0.008319595156336677
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 599,
+      "attribute_score": 0.008316017466889331,
+      "scores": {
+        "China": 0.008316017466889331
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 850,
+      "attribute_score": 0.008305227968114368,
+      "scores": {
+        "China": 0.008305227968114368
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1842,
+      "attribute_score": 0.008268226533246464,
+      "scores": {
+        "China": 0.008268226533246464
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1418,
+      "attribute_score": 0.008263280405800724,
+      "scores": {
+        "China": 0.008263280405800724
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 418,
+      "attribute_score": 0.008241977917372122,
+      "scores": {
+        "China": 0.008241977917372122
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3497,
+      "attribute_score": 0.008239763022879877,
+      "scores": {
+        "China": 0.008239763022879877
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1581,
+      "attribute_score": 0.008235886252138036,
+      "scores": {
+        "China": 0.008235886252138036
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1290,
+      "attribute_score": 0.008230471752099032,
+      "scores": {
+        "China": 0.008230471752099032
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2336,
+      "attribute_score": 0.008200536818193965,
+      "scores": {
+        "China": 0.008200536818193965
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2594,
+      "attribute_score": 0.008196890001466289,
+      "scores": {
+        "China": 0.008196890001466289
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1447,
+      "attribute_score": 0.008187282720261072,
+      "scores": {
+        "China": 0.008187282720261072
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1808,
+      "attribute_score": 0.008185223009459366,
+      "scores": {
+        "China": 0.008185223009459366
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 335,
+      "attribute_score": 0.008159146506405441,
+      "scores": {
+        "China": 0.008159146506405441
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2621,
+      "attribute_score": 0.008134847561988606,
+      "scores": {
+        "China": 0.008134847561988606
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1265,
+      "attribute_score": 0.008130873448749971,
+      "scores": {
+        "China": 0.008130873448749971
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2045,
+      "attribute_score": 0.00813043470213399,
+      "scores": {
+        "China": 0.00813043470213399
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1413,
+      "attribute_score": 0.008113254456830449,
+      "scores": {
+        "China": 0.008113254456830449
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 18,
+      "attribute_score": 0.008110881557126018,
+      "scores": {
+        "China": 0.008110881557126018
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 870,
+      "attribute_score": 0.008097851770163993,
+      "scores": {
+        "China": 0.008097851770163993
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1162,
+      "attribute_score": 0.008072582222300874,
+      "scores": {
+        "China": 0.008072582222300874
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2820,
+      "attribute_score": 0.008071069886698526,
+      "scores": {
+        "China": 0.008071069886698526
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 548,
+      "attribute_score": 0.008054885638536081,
+      "scores": {
+        "China": 0.008054885638536081
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2209,
+      "attribute_score": 0.0080518680211355,
+      "scores": {
+        "China": 0.0080518680211355
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1254,
+      "attribute_score": 0.008050907293014978,
+      "scores": {
+        "China": 0.008050907293014978
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 986,
+      "attribute_score": 0.008027395553137424,
+      "scores": {
+        "China": 0.008027395553137424
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3303,
+      "attribute_score": 0.00801469024116471,
+      "scores": {
+        "China": 0.00801469024116471
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1990,
+      "attribute_score": 0.008012969112960545,
+      "scores": {
+        "China": 0.008012969112960545
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 937,
+      "attribute_score": 0.008010678037383853,
+      "scores": {
+        "China": 0.008010678037383853
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 294,
+      "attribute_score": 0.007978597336266872,
+      "scores": {
+        "China": 0.007978597336266872
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1490,
+      "attribute_score": 0.007972785001675758,
+      "scores": {
+        "China": 0.007972785001675758
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 369,
+      "attribute_score": 0.007940382647091114,
+      "scores": {
+        "China": 0.007940382647091114
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3360,
+      "attribute_score": 0.007927812768157417,
+      "scores": {
+        "China": 0.007927812768157417
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1197,
+      "attribute_score": 0.00792485158118976,
+      "scores": {
+        "China": 0.00792485158118976
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3580,
+      "attribute_score": 0.007924333831967686,
+      "scores": {
+        "China": 0.007924333831967686
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2126,
+      "attribute_score": 0.007922099186823918,
+      "scores": {
+        "China": 0.007922099186823918
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 112,
+      "attribute_score": 0.007917198203724517,
+      "scores": {
+        "China": 0.007917198203724517
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2282,
+      "attribute_score": 0.007915017167492025,
+      "scores": {
+        "China": 0.007915017167492025
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3356,
+      "attribute_score": 0.007903155490491517,
+      "scores": {
+        "China": 0.007903155490491517
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1513,
+      "attribute_score": 0.007888918092264932,
+      "scores": {
+        "China": 0.007888918092264932
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 838,
+      "attribute_score": 0.007871864815435467,
+      "scores": {
+        "China": 0.007871864815435467
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2246,
+      "attribute_score": 0.007860640802326992,
+      "scores": {
+        "China": 0.007860640802326992
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2083,
+      "attribute_score": 0.007853096053445127,
+      "scores": {
+        "China": 0.007853096053445127
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 453,
+      "attribute_score": 0.007830810264722836,
+      "scores": {
+        "China": 0.007830810264722836
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 440,
+      "attribute_score": 0.007822555903146958,
+      "scores": {
+        "China": 0.007822555903146958
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1440,
+      "attribute_score": 0.00782023943387545,
+      "scores": {
+        "China": 0.00782023943387545
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2339,
+      "attribute_score": 0.00781770218053513,
+      "scores": {
+        "China": 0.00781770218053513
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1885,
+      "attribute_score": 0.00781595636401656,
+      "scores": {
+        "China": 0.00781595636401656
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 799,
+      "attribute_score": 0.007813896653214854,
+      "scores": {
+        "China": 0.007813896653214854
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 240,
+      "attribute_score": 0.007811467323077501,
+      "scores": {
+        "China": 0.007811467323077501
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 795,
+      "attribute_score": 0.007806134647166235,
+      "scores": {
+        "China": 0.007806134647166235
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1643,
+      "attribute_score": 0.00778934659337151,
+      "scores": {
+        "China": 0.00778934659337151
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1102,
+      "attribute_score": 0.007768320614064234,
+      "scores": {
+        "China": 0.007768320614064234
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2103,
+      "attribute_score": 0.007763549420960556,
+      "scores": {
+        "China": 0.007763549420960556
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1589,
+      "attribute_score": 0.007731745228964902,
+      "scores": {
+        "China": 0.007731745228964902
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2960,
+      "attribute_score": 0.007719570363061668,
+      "scores": {
+        "China": 0.007719570363061668
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1960,
+      "attribute_score": 0.007701087985518416,
+      "scores": {
+        "China": 0.007701087985518416
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3473,
+      "attribute_score": 0.0077008467454176685,
+      "scores": {
+        "China": 0.0077008467454176685
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3400,
+      "attribute_score": 0.007697466562485554,
+      "scores": {
+        "China": 0.007697466562485554
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 415,
+      "attribute_score": 0.007692557114821214,
+      "scores": {
+        "China": 0.007692557114821214
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2856,
+      "attribute_score": 0.007686705278927053,
+      "scores": {
+        "China": 0.007686705278927053
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2684,
+      "attribute_score": 0.007677845700958071,
+      "scores": {
+        "China": 0.007677845700958071
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3202,
+      "attribute_score": 0.007645669068105122,
+      "scores": {
+        "China": 0.007645669068105122
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1928,
+      "attribute_score": 0.007645451810938367,
+      "scores": {
+        "China": 0.007645451810938367
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 315,
+      "attribute_score": 0.007640632651966704,
+      "scores": {
+        "China": 0.007640632651966704
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1632,
+      "attribute_score": 0.007633592955459505,
+      "scores": {
+        "China": 0.007633592955459505
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 496,
+      "attribute_score": 0.007629857260799972,
+      "scores": {
+        "China": 0.007629857260799972
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1142,
+      "attribute_score": 0.0076175921062040615,
+      "scores": {
+        "China": 0.0076175921062040615
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 923,
+      "attribute_score": 0.007613419075689372,
+      "scores": {
+        "China": 0.007613419075689372
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2342,
+      "attribute_score": 0.007610185611882859,
+      "scores": {
+        "China": 0.007610185611882859
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1526,
+      "attribute_score": 0.0076070904026370074,
+      "scores": {
+        "China": 0.0076070904026370074
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 475,
+      "attribute_score": 0.007605168946395964,
+      "scores": {
+        "China": 0.007605168946395964
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1729,
+      "attribute_score": 0.00759086383164987,
+      "scores": {
+        "China": 0.00759086383164987
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 535,
+      "attribute_score": 0.007570914262850609,
+      "scores": {
+        "China": 0.007570914262850609
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2743,
+      "attribute_score": 0.007568037721532336,
+      "scores": {
+        "China": 0.007568037721532336
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2574,
+      "attribute_score": 0.00756787971632015,
+      "scores": {
+        "China": 0.00756787971632015
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2172,
+      "attribute_score": 0.0075606312272111335,
+      "scores": {
+        "China": 0.0075606312272111335
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2250,
+      "attribute_score": 0.007551963512714093,
+      "scores": {
+        "China": 0.007551963512714093
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 845,
+      "attribute_score": 0.0075508659407937315,
+      "scores": {
+        "China": 0.0075508659407937315
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1725,
+      "attribute_score": 0.007547288251346385,
+      "scores": {
+        "China": 0.007547288251346385
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 956,
+      "attribute_score": 0.007545922634869638,
+      "scores": {
+        "China": 0.007545922634869638
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2732,
+      "attribute_score": 0.007544325653617904,
+      "scores": {
+        "China": 0.007544325653617904
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3173,
+      "attribute_score": 0.007541746782833303,
+      "scores": {
+        "China": 0.007541746782833303
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1846,
+      "attribute_score": 0.007538352492292957,
+      "scores": {
+        "China": 0.007538352492292957
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2029,
+      "attribute_score": 0.007529557809321838,
+      "scores": {
+        "China": 0.007529557809321838
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2771,
+      "attribute_score": 0.007523144490620089,
+      "scores": {
+        "China": 0.007523144490620089
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1967,
+      "attribute_score": 0.007515901644554364,
+      "scores": {
+        "China": 0.007515901644554364
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 137,
+      "attribute_score": 0.007513108338124653,
+      "scores": {
+        "China": 0.007513108338124653
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2767,
+      "attribute_score": 0.00751059718385956,
+      "scores": {
+        "China": 0.00751059718385956
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1519,
+      "attribute_score": 0.007505727237498266,
+      "scores": {
+        "China": 0.007505727237498266
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1800,
+      "attribute_score": 0.007493182752259384,
+      "scores": {
+        "China": 0.007493182752259384
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2941,
+      "attribute_score": 0.007478357066769571,
+      "scores": {
+        "China": 0.007478357066769571
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2925,
+      "attribute_score": 0.0074744422054855075,
+      "scores": {
+        "China": 0.0074744422054855075
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1921,
+      "attribute_score": 0.007470616222133298,
+      "scores": {
+        "China": 0.007470616222133298
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1329,
+      "attribute_score": 0.007463483415411774,
+      "scores": {
+        "China": 0.007463483415411774
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 850,
+      "attribute_score": 0.0074605448006172855,
+      "scores": {
+        "China": 0.0074605448006172855
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2513,
+      "attribute_score": 0.007458940765561437,
+      "scores": {
+        "China": 0.007458940765561437
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 844,
+      "attribute_score": 0.007449783517058784,
+      "scores": {
+        "China": 0.007449783517058784
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2090,
+      "attribute_score": 0.007444189850395248,
+      "scores": {
+        "China": 0.007444189850395248
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2107,
+      "attribute_score": 0.007428979027200733,
+      "scores": {
+        "China": 0.007428979027200733
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2536,
+      "attribute_score": 0.007425728634264342,
+      "scores": {
+        "China": 0.007425728634264342
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1467,
+      "attribute_score": 0.007411248585176186,
+      "scores": {
+        "China": 0.007411248585176186
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 919,
+      "attribute_score": 0.007395919258072531,
+      "scores": {
+        "China": 0.007395919258072531
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1081,
+      "attribute_score": 0.007375739735259107,
+      "scores": {
+        "China": 0.007375739735259107
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3535,
+      "attribute_score": 0.007348227077687281,
+      "scores": {
+        "China": 0.007348227077687281
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2621,
+      "attribute_score": 0.007341359494000497,
+      "scores": {
+        "China": 0.007341359494000497
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1721,
+      "attribute_score": 0.007331910218007466,
+      "scores": {
+        "China": 0.007331910218007466
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1089,
+      "attribute_score": 0.007324136925872261,
+      "scores": {
+        "China": 0.007324136925872261
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2414,
+      "attribute_score": 0.007322621768748266,
+      "scores": {
+        "China": 0.007322621768748266
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3532,
+      "attribute_score": 0.007301494214661728,
+      "scores": {
+        "China": 0.007301494214661728
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1054,
+      "attribute_score": 0.007294245725552711,
+      "scores": {
+        "China": 0.007294245725552711
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2483,
+      "attribute_score": 0.0072879071771745855,
+      "scores": {
+        "China": 0.0072879071771745855
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3111,
+      "attribute_score": 0.00728110307772484,
+      "scores": {
+        "China": 0.00728110307772484
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 23,
+      "attribute_score": 0.007280018908032299,
+      "scores": {
+        "China": 0.007280018908032299
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1727,
+      "attribute_score": 0.007276290972557294,
+      "scores": {
+        "China": 0.007276290972557294
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2429,
+      "attribute_score": 0.007275869155071191,
+      "scores": {
+        "China": 0.007275869155071191
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 3407,
+      "attribute_score": 0.00727081298828125,
+      "scores": {
+        "China": 0.00727081298828125
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 112,
+      "attribute_score": 0.007264412366426908,
+      "scores": {
+        "China": 0.007264412366426908
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3361,
+      "attribute_score": 0.007264120338936529,
+      "scores": {
+        "China": 0.007264120338936529
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1722,
+      "attribute_score": 0.007263443173741448,
+      "scores": {
+        "China": 0.007263443173741448
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2020,
+      "attribute_score": 0.007255636023346489,
+      "scores": {
+        "China": 0.007255636023346489
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 411,
+      "attribute_score": 0.007254287335999619,
+      "scores": {
+        "China": 0.007254287335999619
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 504,
+      "attribute_score": 0.00724790223251433,
+      "scores": {
+        "China": 0.00724790223251433
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3224,
+      "attribute_score": 0.007235352104232156,
+      "scores": {
+        "China": 0.007235352104232156
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3187,
+      "attribute_score": 0.007234686930504071,
+      "scores": {
+        "China": 0.007234686930504071
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 127,
+      "attribute_score": 0.007232671658668292,
+      "scores": {
+        "China": 0.007232671658668292
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2897,
+      "attribute_score": 0.007226932683639978,
+      "scores": {
+        "China": 0.007226932683639978
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1885,
+      "attribute_score": 0.0072056866256443005,
+      "scores": {
+        "China": 0.0072056866256443005
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 512,
+      "attribute_score": 0.007194318714931871,
+      "scores": {
+        "China": 0.007194318714931871
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1559,
+      "attribute_score": 0.007192764056504831,
+      "scores": {
+        "China": 0.007192764056504831
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2120,
+      "attribute_score": 0.007191618518716485,
+      "scores": {
+        "China": 0.007191618518716485
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 140,
+      "attribute_score": 0.00719092160286988,
+      "scores": {
+        "China": 0.00719092160286988
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 567,
+      "attribute_score": 0.007185168520233335,
+      "scores": {
+        "China": 0.007185168520233335
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1430,
+      "attribute_score": 0.007178244506113628,
+      "scores": {
+        "China": 0.007178244506113628
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1049,
+      "attribute_score": 0.007172511174128606,
+      "scores": {
+        "China": 0.007172511174128606
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2808,
+      "attribute_score": 0.0071723644550030045,
+      "scores": {
+        "China": 0.0071723644550030045
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3175,
+      "attribute_score": 0.007170842244074895,
+      "scores": {
+        "China": 0.007170842244074895
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 677,
+      "attribute_score": 0.007168397395568487,
+      "scores": {
+        "China": 0.007168397395568487
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2696,
+      "attribute_score": 0.007167485338696361,
+      "scores": {
+        "China": 0.007167485338696361
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1192,
+      "attribute_score": 0.007167220821042032,
+      "scores": {
+        "China": 0.007167220821042032
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 248,
+      "attribute_score": 0.007166763734535352,
+      "scores": {
+        "China": 0.007166763734535352
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1759,
+      "attribute_score": 0.0071659856999414205,
+      "scores": {
+        "China": 0.0071659856999414205
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3088,
+      "attribute_score": 0.007160389917136649,
+      "scores": {
+        "China": 0.007160389917136649
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1130,
+      "attribute_score": 0.007156834799862472,
+      "scores": {
+        "China": 0.007156834799862472
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 745,
+      "attribute_score": 0.0071475519936465655,
+      "scores": {
+        "China": 0.0071475519936465655
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3072,
+      "attribute_score": 0.007146327453252127,
+      "scores": {
+        "China": 0.007146327453252127
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2634,
+      "attribute_score": 0.007143943267461111,
+      "scores": {
+        "China": 0.007143943267461111
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2441,
+      "attribute_score": 0.007143630078558386,
+      "scores": {
+        "China": 0.007143630078558386
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3435,
+      "attribute_score": 0.007135910395334458,
+      "scores": {
+        "China": 0.007135910395334458
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 431,
+      "attribute_score": 0.007124725883529031,
+      "scores": {
+        "China": 0.007124725883529031
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1834,
+      "attribute_score": 0.007122725424681895,
+      "scores": {
+        "China": 0.007122725424681895
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3433,
+      "attribute_score": 0.007110948393330771,
+      "scores": {
+        "China": 0.007110948393330771
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1767,
+      "attribute_score": 0.007110103347597743,
+      "scores": {
+        "China": 0.007110103347597743
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1905,
+      "attribute_score": 0.007109444522293362,
+      "scores": {
+        "China": 0.007109444522293362
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3331,
+      "attribute_score": 0.007107311451928855,
+      "scores": {
+        "China": 0.007107311451928855
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 329,
+      "attribute_score": 0.00710536178047135,
+      "scores": {
+        "China": 0.00710536178047135
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 409,
+      "attribute_score": 0.00710332746336446,
+      "scores": {
+        "China": 0.00710332746336446
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2765,
+      "attribute_score": 0.0070984518739598745,
+      "scores": {
+        "China": 0.0070984518739598745
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 190,
+      "attribute_score": 0.0070915532535349825,
+      "scores": {
+        "China": 0.0070915532535349825
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1767,
+      "attribute_score": 0.007085619593513083,
+      "scores": {
+        "China": 0.007085619593513083
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1566,
+      "attribute_score": 0.007085300761567065,
+      "scores": {
+        "China": 0.007085300761567065
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1543,
+      "attribute_score": 0.007079858046311598,
+      "scores": {
+        "China": 0.007079858046311598
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3065,
+      "attribute_score": 0.0070714894131090516,
+      "scores": {
+        "China": 0.0070714894131090516
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 563,
+      "attribute_score": 0.007067083607058554,
+      "scores": {
+        "China": 0.007067083607058554
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2807,
+      "attribute_score": 0.007064345320300943,
+      "scores": {
+        "China": 0.007064345320300943
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 383,
+      "attribute_score": 0.007062612906010193,
+      "scores": {
+        "China": 0.007062612906010193
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3289,
+      "attribute_score": 0.007047026820436737,
+      "scores": {
+        "China": 0.007047026820436737
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2367,
+      "attribute_score": 0.007044340731829581,
+      "scores": {
+        "China": 0.007044340731829581
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1463,
+      "attribute_score": 0.007043384235991529,
+      "scores": {
+        "China": 0.007043384235991529
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 219,
+      "attribute_score": 0.007043313697950374,
+      "scores": {
+        "China": 0.007043313697950374
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3164,
+      "attribute_score": 0.00703742377151399,
+      "scores": {
+        "China": 0.00703742377151399
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2002,
+      "attribute_score": 0.007036197820358728,
+      "scores": {
+        "China": 0.007036197820358728
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2313,
+      "attribute_score": 0.00702427689140365,
+      "scores": {
+        "China": 0.00702427689140365
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3412,
+      "attribute_score": 0.007018010291827501,
+      "scores": {
+        "China": 0.007018010291827501
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 726,
+      "attribute_score": 0.0070156684288611776,
+      "scores": {
+        "China": 0.0070156684288611776
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3211,
+      "attribute_score": 0.007015540049626277,
+      "scores": {
+        "China": 0.007015540049626277
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2,
+      "attribute_score": 0.007013834439791166,
+      "scores": {
+        "China": 0.007013834439791166
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3223,
+      "attribute_score": 0.007012956946559206,
+      "scores": {
+        "China": 0.007012956946559206
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1521,
+      "attribute_score": 0.007000578931097449,
+      "scores": {
+        "China": 0.007000578931097449
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3438,
+      "attribute_score": 0.006988940154306987,
+      "scores": {
+        "China": 0.006988940154306987
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2289,
+      "attribute_score": 0.006988017516728689,
+      "scores": {
+        "China": 0.006988017516728689
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1990,
+      "attribute_score": 0.006984250785331049,
+      "scores": {
+        "China": 0.006984250785331049
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2716,
+      "attribute_score": 0.006982078213663496,
+      "scores": {
+        "China": 0.006982078213663496
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 64,
+      "attribute_score": 0.00697945137701091,
+      "scores": {
+        "China": 0.00697945137701091
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1446,
+      "attribute_score": 0.00697581725713064,
+      "scores": {
+        "China": 0.00697581725713064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2052,
+      "attribute_score": 0.006972233924640001,
+      "scores": {
+        "China": 0.006972233924640001
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2928,
+      "attribute_score": 0.0069624742812658905,
+      "scores": {
+        "China": 0.0069624742812658905
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 518,
+      "attribute_score": 0.006957183928179318,
+      "scores": {
+        "China": 0.006957183928179318
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 172,
+      "attribute_score": 0.006951117656640047,
+      "scores": {
+        "China": 0.006951117656640047
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 693,
+      "attribute_score": 0.006937936918269953,
+      "scores": {
+        "China": 0.006937936918269953
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3377,
+      "attribute_score": 0.006926909000915888,
+      "scores": {
+        "China": 0.006926909000915888
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 705,
+      "attribute_score": 0.006914401195458406,
+      "scores": {
+        "China": 0.006914401195458406
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2767,
+      "attribute_score": 0.006904477903828818,
+      "scores": {
+        "China": 0.006904477903828818
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2558,
+      "attribute_score": 0.006903259006477672,
+      "scores": {
+        "China": 0.006903259006477672
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2349,
+      "attribute_score": 0.006903084072135609,
+      "scores": {
+        "China": 0.006903084072135609
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 239,
+      "attribute_score": 0.006901590781804373,
+      "scores": {
+        "China": 0.006901590781804373
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 54,
+      "attribute_score": 0.006900649098954962,
+      "scores": {
+        "China": 0.006900649098954962
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3301,
+      "attribute_score": 0.006899119834222737,
+      "scores": {
+        "China": 0.006899119834222737
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2574,
+      "attribute_score": 0.006895631728087656,
+      "scores": {
+        "China": 0.006895631728087656
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1852,
+      "attribute_score": 0.006893200281809068,
+      "scores": {
+        "China": 0.006893200281809068
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 670,
+      "attribute_score": 0.006891668195555196,
+      "scores": {
+        "China": 0.006891668195555196
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1444,
+      "attribute_score": 0.006889573921113325,
+      "scores": {
+        "China": 0.006889573921113325
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 716,
+      "attribute_score": 0.006888553235657822,
+      "scores": {
+        "China": 0.006888553235657822
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 189,
+      "attribute_score": 0.006884952974037305,
+      "scores": {
+        "China": 0.006884952974037305
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3452,
+      "attribute_score": 0.00687598617824577,
+      "scores": {
+        "China": 0.00687598617824577
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2259,
+      "attribute_score": 0.006871200877533862,
+      "scores": {
+        "China": 0.006871200877533862
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3446,
+      "attribute_score": 0.006871150090144231,
+      "scores": {
+        "China": 0.006871150090144231
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 125,
+      "attribute_score": 0.006870997727975337,
+      "scores": {
+        "China": 0.006870997727975337
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 211,
+      "attribute_score": 0.006863839527558998,
+      "scores": {
+        "China": 0.006863839527558998
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1163,
+      "attribute_score": 0.006857455129454122,
+      "scores": {
+        "China": 0.006857455129454122
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2728,
+      "attribute_score": 0.006855741760434484,
+      "scores": {
+        "China": 0.006855741760434484
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 768,
+      "attribute_score": 0.00685090849385459,
+      "scores": {
+        "China": 0.00685090849385459
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3174,
+      "attribute_score": 0.006850829491248498,
+      "scores": {
+        "China": 0.006850829491248498
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 3497,
+      "attribute_score": 0.006850810445977386,
+      "scores": {
+        "China": 0.006850810445977386
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1681,
+      "attribute_score": 0.006849675488895213,
+      "scores": {
+        "China": 0.006849675488895213
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1659,
+      "attribute_score": 0.006849379229122365,
+      "scores": {
+        "China": 0.006849379229122365
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2859,
+      "attribute_score": 0.006842359283266688,
+      "scores": {
+        "China": 0.006842359283266688
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1243,
+      "attribute_score": 0.006842331068050226,
+      "scores": {
+        "China": 0.006842331068050226
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2085,
+      "attribute_score": 0.006834653707650991,
+      "scores": {
+        "China": 0.006834653707650991
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1947,
+      "attribute_score": 0.006834512631568683,
+      "scores": {
+        "China": 0.006834512631568683
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 936,
+      "attribute_score": 0.0068341162077773954,
+      "scores": {
+        "China": 0.0068341162077773954
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3006,
+      "attribute_score": 0.006826254037710337,
+      "scores": {
+        "China": 0.006826254037710337
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2270,
+      "attribute_score": 0.00682309675498827,
+      "scores": {
+        "China": 0.00682309675498827
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 745,
+      "attribute_score": 0.006820903727288782,
+      "scores": {
+        "China": 0.006820903727288782
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2207,
+      "attribute_score": 0.006818762897739749,
+      "scores": {
+        "China": 0.006818762897739749
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2405,
+      "attribute_score": 0.006814189211151304,
+      "scores": {
+        "China": 0.006814189211151304
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2669,
+      "attribute_score": 0.006812947741626988,
+      "scores": {
+        "China": 0.006812947741626988
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1811,
+      "attribute_score": 0.006811429762981347,
+      "scores": {
+        "China": 0.006811429762981347
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 194,
+      "attribute_score": 0.006801887376773993,
+      "scores": {
+        "China": 0.006801887376773993
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1228,
+      "attribute_score": 0.006800998597455448,
+      "scores": {
+        "China": 0.006800998597455448
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 191,
+      "attribute_score": 0.006787144926172742,
+      "scores": {
+        "China": 0.006787144926172742
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2172,
+      "attribute_score": 0.006782712315666605,
+      "scores": {
+        "China": 0.006782712315666605
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3576,
+      "attribute_score": 0.0067774346594274395,
+      "scores": {
+        "China": 0.0067774346594274395
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3013,
+      "attribute_score": 0.0067714008353871,
+      "scores": {
+        "China": 0.0067714008353871
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2583,
+      "attribute_score": 0.00676468138158674,
+      "scores": {
+        "China": 0.00676468138158674
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 644,
+      "attribute_score": 0.0067623014280781945,
+      "scores": {
+        "China": 0.0067623014280781945
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2289,
+      "attribute_score": 0.006761234892895941,
+      "scores": {
+        "China": 0.006761234892895941
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 905,
+      "attribute_score": 0.006760853987473708,
+      "scores": {
+        "China": 0.006760853987473708
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2165,
+      "attribute_score": 0.006760355988903158,
+      "scores": {
+        "China": 0.006760355988903158
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2811,
+      "attribute_score": 0.006759841061202732,
+      "scores": {
+        "China": 0.006759841061202732
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3297,
+      "attribute_score": 0.006749446575458233,
+      "scores": {
+        "China": 0.006749446575458233
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 528,
+      "attribute_score": 0.006749175709380201,
+      "scores": {
+        "China": 0.006749175709380201
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3036,
+      "attribute_score": 0.0067460325342663646,
+      "scores": {
+        "China": 0.0067460325342663646
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 281,
+      "attribute_score": 0.006745905565792287,
+      "scores": {
+        "China": 0.006745905565792287
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1975,
+      "attribute_score": 0.006739613572521322,
+      "scores": {
+        "China": 0.006739613572521322
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2503,
+      "attribute_score": 0.006736952877608982,
+      "scores": {
+        "China": 0.006736952877608982
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2227,
+      "attribute_score": 0.0067363011061087165,
+      "scores": {
+        "China": 0.0067363011061087165
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3582,
+      "attribute_score": 0.006735453238854041,
+      "scores": {
+        "China": 0.006735453238854041
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3409,
+      "attribute_score": 0.00673354165793876,
+      "scores": {
+        "China": 0.00673354165793876
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 170,
+      "attribute_score": 0.006724701830621301,
+      "scores": {
+        "China": 0.006724701830621301
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 475,
+      "attribute_score": 0.006719836116542478,
+      "scores": {
+        "China": 0.006719836116542478
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1020,
+      "attribute_score": 0.006717927357148842,
+      "scores": {
+        "China": 0.006717927357148842
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1348,
+      "attribute_score": 0.00671350603272929,
+      "scores": {
+        "China": 0.00671350603272929
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 865,
+      "attribute_score": 0.006712965711334048,
+      "scores": {
+        "China": 0.006712965711334048
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1271,
+      "attribute_score": 0.006710715547821226,
+      "scores": {
+        "China": 0.006710715547821226
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1299,
+      "attribute_score": 0.0067083525234425566,
+      "scores": {
+        "China": 0.0067083525234425566
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 856,
+      "attribute_score": 0.006706477622308675,
+      "scores": {
+        "China": 0.006706477622308675
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 156,
+      "attribute_score": 0.006705052753877358,
+      "scores": {
+        "China": 0.006705052753877358
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 89,
+      "attribute_score": 0.006701850326808952,
+      "scores": {
+        "China": 0.006701850326808952
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2018,
+      "attribute_score": 0.006701418633997087,
+      "scores": {
+        "China": 0.006701418633997087
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1433,
+      "attribute_score": 0.0067003859570745885,
+      "scores": {
+        "China": 0.0067003859570745885
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2168,
+      "attribute_score": 0.00669990206611227,
+      "scores": {
+        "China": 0.00669990206611227
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2328,
+      "attribute_score": 0.0066947090555224895,
+      "scores": {
+        "China": 0.0066947090555224895
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3032,
+      "attribute_score": 0.006684268014670829,
+      "scores": {
+        "China": 0.006684268014670829
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 568,
+      "attribute_score": 0.006680018803071694,
+      "scores": {
+        "China": 0.006680018803071694
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 863,
+      "attribute_score": 0.006679588521020652,
+      "scores": {
+        "China": 0.006679588521020652
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 49,
+      "attribute_score": 0.006678465555405476,
+      "scores": {
+        "China": 0.006678465555405476
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1501,
+      "attribute_score": 0.006677431467722154,
+      "scores": {
+        "China": 0.006677431467722154
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3535,
+      "attribute_score": 0.006676837537415634,
+      "scores": {
+        "China": 0.006676837537415634
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 547,
+      "attribute_score": 0.006673241508077588,
+      "scores": {
+        "China": 0.006673241508077588
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 184,
+      "attribute_score": 0.006663677960457887,
+      "scores": {
+        "China": 0.006663677960457887
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1349,
+      "attribute_score": 0.00664508413280961,
+      "scores": {
+        "China": 0.00664508413280961
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2098,
+      "attribute_score": 0.006639164580395941,
+      "scores": {
+        "China": 0.006639164580395941
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1287,
+      "attribute_score": 0.006639142008222772,
+      "scores": {
+        "China": 0.006639142008222772
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 292,
+      "attribute_score": 0.006636461562658908,
+      "scores": {
+        "China": 0.006636461562658908
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3056,
+      "attribute_score": 0.0066236687835151626,
+      "scores": {
+        "China": 0.0066236687835151626
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2808,
+      "attribute_score": 0.0066228364346295416,
+      "scores": {
+        "China": 0.0066228364346295416
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1217,
+      "attribute_score": 0.006620914978388498,
+      "scores": {
+        "China": 0.006620914978388498
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 52,
+      "attribute_score": 0.006620632826223881,
+      "scores": {
+        "China": 0.006620632826223881
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 160,
+      "attribute_score": 0.006619602970823028,
+      "scores": {
+        "China": 0.006619602970823028
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 919,
+      "attribute_score": 0.006617794375447832,
+      "scores": {
+        "China": 0.006617794375447832
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1452,
+      "attribute_score": 0.006615049034886107,
+      "scores": {
+        "China": 0.006615049034886107
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 279,
+      "attribute_score": 0.006610210125262921,
+      "scores": {
+        "China": 0.006610210125262921
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 949,
+      "attribute_score": 0.006607185454058224,
+      "scores": {
+        "China": 0.006607185454058224
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2075,
+      "attribute_score": 0.0066003855868909484,
+      "scores": {
+        "China": 0.0066003855868909484
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1432,
+      "attribute_score": 0.006592598187147513,
+      "scores": {
+        "China": 0.006592598187147513
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1775,
+      "attribute_score": 0.006585713674330852,
+      "scores": {
+        "China": 0.006585713674330852
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 516,
+      "attribute_score": 0.006579712297789444,
+      "scores": {
+        "China": 0.006579712297789444
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1458,
+      "attribute_score": 0.006578913807163577,
+      "scores": {
+        "China": 0.006578913807163577
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1235,
+      "attribute_score": 0.006576205146383252,
+      "scores": {
+        "China": 0.006576205146383252
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 622,
+      "attribute_score": 0.006575849634655834,
+      "scores": {
+        "China": 0.006575849634655834
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 41,
+      "attribute_score": 0.006572661315195659,
+      "scores": {
+        "China": 0.006572661315195659
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2607,
+      "attribute_score": 0.006572176013472517,
+      "scores": {
+        "China": 0.006572176013472517
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1879,
+      "attribute_score": 0.006571597601535052,
+      "scores": {
+        "China": 0.006571597601535052
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 3540,
+      "attribute_score": 0.006571588431589702,
+      "scores": {
+        "China": 0.006571588431589702
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1745,
+      "attribute_score": 0.006571447355507394,
+      "scores": {
+        "China": 0.006571447355507394
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 218,
+      "attribute_score": 0.006570871059711163,
+      "scores": {
+        "China": 0.006570871059711163
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1577,
+      "attribute_score": 0.006570172733103735,
+      "scores": {
+        "China": 0.006570172733103735
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 405,
+      "attribute_score": 0.006565421290651581,
+      "scores": {
+        "China": 0.006565421290651581
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2698,
+      "attribute_score": 0.006565065778924163,
+      "scores": {
+        "China": 0.006565065778924163
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3096,
+      "attribute_score": 0.006559840320835452,
+      "scores": {
+        "China": 0.006559840320835452
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1421,
+      "attribute_score": 0.006558745570436737,
+      "scores": {
+        "China": 0.006558745570436737
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3380,
+      "attribute_score": 0.006556285203561275,
+      "scores": {
+        "China": 0.006556285203561275
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1928,
+      "attribute_score": 0.006550399509407359,
+      "scores": {
+        "China": 0.006550399509407359
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 157,
+      "attribute_score": 0.006543960797010794,
+      "scores": {
+        "China": 0.006543960797010794
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 817,
+      "attribute_score": 0.006543343589150694,
+      "scores": {
+        "China": 0.006543343589150694
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 827,
+      "attribute_score": 0.006539897805840306,
+      "scores": {
+        "China": 0.006539897805840306
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 487,
+      "attribute_score": 0.006539601546067458,
+      "scores": {
+        "China": 0.006539601546067458
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2321,
+      "attribute_score": 0.006537177858973396,
+      "scores": {
+        "China": 0.006537177858973396
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 779,
+      "attribute_score": 0.006535775562715248,
+      "scores": {
+        "China": 0.006535775562715248
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 144,
+      "attribute_score": 0.00653053317549666,
+      "scores": {
+        "China": 0.00653053317549666
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 24,
+      "attribute_score": 0.006526261391724355,
+      "scores": {
+        "China": 0.006526261391724355
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3461,
+      "attribute_score": 0.006526120315642046,
+      "scores": {
+        "China": 0.006526120315642046
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1826,
+      "attribute_score": 0.006516335278573121,
+      "scores": {
+        "China": 0.006516335278573121
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3394,
+      "attribute_score": 0.006504510281354013,
+      "scores": {
+        "China": 0.006504510281354013
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3457,
+      "attribute_score": 0.0064985145478558964,
+      "scores": {
+        "China": 0.0064985145478558964
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3241,
+      "attribute_score": 0.006494002934743667,
+      "scores": {
+        "China": 0.006494002934743667
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1639,
+      "attribute_score": 0.006491909365682207,
+      "scores": {
+        "China": 0.006491909365682207
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1248,
+      "attribute_score": 0.00649189243655233,
+      "scores": {
+        "China": 0.00649189243655233
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 84,
+      "attribute_score": 0.006490851295064892,
+      "scores": {
+        "China": 0.006490851295064892
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2367,
+      "attribute_score": 0.00648903987816805,
+      "scores": {
+        "China": 0.00648903987816805
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 656,
+      "attribute_score": 0.006488743618395201,
+      "scores": {
+        "China": 0.006488743618395201
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2496,
+      "attribute_score": 0.006486198605870354,
+      "scores": {
+        "China": 0.006486198605870354
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3154,
+      "attribute_score": 0.0064848724906966535,
+      "scores": {
+        "China": 0.0064848724906966535
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1406,
+      "attribute_score": 0.006483362976615951,
+      "scores": {
+        "China": 0.006483362976615951
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 457,
+      "attribute_score": 0.006479579316088434,
+      "scores": {
+        "China": 0.006479579316088434
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3169,
+      "attribute_score": 0.006479268948707355,
+      "scores": {
+        "China": 0.006479268948707355
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 1764,
+      "attribute_score": 0.006465890703822029,
+      "scores": {
+        "China": 0.006465890703822029
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 456,
+      "attribute_score": 0.006463341459014712,
+      "scores": {
+        "China": 0.006463341459014712
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2019,
+      "attribute_score": 0.006460480436065493,
+      "scores": {
+        "China": 0.006460480436065493
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2743,
+      "attribute_score": 0.006458228861791848,
+      "scores": {
+        "China": 0.006458228861791848
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1637,
+      "attribute_score": 0.006458045462884847,
+      "scores": {
+        "China": 0.006458045462884847
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 946,
+      "attribute_score": 0.006452712786973581,
+      "scores": {
+        "China": 0.006452712786973581
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1398,
+      "attribute_score": 0.006452535031109872,
+      "scores": {
+        "China": 0.006452535031109872
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2957,
+      "attribute_score": 0.006445235754611224,
+      "scores": {
+        "China": 0.006445235754611224
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3431,
+      "attribute_score": 0.006441353340826091,
+      "scores": {
+        "China": 0.006441353340826091
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2428,
+      "attribute_score": 0.0064364213209885815,
+      "scores": {
+        "China": 0.0064364213209885815
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2141,
+      "attribute_score": 0.006434587331918569,
+      "scores": {
+        "China": 0.006434587331918569
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2865,
+      "attribute_score": 0.006434511150834123,
+      "scores": {
+        "China": 0.006434511150834123
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3038,
+      "attribute_score": 0.006431626144950912,
+      "scores": {
+        "China": 0.006431626144950912
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1677,
+      "attribute_score": 0.006431252293332794,
+      "scores": {
+        "China": 0.006431252293332794
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 35,
+      "attribute_score": 0.006429607346213076,
+      "scores": {
+        "China": 0.006429607346213076
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 349,
+      "attribute_score": 0.006429034577318903,
+      "scores": {
+        "China": 0.006429034577318903
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 259,
+      "attribute_score": 0.006426777360001965,
+      "scores": {
+        "China": 0.006426777360001965
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1825,
+      "attribute_score": 0.0064250731609276765,
+      "scores": {
+        "China": 0.0064250731609276765
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 866,
+      "attribute_score": 0.006423522734783105,
+      "scores": {
+        "China": 0.006423522734783105
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3013,
+      "attribute_score": 0.006422931625998232,
+      "scores": {
+        "China": 0.006422931625998232
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2855,
+      "attribute_score": 0.006421755051471778,
+      "scores": {
+        "China": 0.006421755051471778
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 461,
+      "attribute_score": 0.00641750019682935,
+      "scores": {
+        "China": 0.00641750019682935
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 2062,
+      "attribute_score": 0.006416396981865697,
+      "scores": {
+        "China": 0.006416396981865697
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 856,
+      "attribute_score": 0.006415942716880663,
+      "scores": {
+        "China": 0.006415942716880663
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1022,
+      "attribute_score": 0.006414932612131333,
+      "scores": {
+        "China": 0.006414932612131333
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 686,
+      "attribute_score": 0.006407032351522051,
+      "scores": {
+        "China": 0.006407032351522051
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2463,
+      "attribute_score": 0.006402540489061344,
+      "scores": {
+        "China": 0.006402540489061344
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1702,
+      "attribute_score": 0.006394053351949658,
+      "scores": {
+        "China": 0.006394053351949658
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2753,
+      "attribute_score": 0.006375448238214797,
+      "scores": {
+        "China": 0.006375448238214797
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2669,
+      "attribute_score": 0.006367841415856717,
+      "scores": {
+        "China": 0.006367841415856717
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2091,
+      "attribute_score": 0.0063677567702073315,
+      "scores": {
+        "China": 0.0063677567702073315
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 904,
+      "attribute_score": 0.006367073961968958,
+      "scores": {
+        "China": 0.006367073961968958
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 834,
+      "attribute_score": 0.006366450405685154,
+      "scores": {
+        "China": 0.006366450405685154
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3287,
+      "attribute_score": 0.006365247026703062,
+      "scores": {
+        "China": 0.006365247026703062
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 834,
+      "attribute_score": 0.006365124290511453,
+      "scores": {
+        "China": 0.006365124290511453
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1111,
+      "attribute_score": 0.006363146403837486,
+      "scores": {
+        "China": 0.006363146403837486
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 901,
+      "attribute_score": 0.006356679476224459,
+      "scores": {
+        "China": 0.006356679476224459
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2147,
+      "attribute_score": 0.00635490191758737,
+      "scores": {
+        "China": 0.00635490191758737
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1123,
+      "attribute_score": 0.006351482233352209,
+      "scores": {
+        "China": 0.006351482233352209
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1944,
+      "attribute_score": 0.006351414516832701,
+      "scores": {
+        "China": 0.006351414516832701
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3185,
+      "attribute_score": 0.006350254871436125,
+      "scores": {
+        "China": 0.006350254871436125
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 720,
+      "attribute_score": 0.00634582790397328,
+      "scores": {
+        "China": 0.00634582790397328
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3358,
+      "attribute_score": 0.006343105135584724,
+      "scores": {
+        "China": 0.006343105135584724
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1079,
+      "attribute_score": 0.006342807465051053,
+      "scores": {
+        "China": 0.006342807465051053
+      }
+    }
+  ],
+  "layer_distribution": {
+    "0": 103,
+    "1": 56,
+    "2": 43,
+    "3": 37,
+    "4": 39,
+    "5": 37,
+    "6": 52,
+    "7": 66,
+    "8": 8,
+    "9": 4,
+    "10": 13,
+    "11": 10,
+    "12": 9,
+    "13": 6,
+    "14": 8,
+    "15": 3,
+    "16": 8,
+    "17": 2,
+    "18": 4,
+    "19": 5,
+    "20": 2,
+    "21": 4,
+    "22": 2,
+    "23": 14
+  },
+  "total_selected": 535,
+  "total_candidates": 86016
+}

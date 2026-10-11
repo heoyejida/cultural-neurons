@@ -1,0 +1,2727 @@
+{
+  "model_name": "goldfish-models/arb_arab_1000mb",
+  "target_country": "Saudi Arabia",
+  "revision": null,
+  "dataset_ids": {
+    "blend_mcq": [
+      "eblnd-ar-SA_0011",
+      "eblnd-ar-SA_0012",
+      "eblnd-ar-SA_0013",
+      "eblnd-ar-SA_0014",
+      "eblnd-ar-SA_0015",
+      "eblnd-ar-SA_0017",
+      "eblnd-ar-SA_0018",
+      "eblnd-ar-SA_0019",
+      "eblnd-ar-SA_0020",
+      "eblnd-ar-SA_0021",
+      "eblnd-ar-SA_0022",
+      "eblnd-ar-SA_0023",
+      "eblnd-ar-SA_0025",
+      "eblnd-ar-SA_0026",
+      "eblnd-ar-SA_0027",
+      "eblnd-ar-SA_0028",
+      "eblnd-ar-SA_0029",
+      "eblnd-ar-SA_0032",
+      "eblnd-ar-SA_0033",
+      "eblnd-ar-SA_0034",
+      "eblnd-ar-SA_0035",
+      "eblnd-ar-SA_0036",
+      "eblnd-ar-SA_0046",
+      "eblnd-ar-SA_0047",
+      "eblnd-ar-SA_0048",
+      "eblnd-ar-SA_0049",
+      "eblnd-ar-SA_0050",
+      "eblnd-ar-SA_0066",
+      "eblnd-ar-SA_0076",
+      "eblnd-ar-SA_0077",
+      "eblnd-ar-SA_0078",
+      "eblnd-ar-SA_0079",
+      "eblnd-ar-SA_0080",
+      "eblnd-ar-SA_0111",
+      "eblnd-ar-SA_0112",
+      "eblnd-ar-SA_0128",
+      "eblnd-ar-SA_0129",
+      "eblnd-ar-SA_0130",
+      "eblnd-ar-SA_0131",
+      "eblnd-ar-SA_0132",
+      "eblnd-ar-SA_0134",
+      "eblnd-ar-SA_0135",
+      "eblnd-ar-SA_0136",
+      "eblnd-ar-SA_0137",
+      "eblnd-ar-SA_0138",
+      "eblnd-ar-SA_0139",
+      "eblnd-ar-SA_0140",
+      "eblnd-ar-SA_0141",
+      "eblnd-ar-SA_0142",
+      "eblnd-ar-SA_0143",
+      "eblnd-ar-SA_0145",
+      "eblnd-ar-SA_0146",
+      "eblnd-ar-SA_0153",
+      "eblnd-ar-SA_0154",
+      "eblnd-ar-SA_0155",
+      "eblnd-ar-SA_0156",
+      "eblnd-ar-SA_0157",
+      "eblnd-ar-SA_0208",
+      "eblnd-ar-SA_0209",
+      "eblnd-ar-SA_0210",
+      "eblnd-ar-SA_0211",
+      "eblnd-ar-SA_0212",
+      "eblnd-ar-SA_0213",
+      "eblnd-ar-SA_0214",
+      "eblnd-ar-SA_0220",
+      "eblnd-ar-SA_0221",
+      "eblnd-ar-SA_0222",
+      "eblnd-ar-SA_0223",
+      "eblnd-ar-SA_0224",
+      "eblnd-ar-SA_0225",
+      "eblnd-ar-SA_0226",
+      "eblnd-ar-SA_0234",
+      "eblnd-ar-SA_0235",
+      "eblnd-ar-SA_0236",
+      "eblnd-ar-SA_0237",
+      "eblnd-ar-SA_0240",
+      "eblnd-ar-SA_0241",
+      "eblnd-ar-SA_0242",
+      "eblnd-ar-SA_0243",
+      "eblnd-ar-SA_0244",
+      "eblnd-ar-SA_0275",
+      "eblnd-ar-SA_0276",
+      "eblnd-ar-SA_0277",
+      "eblnd-ar-SA_0278",
+      "eblnd-ar-SA_0279",
+      "eblnd-ar-SA_0285",
+      "eblnd-ar-SA_0286",
+      "eblnd-ar-SA_0287",
+      "eblnd-ar-SA_0288",
+      "eblnd-ar-SA_0289",
+      "eblnd-ar-SA_0290",
+      "eblnd-ar-SA_0291",
+      "eblnd-ar-SA_0292",
+      "eblnd-ar-SA_0293",
+      "eblnd-ar-SA_0309",
+      "eblnd-ar-SA_0310",
+      "eblnd-ar-SA_0311",
+      "eblnd-ar-SA_0312",
+      "eblnd-ar-SA_0313",
+      "eblnd-ar-SA_0314",
+      "eblnd-ar-SA_0315",
+      "eblnd-ar-SA_0316",
+      "eblnd-ar-SA_0317",
+      "eblnd-ar-SA_0318",
+      "eblnd-ar-SA_0319",
+      "eblnd-ar-SA_0323",
+      "eblnd-ar-SA_0324",
+      "eblnd-ar-SA_0325",
+      "eblnd-ar-SA_0326",
+      "eblnd-ar-SA_0327",
+      "eblnd-ar-SA_0333",
+      "eblnd-ar-SA_0339",
+      "eblnd-ar-SA_0340",
+      "eblnd-ar-SA_0341",
+      "eblnd-ar-SA_0342",
+      "eblnd-ar-SA_0343",
+      "eblnd-ar-SA_0344",
+      "eblnd-ar-SA_0345",
+      "eblnd-ar-SA_0346",
+      "eblnd-ar-SA_0366",
+      "eblnd-ar-SA_0367",
+      "eblnd-ar-SA_0368",
+      "eblnd-ar-SA_0387",
+      "eblnd-ar-SA_0388",
+      "eblnd-ar-SA_0389",
+      "eblnd-ar-SA_0390",
+      "eblnd-ar-SA_0391",
+      "eblnd-ar-SA_0425",
+      "eblnd-ar-SA_0426",
+      "eblnd-ar-SA_0427",
+      "eblnd-ar-SA_0428",
+      "eblnd-ar-SA_0429",
+      "eblnd-ar-SA_0430",
+      "eblnd-ar-SA_0433",
+      "eblnd-ar-SA_0434",
+      "eblnd-ar-SA_0435",
+      "eblnd-ar-SA_0437",
+      "eblnd-ar-SA_0438",
+      "eblnd-ar-SA_0439"
+    ],
+    "countryrc_localized": [
+      "ar-saudi_arabia-0",
+      "ar-saudi_arabia-1",
+      "ar-saudi_arabia-10",
+      "ar-saudi_arabia-11",
+      "ar-saudi_arabia-12",
+      "ar-saudi_arabia-13",
+      "ar-saudi_arabia-14",
+      "ar-saudi_arabia-15",
+      "ar-saudi_arabia-16",
+      "ar-saudi_arabia-17",
+      "ar-saudi_arabia-18",
+      "ar-saudi_arabia-19",
+      "ar-saudi_arabia-2",
+      "ar-saudi_arabia-20",
+      "ar-saudi_arabia-21",
+      "ar-saudi_arabia-22",
+      "ar-saudi_arabia-23",
+      "ar-saudi_arabia-24",
+      "ar-saudi_arabia-3",
+      "ar-saudi_arabia-4",
+      "ar-saudi_arabia-5",
+      "ar-saudi_arabia-6",
+      "ar-saudi_arabia-7",
+      "ar-saudi_arabia-8",
+      "ar-saudi_arabia-9"
+    ]
+  },
+  "thresholds": {
+    "mlp_threshold": 0.01,
+    "countryrc_threshold": 0.01
+  },
+  "top_neurons": [
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 698,
+      "attribute_score": 0.01800641396062837,
+      "scores": {
+        "Saudi Arabia": 0.01800641396062837
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2481,
+      "attribute_score": 0.01528922430902934,
+      "scores": {
+        "Saudi Arabia": 0.01528922430902934
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1236,
+      "attribute_score": 0.012577166660226506,
+      "scores": {
+        "Saudi Arabia": 0.012577166660226506
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2781,
+      "attribute_score": 0.012236671482058738,
+      "scores": {
+        "Saudi Arabia": 0.012236671482058738
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2896,
+      "attribute_score": 0.01191637327345155,
+      "scores": {
+        "Saudi Arabia": 0.01191637327345155
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2959,
+      "attribute_score": 0.01045918636184802,
+      "scores": {
+        "Saudi Arabia": 0.01045918636184802
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 677,
+      "attribute_score": 0.009326790734160718,
+      "scores": {
+        "Saudi Arabia": 0.009326790734160718
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2585,
+      "attribute_score": 0.009320279677137196,
+      "scores": {
+        "Saudi Arabia": 0.009320279677137196
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1644,
+      "attribute_score": 0.009239544971383733,
+      "scores": {
+        "Saudi Arabia": 0.009239544971383733
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1257,
+      "attribute_score": 0.009198188781738281,
+      "scores": {
+        "Saudi Arabia": 0.009198188781738281
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1487,
+      "attribute_score": 0.008947084275938624,
+      "scores": {
+        "Saudi Arabia": 0.008947084275938624
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2534,
+      "attribute_score": 0.008383057957930531,
+      "scores": {
+        "Saudi Arabia": 0.008383057957930531
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 150,
+      "attribute_score": 0.007979458184550993,
+      "scores": {
+        "Saudi Arabia": 0.007979458184550993
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 228,
+      "attribute_score": 0.007951005757283821,
+      "scores": {
+        "Saudi Arabia": 0.007951005757283821
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 951,
+      "attribute_score": 0.007927119303092683,
+      "scores": {
+        "Saudi Arabia": 0.007927119303092683
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2075,
+      "attribute_score": 0.007829624971897481,
+      "scores": {
+        "Saudi Arabia": 0.007829624971897481
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 63,
+      "attribute_score": 0.007789803923462792,
+      "scores": {
+        "Saudi Arabia": 0.007789803923462792
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 802,
+      "attribute_score": 0.007577525625983588,
+      "scores": {
+        "Saudi Arabia": 0.007577525625983588
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1671,
+      "attribute_score": 0.007489403374761129,
+      "scores": {
+        "Saudi Arabia": 0.007489403374761129
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2565,
+      "attribute_score": 0.007483315982406946,
+      "scores": {
+        "Saudi Arabia": 0.007483315982406946
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 347,
+      "attribute_score": 0.007467082936129124,
+      "scores": {
+        "Saudi Arabia": 0.007467082936129124
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1959,
+      "attribute_score": 0.007451530840757082,
+      "scores": {
+        "Saudi Arabia": 0.007451530840757082
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1171,
+      "attribute_score": 0.007427834778380909,
+      "scores": {
+        "Saudi Arabia": 0.007427834778380909
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2621,
+      "attribute_score": 0.007316438414210038,
+      "scores": {
+        "Saudi Arabia": 0.007316438414210038
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1286,
+      "attribute_score": 0.007241039825000351,
+      "scores": {
+        "Saudi Arabia": 0.007241039825000351
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1020,
+      "attribute_score": 0.00718285411381893,
+      "scores": {
+        "Saudi Arabia": 0.00718285411381893
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1953,
+      "attribute_score": 0.007113772330524252,
+      "scores": {
+        "Saudi Arabia": 0.007113772330524252
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 288,
+      "attribute_score": 0.007002796200539568,
+      "scores": {
+        "Saudi Arabia": 0.007002796200539568
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2995,
+      "attribute_score": 0.00695033725217092,
+      "scores": {
+        "Saudi Arabia": 0.00695033725217092
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1066,
+      "attribute_score": 0.006927713215779915,
+      "scores": {
+        "Saudi Arabia": 0.006927713215779915
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1811,
+      "attribute_score": 0.006898820829048431,
+      "scores": {
+        "Saudi Arabia": 0.006898820829048431
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2863,
+      "attribute_score": 0.006844990545039554,
+      "scores": {
+        "Saudi Arabia": 0.006844990545039554
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1793,
+      "attribute_score": 0.00682333218965599,
+      "scores": {
+        "Saudi Arabia": 0.00682333218965599
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 30,
+      "attribute_score": 0.006746638593056219,
+      "scores": {
+        "Saudi Arabia": 0.006746638593056219
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 716,
+      "attribute_score": 0.006733336037011455,
+      "scores": {
+        "Saudi Arabia": 0.006733336037011455
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1969,
+      "attribute_score": 0.006723352473416775,
+      "scores": {
+        "Saudi Arabia": 0.006723352473416775
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1103,
+      "attribute_score": 0.006647126708956931,
+      "scores": {
+        "Saudi Arabia": 0.006647126708956931
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2926,
+      "attribute_score": 0.006599626095174885,
+      "scores": {
+        "Saudi Arabia": 0.006599626095174885
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 988,
+      "attribute_score": 0.006599064353558657,
+      "scores": {
+        "Saudi Arabia": 0.006599064353558657
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1011,
+      "attribute_score": 0.0065628393090886175,
+      "scores": {
+        "Saudi Arabia": 0.0065628393090886175
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1466,
+      "attribute_score": 0.006561196965279339,
+      "scores": {
+        "Saudi Arabia": 0.006561196965279339
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 145,
+      "attribute_score": 0.006550859204299158,
+      "scores": {
+        "Saudi Arabia": 0.006550859204299158
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 156,
+      "attribute_score": 0.006537650128920301,
+      "scores": {
+        "Saudi Arabia": 0.006537650128920301
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1746,
+      "attribute_score": 0.006485207475346627,
+      "scores": {
+        "Saudi Arabia": 0.006485207475346627
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2782,
+      "attribute_score": 0.006450177954255248,
+      "scores": {
+        "Saudi Arabia": 0.006450177954255248
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2836,
+      "attribute_score": 0.006428450989208633,
+      "scores": {
+        "Saudi Arabia": 0.006428450989208633
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2480,
+      "attribute_score": 0.006406046932549785,
+      "scores": {
+        "Saudi Arabia": 0.006406046932549785
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1287,
+      "attribute_score": 0.006389869631623192,
+      "scores": {
+        "Saudi Arabia": 0.006389869631623192
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2983,
+      "attribute_score": 0.006312226220000562,
+      "scores": {
+        "Saudi Arabia": 0.006312226220000562
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1880,
+      "attribute_score": 0.006143374408749368,
+      "scores": {
+        "Saudi Arabia": 0.006143374408749368
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 453,
+      "attribute_score": 0.00614332295150208,
+      "scores": {
+        "Saudi Arabia": 0.00614332295150208
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2863,
+      "attribute_score": 0.006097942805118698,
+      "scores": {
+        "Saudi Arabia": 0.006097942805118698
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 755,
+      "attribute_score": 0.006021370990670842,
+      "scores": {
+        "Saudi Arabia": 0.006021370990670842
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1968,
+      "attribute_score": 0.0060097450832668825,
+      "scores": {
+        "Saudi Arabia": 0.0060097450832668825
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 335,
+      "attribute_score": 0.006009320560976756,
+      "scores": {
+        "Saudi Arabia": 0.006009320560976756
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 661,
+      "attribute_score": 0.005978071432319477,
+      "scores": {
+        "Saudi Arabia": 0.005978071432319477
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 897,
+      "attribute_score": 0.0058778172774280575,
+      "scores": {
+        "Saudi Arabia": 0.0058778172774280575
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1907,
+      "attribute_score": 0.005851592948968462,
+      "scores": {
+        "Saudi Arabia": 0.005851592948968462
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2602,
+      "attribute_score": 0.005839284375417147,
+      "scores": {
+        "Saudi Arabia": 0.005839284375417147
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 685,
+      "attribute_score": 0.0058323856737973875,
+      "scores": {
+        "Saudi Arabia": 0.0058323856737973875
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1362,
+      "attribute_score": 0.005801790909801456,
+      "scores": {
+        "Saudi Arabia": 0.005801790909801456
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1121,
+      "attribute_score": 0.005785205381379711,
+      "scores": {
+        "Saudi Arabia": 0.005785205381379711
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2754,
+      "attribute_score": 0.005774161798490895,
+      "scores": {
+        "Saudi Arabia": 0.005774161798490895
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2805,
+      "attribute_score": 0.005759880697126869,
+      "scores": {
+        "Saudi Arabia": 0.005759880697126869
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1759,
+      "attribute_score": 0.005693586610204024,
+      "scores": {
+        "Saudi Arabia": 0.005693586610204024
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 574,
+      "attribute_score": 0.005649781055587659,
+      "scores": {
+        "Saudi Arabia": 0.005649781055587659
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 452,
+      "attribute_score": 0.0056316492368849065,
+      "scores": {
+        "Saudi Arabia": 0.0056316492368849065
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 965,
+      "attribute_score": 0.0055938753292714945,
+      "scores": {
+        "Saudi Arabia": 0.0055938753292714945
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1896,
+      "attribute_score": 0.005590678118973327,
+      "scores": {
+        "Saudi Arabia": 0.005590678118973327
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2164,
+      "attribute_score": 0.0055700411899484315,
+      "scores": {
+        "Saudi Arabia": 0.0055700411899484315
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1289,
+      "attribute_score": 0.005555742936168643,
+      "scores": {
+        "Saudi Arabia": 0.005555742936168643
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 214,
+      "attribute_score": 0.005535736358423027,
+      "scores": {
+        "Saudi Arabia": 0.005535736358423027
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 154,
+      "attribute_score": 0.0054232165110196994,
+      "scores": {
+        "Saudi Arabia": 0.0054232165110196994
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1947,
+      "attribute_score": 0.005421834026309226,
+      "scores": {
+        "Saudi Arabia": 0.005421834026309226
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2218,
+      "attribute_score": 0.005407425997068556,
+      "scores": {
+        "Saudi Arabia": 0.005407425997068556
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 427,
+      "attribute_score": 0.005394115722436699,
+      "scores": {
+        "Saudi Arabia": 0.005394115722436699
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1220,
+      "attribute_score": 0.00537753919903323,
+      "scores": {
+        "Saudi Arabia": 0.00537753919903323
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2266,
+      "attribute_score": 0.005344548671365642,
+      "scores": {
+        "Saudi Arabia": 0.005344548671365642
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2159,
+      "attribute_score": 0.005339732273019475,
+      "scores": {
+        "Saudi Arabia": 0.005339732273019475
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 754,
+      "attribute_score": 0.005328790747004447,
+      "scores": {
+        "Saudi Arabia": 0.005328790747004447
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1777,
+      "attribute_score": 0.005297978147328328,
+      "scores": {
+        "Saudi Arabia": 0.005297978147328328
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1036,
+      "attribute_score": 0.005279035876980789,
+      "scores": {
+        "Saudi Arabia": 0.005279035876980789
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 865,
+      "attribute_score": 0.005270803575035479,
+      "scores": {
+        "Saudi Arabia": 0.005270803575035479
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 273,
+      "attribute_score": 0.00526700946066877,
+      "scores": {
+        "Saudi Arabia": 0.00526700946066877
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2010,
+      "attribute_score": 0.005261303709565307,
+      "scores": {
+        "Saudi Arabia": 0.005261303709565307
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2258,
+      "attribute_score": 0.005213725481101935,
+      "scores": {
+        "Saudi Arabia": 0.005213725481101935
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2779,
+      "attribute_score": 0.005199743689392968,
+      "scores": {
+        "Saudi Arabia": 0.005199743689392968
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 798,
+      "attribute_score": 0.005168633495303367,
+      "scores": {
+        "Saudi Arabia": 0.005168633495303367
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2961,
+      "attribute_score": 0.0051436672965399655,
+      "scores": {
+        "Saudi Arabia": 0.0051436672965399655
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2789,
+      "attribute_score": 0.0050790970274012725,
+      "scores": {
+        "Saudi Arabia": 0.0050790970274012725
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1658,
+      "attribute_score": 0.0050735542242475555,
+      "scores": {
+        "Saudi Arabia": 0.0050735542242475555
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1772,
+      "attribute_score": 0.005053047224772062,
+      "scores": {
+        "Saudi Arabia": 0.005053047224772062
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2376,
+      "attribute_score": 0.00503623742851422,
+      "scores": {
+        "Saudi Arabia": 0.00503623742851422
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2578,
+      "attribute_score": 0.005021627858388339,
+      "scores": {
+        "Saudi Arabia": 0.005021627858388339
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2144,
+      "attribute_score": 0.00499196018246438,
+      "scores": {
+        "Saudi Arabia": 0.00499196018246438
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 384,
+      "attribute_score": 0.00497479747525222,
+      "scores": {
+        "Saudi Arabia": 0.00497479747525222
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2337,
+      "attribute_score": 0.004944890523128373,
+      "scores": {
+        "Saudi Arabia": 0.004944890523128373
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 323,
+      "attribute_score": 0.004919662750024589,
+      "scores": {
+        "Saudi Arabia": 0.004919662750024589
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 843,
+      "attribute_score": 0.0049118549703694074,
+      "scores": {
+        "Saudi Arabia": 0.0049118549703694074
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2187,
+      "attribute_score": 0.004908409050042681,
+      "scores": {
+        "Saudi Arabia": 0.004908409050042681
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 759,
+      "attribute_score": 0.004902119259182497,
+      "scores": {
+        "Saudi Arabia": 0.004902119259182497
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 137,
+      "attribute_score": 0.004884822763127389,
+      "scores": {
+        "Saudi Arabia": 0.004884822763127389
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1810,
+      "attribute_score": 0.004878500382677256,
+      "scores": {
+        "Saudi Arabia": 0.004878500382677256
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2988,
+      "attribute_score": 0.004878179632502494,
+      "scores": {
+        "Saudi Arabia": 0.004878179632502494
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2024,
+      "attribute_score": 0.00482989901261364,
+      "scores": {
+        "Saudi Arabia": 0.00482989901261364
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1454,
+      "attribute_score": 0.004770610829909071,
+      "scores": {
+        "Saudi Arabia": 0.004770610829909071
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2281,
+      "attribute_score": 0.00474303231822501,
+      "scores": {
+        "Saudi Arabia": 0.00474303231822501
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1788,
+      "attribute_score": 0.0047301525692287965,
+      "scores": {
+        "Saudi Arabia": 0.0047301525692287965
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1850,
+      "attribute_score": 0.004729512784120848,
+      "scores": {
+        "Saudi Arabia": 0.004729512784120848
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 550,
+      "attribute_score": 0.004724217833374901,
+      "scores": {
+        "Saudi Arabia": 0.004724217833374901
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 488,
+      "attribute_score": 0.004711140831597418,
+      "scores": {
+        "Saudi Arabia": 0.004711140831597418
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 886,
+      "attribute_score": 0.004688712332746108,
+      "scores": {
+        "Saudi Arabia": 0.004688712332746108
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2969,
+      "attribute_score": 0.004685076449414809,
+      "scores": {
+        "Saudi Arabia": 0.004685076449414809
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 459,
+      "attribute_score": 0.004668728910761771,
+      "scores": {
+        "Saudi Arabia": 0.004668728910761771
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2154,
+      "attribute_score": 0.004662359361168292,
+      "scores": {
+        "Saudi Arabia": 0.004662359361168292
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 252,
+      "attribute_score": 0.004643742129099454,
+      "scores": {
+        "Saudi Arabia": 0.004643742129099454
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 476,
+      "attribute_score": 0.004631858935459055,
+      "scores": {
+        "Saudi Arabia": 0.004631858935459055
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1992,
+      "attribute_score": 0.004608164588324457,
+      "scores": {
+        "Saudi Arabia": 0.004608164588324457
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1652,
+      "attribute_score": 0.004592765149452703,
+      "scores": {
+        "Saudi Arabia": 0.004592765149452703
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 249,
+      "attribute_score": 0.004574686932049209,
+      "scores": {
+        "Saudi Arabia": 0.004574686932049209
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1910,
+      "attribute_score": 0.004569746607499157,
+      "scores": {
+        "Saudi Arabia": 0.004569746607499157
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 790,
+      "attribute_score": 0.004554192796885539,
+      "scores": {
+        "Saudi Arabia": 0.004554192796885539
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1002,
+      "attribute_score": 0.00453203530620328,
+      "scores": {
+        "Saudi Arabia": 0.00453203530620328
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3062,
+      "attribute_score": 0.0045290747992426375,
+      "scores": {
+        "Saudi Arabia": 0.0045290747992426375
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1615,
+      "attribute_score": 0.004496636150552215,
+      "scores": {
+        "Saudi Arabia": 0.004496636150552215
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2703,
+      "attribute_score": 0.004495251950600164,
+      "scores": {
+        "Saudi Arabia": 0.004495251950600164
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2242,
+      "attribute_score": 0.004476663877638124,
+      "scores": {
+        "Saudi Arabia": 0.004476663877638124
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2100,
+      "attribute_score": 0.004473784844652354,
+      "scores": {
+        "Saudi Arabia": 0.004473784844652354
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1638,
+      "attribute_score": 0.00447191523133422,
+      "scores": {
+        "Saudi Arabia": 0.00447191523133422
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2747,
+      "attribute_score": 0.004464777253514571,
+      "scores": {
+        "Saudi Arabia": 0.004464777253514571
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 925,
+      "attribute_score": 0.004460806469265505,
+      "scores": {
+        "Saudi Arabia": 0.004460806469265505
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 839,
+      "attribute_score": 0.00446064352131576,
+      "scores": {
+        "Saudi Arabia": 0.00446064352131576
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3035,
+      "attribute_score": 0.004456386291723458,
+      "scores": {
+        "Saudi Arabia": 0.004456386291723458
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2212,
+      "attribute_score": 0.004455888871666339,
+      "scores": {
+        "Saudi Arabia": 0.004455888871666339
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2792,
+      "attribute_score": 0.004441522008223499,
+      "scores": {
+        "Saudi Arabia": 0.004441522008223499
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2425,
+      "attribute_score": 0.00443052130637409,
+      "scores": {
+        "Saudi Arabia": 0.00443052130637409
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2648,
+      "attribute_score": 0.0044291684095808075,
+      "scores": {
+        "Saudi Arabia": 0.0044291684095808075
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2140,
+      "attribute_score": 0.004417181872635436,
+      "scores": {
+        "Saudi Arabia": 0.004417181872635436
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2082,
+      "attribute_score": 0.00441180887839777,
+      "scores": {
+        "Saudi Arabia": 0.00441180887839777
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2801,
+      "attribute_score": 0.004396544085989753,
+      "scores": {
+        "Saudi Arabia": 0.004396544085989753
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2920,
+      "attribute_score": 0.004394069850015983,
+      "scores": {
+        "Saudi Arabia": 0.004394069850015983
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2509,
+      "attribute_score": 0.004393558279215861,
+      "scores": {
+        "Saudi Arabia": 0.004393558279215861
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 427,
+      "attribute_score": 0.0043859601878433775,
+      "scores": {
+        "Saudi Arabia": 0.0043859601878433775
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2774,
+      "attribute_score": 0.004382871895385303,
+      "scores": {
+        "Saudi Arabia": 0.004382871895385303
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1183,
+      "attribute_score": 0.004360566036306697,
+      "scores": {
+        "Saudi Arabia": 0.004360566036306697
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 377,
+      "attribute_score": 0.004356069959324899,
+      "scores": {
+        "Saudi Arabia": 0.004356069959324899
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1845,
+      "attribute_score": 0.00435343663469493,
+      "scores": {
+        "Saudi Arabia": 0.00435343663469493
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1143,
+      "attribute_score": 0.004351180234401346,
+      "scores": {
+        "Saudi Arabia": 0.004351180234401346
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 393,
+      "attribute_score": 0.004344734356557723,
+      "scores": {
+        "Saudi Arabia": 0.004344734356557723
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2513,
+      "attribute_score": 0.004336463461676947,
+      "scores": {
+        "Saudi Arabia": 0.004336463461676947
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 114,
+      "attribute_score": 0.004336197599232625,
+      "scores": {
+        "Saudi Arabia": 0.004336197599232625
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1349,
+      "attribute_score": 0.004319389947026754,
+      "scores": {
+        "Saudi Arabia": 0.004319389947026754
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1961,
+      "attribute_score": 0.004318429411744042,
+      "scores": {
+        "Saudi Arabia": 0.004318429411744042
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2550,
+      "attribute_score": 0.004306975457308104,
+      "scores": {
+        "Saudi Arabia": 0.004306975457308104
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1957,
+      "attribute_score": 0.0042527253679234345,
+      "scores": {
+        "Saudi Arabia": 0.0042527253679234345
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 669,
+      "attribute_score": 0.004249514435692657,
+      "scores": {
+        "Saudi Arabia": 0.004249514435692657
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 601,
+      "attribute_score": 0.004236039497869478,
+      "scores": {
+        "Saudi Arabia": 0.004236039497869478
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1434,
+      "attribute_score": 0.004217888811509386,
+      "scores": {
+        "Saudi Arabia": 0.004217888811509386
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 277,
+      "attribute_score": 0.004216000330533913,
+      "scores": {
+        "Saudi Arabia": 0.004216000330533913
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1758,
+      "attribute_score": 0.004215645275527625,
+      "scores": {
+        "Saudi Arabia": 0.004215645275527625
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1939,
+      "attribute_score": 0.0042119806618999235,
+      "scores": {
+        "Saudi Arabia": 0.0042119806618999235
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2448,
+      "attribute_score": 0.00418435240821015,
+      "scores": {
+        "Saudi Arabia": 0.00418435240821015
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1349,
+      "attribute_score": 0.0041836285762649646,
+      "scores": {
+        "Saudi Arabia": 0.0041836285762649646
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1119,
+      "attribute_score": 0.004176927127426477,
+      "scores": {
+        "Saudi Arabia": 0.004176927127426477
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2340,
+      "attribute_score": 0.004169037016175633,
+      "scores": {
+        "Saudi Arabia": 0.004169037016175633
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1792,
+      "attribute_score": 0.004156580074227971,
+      "scores": {
+        "Saudi Arabia": 0.004156580074227971
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 620,
+      "attribute_score": 0.004147909528059925,
+      "scores": {
+        "Saudi Arabia": 0.004147909528059925
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 476,
+      "attribute_score": 0.004142984211873665,
+      "scores": {
+        "Saudi Arabia": 0.004142984211873665
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 893,
+      "attribute_score": 0.004132299972095078,
+      "scores": {
+        "Saudi Arabia": 0.004132299972095078
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2644,
+      "attribute_score": 0.004125385833301133,
+      "scores": {
+        "Saudi Arabia": 0.004125385833301133
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1205,
+      "attribute_score": 0.004119609328482649,
+      "scores": {
+        "Saudi Arabia": 0.004119609328482649
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 302,
+      "attribute_score": 0.004104612542570924,
+      "scores": {
+        "Saudi Arabia": 0.004104612542570924
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2405,
+      "attribute_score": 0.004096036334689573,
+      "scores": {
+        "Saudi Arabia": 0.004096036334689573
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1146,
+      "attribute_score": 0.004088342618599213,
+      "scores": {
+        "Saudi Arabia": 0.004088342618599213
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 353,
+      "attribute_score": 0.004071400319929603,
+      "scores": {
+        "Saudi Arabia": 0.004071400319929603
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2163,
+      "attribute_score": 0.004069119048633164,
+      "scores": {
+        "Saudi Arabia": 0.004069119048633164
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1267,
+      "attribute_score": 0.004061031255790656,
+      "scores": {
+        "Saudi Arabia": 0.004061031255790656
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 509,
+      "attribute_score": 0.004061012816943711,
+      "scores": {
+        "Saudi Arabia": 0.004061012816943711
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1522,
+      "attribute_score": 0.004051572127307919,
+      "scores": {
+        "Saudi Arabia": 0.004051572127307919
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1744,
+      "attribute_score": 0.004048712819600277,
+      "scores": {
+        "Saudi Arabia": 0.004048712819600277
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2392,
+      "attribute_score": 0.004027983267530263,
+      "scores": {
+        "Saudi Arabia": 0.004027983267530263
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1864,
+      "attribute_score": 0.004025067356850603,
+      "scores": {
+        "Saudi Arabia": 0.004025067356850603
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 13,
+      "attribute_score": 0.0040248289382715016,
+      "scores": {
+        "Saudi Arabia": 0.0040248289382715016
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1342,
+      "attribute_score": 0.004019363320988717,
+      "scores": {
+        "Saudi Arabia": 0.004019363320988717
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1486,
+      "attribute_score": 0.004003594247557277,
+      "scores": {
+        "Saudi Arabia": 0.004003594247557277
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 655,
+      "attribute_score": 0.003994065222980307,
+      "scores": {
+        "Saudi Arabia": 0.003994065222980307
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2481,
+      "attribute_score": 0.003992526651286393,
+      "scores": {
+        "Saudi Arabia": 0.003992526651286393
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 412,
+      "attribute_score": 0.003985970997981888,
+      "scores": {
+        "Saudi Arabia": 0.003985970997981888
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 626,
+      "attribute_score": 0.003973092964227251,
+      "scores": {
+        "Saudi Arabia": 0.003973092964227251
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2321,
+      "attribute_score": 0.003967418945092949,
+      "scores": {
+        "Saudi Arabia": 0.003967418945092949
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2136,
+      "attribute_score": 0.003966147951084933,
+      "scores": {
+        "Saudi Arabia": 0.003966147951084933
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1069,
+      "attribute_score": 0.0039590897319985805,
+      "scores": {
+        "Saudi Arabia": 0.0039590897319985805
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2178,
+      "attribute_score": 0.0039570931908038025,
+      "scores": {
+        "Saudi Arabia": 0.0039570931908038025
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 887,
+      "attribute_score": 0.0039461207904404015,
+      "scores": {
+        "Saudi Arabia": 0.0039461207904404015
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1002,
+      "attribute_score": 0.003942300947450047,
+      "scores": {
+        "Saudi Arabia": 0.003942300947450047
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1289,
+      "attribute_score": 0.00394206081362937,
+      "scores": {
+        "Saudi Arabia": 0.00394206081362937
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1893,
+      "attribute_score": 0.003941282093953743,
+      "scores": {
+        "Saudi Arabia": 0.003941282093953743
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 55,
+      "attribute_score": 0.003941093417380354,
+      "scores": {
+        "Saudi Arabia": 0.003941093417380354
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1299,
+      "attribute_score": 0.003940884157908048,
+      "scores": {
+        "Saudi Arabia": 0.003940884157908048
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2416,
+      "attribute_score": 0.003934680129126679,
+      "scores": {
+        "Saudi Arabia": 0.003934680129126679
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1921,
+      "attribute_score": 0.003926450828854128,
+      "scores": {
+        "Saudi Arabia": 0.003926450828854128
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 980,
+      "attribute_score": 0.003925134809754735,
+      "scores": {
+        "Saudi Arabia": 0.003925134809754735
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3071,
+      "attribute_score": 0.003921595408762101,
+      "scores": {
+        "Saudi Arabia": 0.003921595408762101
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 547,
+      "attribute_score": 0.003919326144156696,
+      "scores": {
+        "Saudi Arabia": 0.003919326144156696
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3065,
+      "attribute_score": 0.003915122087053258,
+      "scores": {
+        "Saudi Arabia": 0.003915122087053258
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 371,
+      "attribute_score": 0.0039149565662411475,
+      "scores": {
+        "Saudi Arabia": 0.0039149565662411475
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 30,
+      "attribute_score": 0.0039040137537949375,
+      "scores": {
+        "Saudi Arabia": 0.0039040137537949375
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2882,
+      "attribute_score": 0.0038875800242526926,
+      "scores": {
+        "Saudi Arabia": 0.0038875800242526926
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2594,
+      "attribute_score": 0.003884992153524495,
+      "scores": {
+        "Saudi Arabia": 0.003884992153524495
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 890,
+      "attribute_score": 0.003884618230860868,
+      "scores": {
+        "Saudi Arabia": 0.003884618230860868
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2970,
+      "attribute_score": 0.0038770600188550333,
+      "scores": {
+        "Saudi Arabia": 0.0038770600188550333
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1510,
+      "attribute_score": 0.003870934033565384,
+      "scores": {
+        "Saudi Arabia": 0.003870934033565384
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 381,
+      "attribute_score": 0.0038618544022813975,
+      "scores": {
+        "Saudi Arabia": 0.0038618544022813975
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 696,
+      "attribute_score": 0.003854614367587961,
+      "scores": {
+        "Saudi Arabia": 0.003854614367587961
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1023,
+      "attribute_score": 0.0038504429000744715,
+      "scores": {
+        "Saudi Arabia": 0.0038504429000744715
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1014,
+      "attribute_score": 0.003849189916103006,
+      "scores": {
+        "Saudi Arabia": 0.003849189916103006
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2035,
+      "attribute_score": 0.003847990104620405,
+      "scores": {
+        "Saudi Arabia": 0.003847990104620405
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 240,
+      "attribute_score": 0.0038463125983588128,
+      "scores": {
+        "Saudi Arabia": 0.0038463125983588128
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2185,
+      "attribute_score": 0.0038460252953947875,
+      "scores": {
+        "Saudi Arabia": 0.0038460252953947875
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2216,
+      "attribute_score": 0.0038423426717305357,
+      "scores": {
+        "Saudi Arabia": 0.0038423426717305357
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 970,
+      "attribute_score": 0.0038397466536048506,
+      "scores": {
+        "Saudi Arabia": 0.0038397466536048506
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1184,
+      "attribute_score": 0.0038364448135705304,
+      "scores": {
+        "Saudi Arabia": 0.0038364448135705304
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1390,
+      "attribute_score": 0.003827856598998145,
+      "scores": {
+        "Saudi Arabia": 0.003827856598998145
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 986,
+      "attribute_score": 0.0038251833950015282,
+      "scores": {
+        "Saudi Arabia": 0.0038251833950015282
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 756,
+      "attribute_score": 0.00381948450486437,
+      "scores": {
+        "Saudi Arabia": 0.00381948450486437
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2379,
+      "attribute_score": 0.003815566035483381,
+      "scores": {
+        "Saudi Arabia": 0.003815566035483381
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 398,
+      "attribute_score": 0.003811109837868231,
+      "scores": {
+        "Saudi Arabia": 0.003811109837868231
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 610,
+      "attribute_score": 0.003807181077037784,
+      "scores": {
+        "Saudi Arabia": 0.003807181077037784
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 822,
+      "attribute_score": 0.0038059795503136064,
+      "scores": {
+        "Saudi Arabia": 0.0038059795503136064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2267,
+      "attribute_score": 0.003805232562607141,
+      "scores": {
+        "Saudi Arabia": 0.003805232562607141
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 873,
+      "attribute_score": 0.003801318381330092,
+      "scores": {
+        "Saudi Arabia": 0.003801318381330092
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 919,
+      "attribute_score": 0.003800645149011406,
+      "scores": {
+        "Saudi Arabia": 0.003800645149011406
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 597,
+      "attribute_score": 0.0037997077694899746,
+      "scores": {
+        "Saudi Arabia": 0.0037997077694899746
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1470,
+      "attribute_score": 0.0037951194982734516,
+      "scores": {
+        "Saudi Arabia": 0.0037951194982734516
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2924,
+      "attribute_score": 0.0037892550873241835,
+      "scores": {
+        "Saudi Arabia": 0.0037892550873241835
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1711,
+      "attribute_score": 0.003786457528313287,
+      "scores": {
+        "Saudi Arabia": 0.003786457528313287
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1098,
+      "attribute_score": 0.0037795005084799347,
+      "scores": {
+        "Saudi Arabia": 0.0037795005084799347
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1151,
+      "attribute_score": 0.0037782929784102403,
+      "scores": {
+        "Saudi Arabia": 0.0037782929784102403
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 423,
+      "attribute_score": 0.0037713230942650663,
+      "scores": {
+        "Saudi Arabia": 0.0037713230942650663
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3028,
+      "attribute_score": 0.0037654972762512645,
+      "scores": {
+        "Saudi Arabia": 0.0037654972762512645
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1771,
+      "attribute_score": 0.0037626396837851985,
+      "scores": {
+        "Saudi Arabia": 0.0037626396837851985
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2689,
+      "attribute_score": 0.003756284713745117,
+      "scores": {
+        "Saudi Arabia": 0.003756284713745117
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2149,
+      "attribute_score": 0.0037548970833099146,
+      "scores": {
+        "Saudi Arabia": 0.0037548970833099146
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 445,
+      "attribute_score": 0.003754461411949542,
+      "scores": {
+        "Saudi Arabia": 0.003754461411949542
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 200,
+      "attribute_score": 0.003743716281094997,
+      "scores": {
+        "Saudi Arabia": 0.003743716281094997
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2830,
+      "attribute_score": 0.0037417840614593287,
+      "scores": {
+        "Saudi Arabia": 0.0037417840614593287
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 743,
+      "attribute_score": 0.0037416957265181505,
+      "scores": {
+        "Saudi Arabia": 0.0037416957265181505
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1534,
+      "attribute_score": 0.003739051252817936,
+      "scores": {
+        "Saudi Arabia": 0.003739051252817936
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2594,
+      "attribute_score": 0.003722731158030119,
+      "scores": {
+        "Saudi Arabia": 0.003722731158030119
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2824,
+      "attribute_score": 0.003721767621074649,
+      "scores": {
+        "Saudi Arabia": 0.003721767621074649
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2045,
+      "attribute_score": 0.0037209074274241498,
+      "scores": {
+        "Saudi Arabia": 0.0037209074274241498
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2958,
+      "attribute_score": 0.0037179048970448886,
+      "scores": {
+        "Saudi Arabia": 0.0037179048970448886
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1265,
+      "attribute_score": 0.0037110194885473457,
+      "scores": {
+        "Saudi Arabia": 0.0037110194885473457
+      }
+    }
+  ],
+  "layer_distribution": {
+    "0": 32,
+    "1": 43,
+    "2": 59,
+    "3": 8,
+    "4": 15,
+    "5": 18,
+    "6": 28,
+    "7": 20,
+    "8": 12,
+    "9": 3,
+    "10": 10,
+    "11": 5
+  },
+  "total_selected": 253,
+  "total_candidates": 36864
+}

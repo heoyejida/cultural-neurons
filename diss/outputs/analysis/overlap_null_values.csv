@@ -1,0 +1,4 @@
+model_id,model_label,n_locales,n_observed_locale_pairs,observed_mean_jaccard,observed_min_jaccard,observed_max_jaccard,n_saved_seeds_per_locale,n_distinct_seed_assignments,n_null_pairwise_comparisons,null_mean_jaccard,null_mean_q025,null_mean_q975,null_pairwise_q025,null_pairwise_q975,selected_size_min,selected_size_max,null_kind,formal_population_test
+qwen3-1p7b-base,Qwen3 1.7B,5,10,0.096096705,0.070730572,0.146620278,5,120,1200,0.005086965,0.004430839,0.005719749,0.001887683,0.008745081,1057,1244,finite_saved_layer_matched_distinct_seed_assignments,False
+eurollm-1p7b,EuroLLM 1.7B,5,10,0.109446097,0.077634011,0.194444444,5,120,1200,0.003637729,0.002902594,0.004397649,0.001148023,0.006516355,829,971,finite_saved_layer_matched_distinct_seed_assignments,False
+tiny-aya-base,Tiny Aya,5,10,0.098118045,0.052766503,0.181548299,5,120,1200,0.004013935,0.003506304,0.004455313,0.002235524,0.006073542,2310,2747,finite_saved_layer_matched_distinct_seed_assignments,False

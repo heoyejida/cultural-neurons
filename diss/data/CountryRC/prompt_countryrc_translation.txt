@@ -1,0 +1,18 @@
+You are translating a fill-in-the-blank story template from English into $language_name.
+
+The context has `{country}` and `{country_dummy}` placeholders that get filled with any country name at runtime. `{country}` is the correct answer to the question; `{country_dummy}` is a distractor.
+
+ENGLISH
+  context:  $context_en
+  question: $question_en
+
+Rules:
+1. Keep every `{country}` and `{country_dummy}` token verbatim — same braces, same count, same semantic role. Translate everything else into natural $language_name.
+2. The translation must read grammatically for ANY country name in those slots. Place each placeholder where no surrounding particle, article, case marker, or other affix depends on the inserted name. Reorder or rephrase as needed.
+3. Keep English personal names in Latin script.
+4. Preserve the source's meaning, tense, and narrative style. Do not summarize or invent.
+5. The question must stay a direct question whose correct answer is the country named by `{country}`.
+
+$locale_hint
+
+Return JSON: { "context": "<translation>", "question": "<translation>" }

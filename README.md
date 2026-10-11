@@ -22,7 +22,9 @@ This shared repository includes:
 | `diss/data/CountryRC/data.json` | Source CountryRC templates |
 | `diss/data/CountryRC/data_multilingual.json` | Localized CountryRC templates used by the loader |
 
-Belebele is loaded from `facebook/belebele` on Hugging Face. Model weights and tokenizers are loaded from the repositories listed in `diss/config/model_manifest.yaml`; restricted repositories require access credentials.
+Raw inputs, dataset-construction scripts, translation prompts/caches, and the six-language Belebele snapshot are also included; see [data documentation](diss/data/README.md).
+
+The experiment loader loads Belebele from `facebook/belebele` on Hugging Face. Model weights and tokenizers are loaded from the repositories listed in `diss/config/model_manifest.yaml`; restricted repositories require access credentials.
 
 ## Run
 
@@ -40,6 +42,6 @@ python -m diss.cli summarize
 
 Results and summary CSVs are written under `diss/outputs/`. Manifest runners reuse existing artifacts; add `--force` when rerunning after changing experiment settings.
 
-Saved results, analysis/plotting scripts, and dataset-construction scripts are not included in this shared copy.
+## Saved results
 
-Checkpoint tracing additionally requires `diss/analysis/checkpoint_trace_summary.py` from the full repository to produce its final summary.
+Saved experiment results and the analysis code used to calculate and plot them are included. See [RESULTS.md](RESULTS.md) for extraction instructions and code locations, [RESULTS_COHORT.json](RESULTS_COHORT.json) for the included model/locale/checkpoint selections, and [RESULTS_MANIFEST.csv](RESULTS_MANIFEST.csv) for file hashes. Large JSON/CSV outputs are gzip-compressed.

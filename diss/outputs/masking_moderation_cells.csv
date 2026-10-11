@@ -1,0 +1,37 @@
+model_id,locale,country,regime,params,param_str,param_tier,log10_params,centricity,tokens,tokens_approx,token_tier,log10_tokens,cultural_drop,slr_drop_mean,gap,se_gap,slr_z,slr_p_z_one_sided,exceeds_slr_null
+goldfish-ko,ko,South Korea,monolingual,1.25e+08,125M,<200M,8.09691,monocentric,2.27e+08,False,<1B,8.35603,-0.0137,-0.0055,-0.0082,0.0148652,-0.7303,0.7674,False
+goldfish-es,es,Spain,monolingual,1.25e+08,125M,<200M,8.09691,pluricentric,2.218e+08,False,<1B,8.34596,-0.015,0,-0.015,0.0104372,-1.633,0.9488,False
+goldfish-zh,zh,China,monolingual,1.25e+08,125M,<200M,8.09691,pluricentric,2.062e+08,False,<1B,8.31429,0.0132,0.0066,0.0066,0.0143783,0.5774,0.2819,False
+goldfish-ar,ar,Saudi Arabia,monolingual,1.25e+08,125M,<200M,8.09691,pluricentric,1.962e+08,False,<1B,8.2927,-0.0143,0.0257,-0.04,0.0524826,-1.4557,0.9273,False
+goldfish-fr,fr,France,monolingual,1.25e+08,125M,<200M,8.09691,pluricentric,2.514e+08,False,<1B,8.40037,-0.0172,0.0276,-0.0448,0.0573238,-4.7469,1,False
+ko-en-intermediate,ko,South Korea,bilingual,2.77e+08,277M,200M-1B,8.44248,monocentric,3.33e+09,False,1-10B,9.52244,0.0274,0.0137,0.0137,0.0257977,0.4082,0.3415,False
+es-en-intermediate,es,Spain,bilingual,2.77e+08,277M,200M-1B,8.44248,pluricentric,3.33e+09,False,1-10B,9.52244,0.0301,0.003,0.0271,0.0176938,3.1574,0.0008,False
+zh-en-intermediate,zh,China,bilingual,2.77e+08,277M,200M-1B,8.44248,pluricentric,3.33e+09,False,1-10B,9.52244,-0.0132,-0.0053,-0.0079,0.0169653,-1.4343,0.9243,False
+ar-en-intermediate,ar,Saudi Arabia,bilingual,2.77e+08,277M,200M-1B,8.44248,pluricentric,3.33e+09,False,1-10B,9.52244,0.0286,0.02,0.0086,0.0387838,0.2893,0.3862,False
+fr-en-intermediate,fr,France,bilingual,2.77e+08,277M,200M-1B,8.44248,pluricentric,3.33e+09,False,1-10B,9.52244,0,0,0,0.0352047,,,False
+xglm-564m,ko,South Korea,multilingual,5.64e+08,564M,200M-1B,8.75128,monocentric,4.06e+10,False,10-100B,10.6085,0.1575,-0.0123,0.1698,0.0378686,5.2052,0,True
+xglm-564m,es,Spain,multilingual,5.64e+08,564M,200M-1B,8.75128,pluricentric,1.77e+10,False,10-100B,10.248,-0.0075,-0.0045,-0.003,0.025297,-0.1278,0.5508,False
+xglm-564m,zh,China,multilingual,5.64e+08,564M,200M-1B,8.75128,pluricentric,2.42e+10,False,10-100B,10.3838,0.0263,0.0039,0.0224,0.0289708,0.9152,0.18,False
+xglm-564m,ar,Saudi Arabia,multilingual,5.64e+08,564M,200M-1B,8.75128,pluricentric,,False,,,0.0286,-0.0114,0.04,0.0426707,1.2279,0.1097,False
+xglm-564m,fr,France,multilingual,5.64e+08,564M,200M-1B,8.75128,pluricentric,1.57e+10,False,10-100B,10.1959,0.1034,0.0207,0.0827,0.0545493,2.6833,0.0036,False
+qwen3-1p7b-base,ko,South Korea,multilingual,1.7e+09,1.7B,1-3B,9.23045,monocentric,,False,,,0.1986,-0.0151,0.2137,0.0404374,21.035,0,True
+qwen3-1p7b-base,es,Spain,multilingual,1.7e+09,1.7B,1-3B,9.23045,pluricentric,,False,,,0.1429,0.0421,0.1008,0.0443888,2.4145,0.0079,True
+qwen3-1p7b-base,zh,China,multilingual,1.7e+09,1.7B,1-3B,9.23045,pluricentric,,False,,,0.25,0.1053,0.1447,0.104481,0.6667,0.2525,True
+qwen3-1p7b-base,ar,Saudi Arabia,multilingual,1.7e+09,1.7B,1-3B,9.23045,pluricentric,,False,,,0.0286,0.0486,-0.02,0.0424755,-0.639,0.7386,False
+qwen3-1p7b-base,fr,France,multilingual,1.7e+09,1.7B,1-3B,9.23045,pluricentric,,False,,,0.0517,0.0448,0.0069,0.0460943,0.0899,0.4642,False
+kanana-1p5-2p1b-base,ko,South Korea,bilingual,2.1e+09,2.1B,1-3B,9.32222,monocentric,3.2e+11,True,>=100B,11.5051,0.4384,-0.0123,0.4507,0.055035,7.1078,0,True
+croissantllm-base,fr,France,bilingual,1.3e+09,1.3B,1-3B,9.11394,pluricentric,1.24e+12,False,>=100B,12.0934,0.0862,-0.0103,0.0965,0.0537831,4.174,0,False
+jais-family-1p3b,ar,Saudi Arabia,bilingual,1.3e+09,1.3B,1-3B,9.11394,pluricentric,1.41e+11,False,>=100B,11.1492,0.0429,-0.0029,0.0458,0.0335403,2.9212,0.0017,False
+hplt2c-kor,ko,South Korea,monolingual,2.15e+09,2.1B,1-3B,9.33244,monocentric,1.97e+10,True,10-100B,10.2945,0.1233,-0.0068,0.1301,0.0331216,5.6028,0,True
+hplt2c-ara,ar,Saudi Arabia,monolingual,2.15e+09,2.1B,1-3B,9.33244,pluricentric,4.814e+10,True,10-100B,10.6825,0,-0.0029,0.0029,0.0302974,0.1534,0.439,False
+hplt2c-fra,fr,France,monolingual,2.15e+09,2.1B,1-3B,9.33244,pluricentric,2.37e+11,True,>=100B,11.3747,0.0517,0.0034,0.0483,0.0309833,6.261,0,False
+tiny-aya-base,ko,South Korea,multilingual,3.35e+09,3.4B,>=3B,9.52504,monocentric,,False,,,0.3219,0.0041,0.3178,0.0387249,30.5953,0,True
+tiny-aya-base,es,Spain,multilingual,3.35e+09,3.4B,>=3B,9.52504,pluricentric,,False,,,0.1128,0.0015,0.1113,0.0383744,4.153,0,True
+tiny-aya-base,zh,China,multilingual,3.35e+09,3.4B,>=3B,9.52504,pluricentric,,False,,,0.0395,-0.0158,0.0553,0.0346862,2.8316,0.0023,False
+tiny-aya-base,ar,Saudi Arabia,multilingual,3.35e+09,3.4B,>=3B,9.52504,pluricentric,,False,,,0.0429,-0.0057,0.0486,0.0369014,3.8013,0.0001,False
+tiny-aya-base,fr,France,multilingual,3.35e+09,3.4B,>=3B,9.52504,pluricentric,,False,,,0.069,0.0172,0.0518,0.0530628,4.2426,0,False
+eurollm-1p7b,ko,South Korea,multilingual,1.7e+09,1.7B,1-3B,9.23045,monocentric,,False,,,0.274,0.0781,0.1959,0.0426642,11.3945,0,True
+eurollm-1p7b,es,Spain,multilingual,1.7e+09,1.7B,1-3B,9.23045,pluricentric,,False,,,0.0827,0.0015,0.0812,0.0278527,2.9179,0.0018,True
+eurollm-1p7b,zh,China,multilingual,1.7e+09,1.7B,1-3B,9.23045,pluricentric,,False,,,0.0395,0.0105,0.029,0.0326633,1.0429,0.1485,False
+eurollm-1p7b,ar,Saudi Arabia,multilingual,1.7e+09,1.7B,1-3B,9.23045,pluricentric,,False,,,0.0857,-0.0114,0.0971,0.040435,8.1276,0,True
+eurollm-1p7b,fr,France,multilingual,1.7e+09,1.7B,1-3B,9.23045,pluricentric,,False,,,0.0862,0.0345,0.0517,0.0417896,1.7321,0.0416,False

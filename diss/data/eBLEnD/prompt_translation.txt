@@ -1,0 +1,39 @@
+You are translating answer options for a multiple-choice question in an everyday cultural knowledge benchmark.
+
+Translate the answer options from English into $language_name for the locale $country_local ($locale_id).
+
+QUESTION (English):
+$question_en
+
+QUESTION ($language_name):
+$question_local
+
+REFERENCE ANSWERS — $language_name answers that people actually gave for THIS question. Treat this as a candidate vocabulary pool: it is NOT aligned to the English options below and may not cover every option.
+$glossary
+
+STRINGS TO TRANSLATE (English):
+$items
+
+Guidelines:
+- Translate only the answer options. Do not rewrite the question.
+- If an option is meaning-equivalent to one of the REFERENCE ANSWERS, reuse that $language_name form verbatim — it is the authentic human wording.
+- Do not reuse a reference answer that is only related, broader, narrower, or culturally similar to the option.
+- If no reference answer is meaning-equivalent, translate naturally into $language_name, matching the wording and register of the reference answers.
+- Preserve the original cultural referent. Do not replace it with a culturally similar item from the target locale.
+- Keep numerals and HH:MM times unchanged.
+- Keep brand names in their source form unless a reference answer provides a conventional $language_name form.
+- Answer options should be short noun phrases, not full sentences.
+- Preserve the item ids, source strings, number of items, and order of input items.
+- Do not add explanations, notes, or alternatives.
+- Output valid JSON only.
+
+Output ONLY this JSON. Every input item must appear exactly once:
+{
+  "translations": [
+    {
+      "id": "<input item id>",
+      "source": "<english string>",
+      "translation": "<$language_name translation>"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+dataset,dataset_label,scoring,scoring_label,selection_scoring,analysis_kind,n_pairs,min_items,max_items,pair_weighted_unmasked,pair_weighted_selected_drop,pair_weighted_slr_drop,pair_weighted_slr_gap
+blend_mcq,Extended BLEnD,byte,Normalised by bytes,byte,behavioural_rescoring_without_reselection,36,58,152,0.521753323,0.080622686,0.010851079,0.069771608
+blend_mcq,Extended BLEnD,token,Normalised by tokens,byte,behavioural_rescoring_without_reselection,36,58,152,0.535898307,0.082712052,0.010580511,0.072131541
+blend_mcq,Extended BLEnD,sum,Summed NLL,byte,behavioural_rescoring_without_reselection,36,58,152,0.673767706,0.055167464,0.004938434,0.050229030
+belebele,Belebele,byte,Normalised by bytes,byte,behavioural_rescoring_without_reselection,36,900,900,0.357561728,0.009814815,0.003166667,0.006648148
+belebele,Belebele,token,Normalised by tokens,byte,behavioural_rescoring_without_reselection,36,900,900,0.356882716,0.007006173,0.003185185,0.003820988
+belebele,Belebele,sum,Summed NLL,byte,behavioural_rescoring_without_reselection,36,900,900,0.373888889,0.009197531,0.002672840,0.006524691
+countryrc_localized,CountryRC,byte,Normalised by bytes,byte,behavioural_rescoring_without_reselection,36,25,25,0.748888889,-0.111111111,0.005777778,-0.116888889
+countryrc_localized,CountryRC,token,Normalised by tokens,byte,behavioural_rescoring_without_reselection,36,25,25,0.534444444,-0.186666667,0.011777778,-0.198444444
+countryrc_localized,CountryRC,sum,Summed NLL,byte,behavioural_rescoring_without_reselection,36,25,25,0.778888889,-0.073333333,0.001555556,-0.074888889

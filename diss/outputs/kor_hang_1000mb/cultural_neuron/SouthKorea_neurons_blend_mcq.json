@@ -1,0 +1,2676 @@
+{
+  "model_name": "goldfish-models/kor_hang_1000mb",
+  "target_country": "South Korea",
+  "revision": null,
+  "dataset_ids": {
+    "blend_mcq": [
+      "eblnd-ko-KR_0001",
+      "eblnd-ko-KR_0002",
+      "eblnd-ko-KR_0003",
+      "eblnd-ko-KR_0004",
+      "eblnd-ko-KR_0005",
+      "eblnd-ko-KR_0095",
+      "eblnd-ko-KR_0096",
+      "eblnd-ko-KR_0097",
+      "eblnd-ko-KR_0098",
+      "eblnd-ko-KR_0099",
+      "eblnd-ko-KR_0100",
+      "eblnd-ko-KR_0101",
+      "eblnd-ko-KR_0102",
+      "eblnd-ko-KR_0670",
+      "eblnd-ko-KR_0671",
+      "eblnd-ko-KR_0672",
+      "eblnd-ko-KR_0673",
+      "eblnd-ko-KR_0674",
+      "eblnd-ko-KR_0675",
+      "eblnd-ko-KR_0676",
+      "eblnd-ko-KR_0677",
+      "eblnd-ko-KR_0678",
+      "eblnd-ko-KR_0679",
+      "eblnd-ko-KR_0680",
+      "eblnd-ko-KR_0681",
+      "eblnd-ko-KR_0682",
+      "eblnd-ko-KR_0683",
+      "eblnd-ko-KR_0684",
+      "eblnd-ko-KR_0685",
+      "eblnd-ko-KR_0691",
+      "eblnd-ko-KR_0692",
+      "eblnd-ko-KR_0693",
+      "eblnd-ko-KR_0694",
+      "eblnd-ko-KR_0695",
+      "eblnd-ko-KR_0716",
+      "eblnd-ko-KR_0717",
+      "eblnd-ko-KR_0718",
+      "eblnd-ko-KR_0719",
+      "eblnd-ko-KR_0735",
+      "eblnd-ko-KR_0736",
+      "eblnd-ko-KR_0737",
+      "eblnd-ko-KR_0738",
+      "eblnd-ko-KR_0739",
+      "eblnd-ko-KR_0740",
+      "eblnd-ko-KR_0741",
+      "eblnd-ko-KR_0781",
+      "eblnd-ko-KR_0782",
+      "eblnd-ko-KR_0783",
+      "eblnd-ko-KR_0784",
+      "eblnd-ko-KR_0785",
+      "eblnd-ko-KR_0816",
+      "eblnd-ko-KR_0817",
+      "eblnd-ko-KR_0818",
+      "eblnd-ko-KR_0819",
+      "eblnd-ko-KR_0820",
+      "eblnd-ko-KR_0900",
+      "eblnd-ko-KR_0901",
+      "eblnd-ko-KR_0902",
+      "eblnd-ko-KR_0903",
+      "eblnd-ko-KR_0904",
+      "eblnd-ko-KR_1188",
+      "eblnd-ko-KR_1189",
+      "eblnd-ko-KR_1190",
+      "eblnd-ko-KR_1191",
+      "eblnd-ko-KR_1192",
+      "eblnd-ko-KR_1198",
+      "eblnd-ko-KR_1199",
+      "eblnd-ko-KR_1200",
+      "eblnd-ko-KR_1201",
+      "eblnd-ko-KR_1202",
+      "eblnd-ko-KR_1208",
+      "eblnd-ko-KR_1209",
+      "eblnd-ko-KR_1210",
+      "eblnd-ko-KR_1211",
+      "eblnd-ko-KR_1212",
+      "eblnd-ko-KR_1213",
+      "eblnd-ko-KR_1214",
+      "eblnd-ko-KR_1215",
+      "eblnd-ko-KR_1216",
+      "eblnd-ko-KR_1217",
+      "eblnd-ko-KR_1219",
+      "eblnd-ko-KR_1220",
+      "eblnd-ko-KR_1221",
+      "eblnd-ko-KR_1222",
+      "eblnd-ko-KR_1223",
+      "eblnd-ko-KR_1224",
+      "eblnd-ko-KR_1225",
+      "eblnd-ko-KR_1228",
+      "eblnd-ko-KR_1229",
+      "eblnd-ko-KR_1230",
+      "eblnd-ko-KR_1231",
+      "eblnd-ko-KR_1232",
+      "eblnd-ko-KR_1238",
+      "eblnd-ko-KR_1239",
+      "eblnd-ko-KR_1240",
+      "eblnd-ko-KR_1241",
+      "eblnd-ko-KR_1407",
+      "eblnd-ko-KR_1408",
+      "eblnd-ko-KR_1409",
+      "eblnd-ko-KR_1410",
+      "eblnd-ko-KR_1411",
+      "eblnd-ko-KR_1412",
+      "eblnd-ko-KR_1413",
+      "eblnd-ko-KR_1414",
+      "eblnd-ko-KR_1415",
+      "eblnd-ko-KR_1481",
+      "eblnd-ko-KR_1482",
+      "eblnd-ko-KR_1483",
+      "eblnd-ko-KR_1484",
+      "eblnd-ko-KR_1485",
+      "eblnd-ko-KR_1501",
+      "eblnd-ko-KR_1502",
+      "eblnd-ko-KR_1503",
+      "eblnd-ko-KR_1504",
+      "eblnd-ko-KR_1505",
+      "eblnd-ko-KR_1591",
+      "eblnd-ko-KR_1592",
+      "eblnd-ko-KR_1593",
+      "eblnd-ko-KR_1594",
+      "eblnd-ko-KR_1595",
+      "eblnd-ko-KR_1596",
+      "eblnd-ko-KR_1597",
+      "eblnd-ko-KR_1599",
+      "eblnd-ko-KR_1600",
+      "eblnd-ko-KR_1601",
+      "eblnd-ko-KR_1602",
+      "eblnd-ko-KR_1603",
+      "eblnd-ko-KR_1619",
+      "eblnd-ko-KR_1620",
+      "eblnd-ko-KR_1621",
+      "eblnd-ko-KR_1622",
+      "eblnd-ko-KR_1623",
+      "eblnd-ko-KR_1625",
+      "eblnd-ko-KR_1626",
+      "eblnd-ko-KR_1627",
+      "eblnd-ko-KR_1628",
+      "eblnd-ko-KR_1629",
+      "eblnd-ko-KR_1790",
+      "eblnd-ko-KR_1791",
+      "eblnd-ko-KR_1792",
+      "eblnd-ko-KR_1793",
+      "eblnd-ko-KR_1794",
+      "eblnd-ko-KR_1795",
+      "eblnd-ko-KR_1796",
+      "eblnd-ko-KR_1827",
+      "eblnd-ko-KR_1848",
+      "eblnd-ko-KR_1849",
+      "eblnd-ko-KR_1850",
+      "eblnd-ko-KR_1851",
+      "eblnd-ko-KR_1852",
+      "eblnd-ko-KR_1853",
+      "eblnd-ko-KR_1854",
+      "eblnd-ko-KR_1866",
+      "eblnd-ko-KR_1867",
+      "eblnd-ko-KR_1868",
+      "eblnd-ko-KR_1869",
+      "eblnd-ko-KR_1870",
+      "eblnd-ko-KR_2170",
+      "eblnd-ko-KR_2171",
+      "eblnd-ko-KR_2172",
+      "eblnd-ko-KR_2173",
+      "eblnd-ko-KR_2174",
+      "eblnd-ko-KR_2232",
+      "eblnd-ko-KR_2233",
+      "eblnd-ko-KR_2234",
+      "eblnd-ko-KR_2235",
+      "eblnd-ko-KR_2236",
+      "eblnd-ko-KR_2315",
+      "eblnd-ko-KR_2316",
+      "eblnd-ko-KR_2317",
+      "eblnd-ko-KR_2318",
+      "eblnd-ko-KR_2319",
+      "eblnd-ko-KR_2363",
+      "eblnd-ko-KR_2364",
+      "eblnd-ko-KR_2365",
+      "eblnd-ko-KR_2366",
+      "eblnd-ko-KR_2367",
+      "eblnd-ko-KR_2368"
+    ],
+    "countryrc_localized": [
+      "ko-south_korea-0",
+      "ko-south_korea-1",
+      "ko-south_korea-10",
+      "ko-south_korea-11",
+      "ko-south_korea-12",
+      "ko-south_korea-13",
+      "ko-south_korea-14",
+      "ko-south_korea-15",
+      "ko-south_korea-16",
+      "ko-south_korea-17",
+      "ko-south_korea-18",
+      "ko-south_korea-19",
+      "ko-south_korea-2",
+      "ko-south_korea-20",
+      "ko-south_korea-21",
+      "ko-south_korea-22",
+      "ko-south_korea-23",
+      "ko-south_korea-24",
+      "ko-south_korea-3",
+      "ko-south_korea-4",
+      "ko-south_korea-5",
+      "ko-south_korea-6",
+      "ko-south_korea-7",
+      "ko-south_korea-8",
+      "ko-south_korea-9"
+    ]
+  },
+  "thresholds": {
+    "mlp_threshold": 0.01,
+    "countryrc_threshold": 0.01
+  },
+  "top_neurons": [
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2426,
+      "attribute_score": 0.027802756663118856,
+      "scores": {
+        "South Korea": 0.027802756663118856
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2145,
+      "attribute_score": 0.020328521728515625,
+      "scores": {
+        "South Korea": 0.020328521728515625
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 363,
+      "attribute_score": 0.018388418669111273,
+      "scores": {
+        "South Korea": 0.018388418669111273
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1147,
+      "attribute_score": 0.017403551701749308,
+      "scores": {
+        "South Korea": 0.017403551701749308
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 697,
+      "attribute_score": 0.01731481444969606,
+      "scores": {
+        "South Korea": 0.01731481444969606
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2015,
+      "attribute_score": 0.015685885140065397,
+      "scores": {
+        "South Korea": 0.015685885140065397
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 912,
+      "attribute_score": 0.014611865697282084,
+      "scores": {
+        "South Korea": 0.014611865697282084
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1595,
+      "attribute_score": 0.013907100377457866,
+      "scores": {
+        "South Korea": 0.013907100377457866
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1534,
+      "attribute_score": 0.013527816601013869,
+      "scores": {
+        "South Korea": 0.013527816601013869
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2312,
+      "attribute_score": 0.012346187334382133,
+      "scores": {
+        "South Korea": 0.012346187334382133
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2997,
+      "attribute_score": 0.011479238445839186,
+      "scores": {
+        "South Korea": 0.011479238445839186
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1375,
+      "attribute_score": 0.011438937669389703,
+      "scores": {
+        "South Korea": 0.011438937669389703
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1347,
+      "attribute_score": 0.01114324505409498,
+      "scores": {
+        "South Korea": 0.01114324505409498
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 358,
+      "attribute_score": 0.010410437423191714,
+      "scores": {
+        "South Korea": 0.010410437423191714
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2421,
+      "attribute_score": 0.010152497988068656,
+      "scores": {
+        "South Korea": 0.010152497988068656
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2611,
+      "attribute_score": 0.0097027990255463,
+      "scores": {
+        "South Korea": 0.0097027990255463
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1624,
+      "attribute_score": 0.00948513223883811,
+      "scores": {
+        "South Korea": 0.00948513223883811
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1232,
+      "attribute_score": 0.009474578868137316,
+      "scores": {
+        "South Korea": 0.009474578868137316
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1548,
+      "attribute_score": 0.009425516878620963,
+      "scores": {
+        "South Korea": 0.009425516878620963
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1196,
+      "attribute_score": 0.009408824899223414,
+      "scores": {
+        "South Korea": 0.009408824899223414
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 745,
+      "attribute_score": 0.009213020962275815,
+      "scores": {
+        "South Korea": 0.009213020962275815
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1062,
+      "attribute_score": 0.009042021933566319,
+      "scores": {
+        "South Korea": 0.009042021933566319
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2797,
+      "attribute_score": 0.009041253100620227,
+      "scores": {
+        "South Korea": 0.009041253100620227
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2218,
+      "attribute_score": 0.009027580196937819,
+      "scores": {
+        "South Korea": 0.009027580196937819
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 952,
+      "attribute_score": 0.008925751353917497,
+      "scores": {
+        "South Korea": 0.008925751353917497
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 859,
+      "attribute_score": 0.008892562951934472,
+      "scores": {
+        "South Korea": 0.008892562951934472
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2606,
+      "attribute_score": 0.008787599842200119,
+      "scores": {
+        "South Korea": 0.008787599842200119
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2775,
+      "attribute_score": 0.008413603466548276,
+      "scores": {
+        "South Korea": 0.008413603466548276
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1279,
+      "attribute_score": 0.008339603295486964,
+      "scores": {
+        "South Korea": 0.008339603295486964
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 607,
+      "attribute_score": 0.00832685191979569,
+      "scores": {
+        "South Korea": 0.00832685191979569
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2443,
+      "attribute_score": 0.008276830228526941,
+      "scores": {
+        "South Korea": 0.008276830228526941
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 968,
+      "attribute_score": 0.008238035641359479,
+      "scores": {
+        "South Korea": 0.008238035641359479
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1221,
+      "attribute_score": 0.007887621943870287,
+      "scores": {
+        "South Korea": 0.007887621943870287
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 804,
+      "attribute_score": 0.007886736580495084,
+      "scores": {
+        "South Korea": 0.007886736580495084
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 480,
+      "attribute_score": 0.007865444997723183,
+      "scores": {
+        "South Korea": 0.007865444997723183
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2940,
+      "attribute_score": 0.007853577645976892,
+      "scores": {
+        "South Korea": 0.007853577645976892
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1848,
+      "attribute_score": 0.007842071940389913,
+      "scores": {
+        "South Korea": 0.007842071940389913
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 298,
+      "attribute_score": 0.007835314514931668,
+      "scores": {
+        "South Korea": 0.007835314514931668
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 270,
+      "attribute_score": 0.007797793056188005,
+      "scores": {
+        "South Korea": 0.007797793056188005
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3059,
+      "attribute_score": 0.0077967469611864414,
+      "scores": {
+        "South Korea": 0.0077967469611864414
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 212,
+      "attribute_score": 0.007758896002608738,
+      "scores": {
+        "South Korea": 0.007758896002608738
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2987,
+      "attribute_score": 0.007738670606291696,
+      "scores": {
+        "South Korea": 0.007738670606291696
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 802,
+      "attribute_score": 0.00764322548769833,
+      "scores": {
+        "South Korea": 0.00764322548769833
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 373,
+      "attribute_score": 0.00763481922363967,
+      "scores": {
+        "South Korea": 0.00763481922363967
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2575,
+      "attribute_score": 0.007626174541001909,
+      "scores": {
+        "South Korea": 0.007626174541001909
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1405,
+      "attribute_score": 0.007498832231157281,
+      "scores": {
+        "South Korea": 0.007498832231157281
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1673,
+      "attribute_score": 0.007473293984873911,
+      "scores": {
+        "South Korea": 0.007473293984873911
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1006,
+      "attribute_score": 0.007454764307214973,
+      "scores": {
+        "South Korea": 0.007454764307214973
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2913,
+      "attribute_score": 0.007395384017001377,
+      "scores": {
+        "South Korea": 0.007395384017001377
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 562,
+      "attribute_score": 0.007374577307968997,
+      "scores": {
+        "South Korea": 0.007374577307968997
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3028,
+      "attribute_score": 0.007353852304180016,
+      "scores": {
+        "South Korea": 0.007353852304180016
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2667,
+      "attribute_score": 0.00734596306018615,
+      "scores": {
+        "South Korea": 0.00734596306018615
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1136,
+      "attribute_score": 0.007303803154591764,
+      "scores": {
+        "South Korea": 0.007303803154591764
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2699,
+      "attribute_score": 0.007254750541086947,
+      "scores": {
+        "South Korea": 0.007254750541086947
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1742,
+      "attribute_score": 0.007240039578984293,
+      "scores": {
+        "South Korea": 0.007240039578984293
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1781,
+      "attribute_score": 0.007232794600926088,
+      "scores": {
+        "South Korea": 0.007232794600926088
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1845,
+      "attribute_score": 0.007208355357137959,
+      "scores": {
+        "South Korea": 0.007208355357137959
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2422,
+      "attribute_score": 0.007184831613904975,
+      "scores": {
+        "South Korea": 0.007184831613904975
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2139,
+      "attribute_score": 0.007183219609635599,
+      "scores": {
+        "South Korea": 0.007183219609635599
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 553,
+      "attribute_score": 0.007145033793502979,
+      "scores": {
+        "South Korea": 0.007145033793502979
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2896,
+      "attribute_score": 0.0071073649974351515,
+      "scores": {
+        "South Korea": 0.0071073649974351515
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2826,
+      "attribute_score": 0.007104696852437566,
+      "scores": {
+        "South Korea": 0.007104696852437566
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1794,
+      "attribute_score": 0.007047830003031184,
+      "scores": {
+        "South Korea": 0.007047830003031184
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1692,
+      "attribute_score": 0.007035351871104723,
+      "scores": {
+        "South Korea": 0.007035351871104723
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 844,
+      "attribute_score": 0.00689289141237066,
+      "scores": {
+        "South Korea": 0.00689289141237066
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1573,
+      "attribute_score": 0.006869557198513759,
+      "scores": {
+        "South Korea": 0.006869557198513759
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 285,
+      "attribute_score": 0.0068486640962322105,
+      "scores": {
+        "South Korea": 0.0068486640962322105
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2083,
+      "attribute_score": 0.006829908724581258,
+      "scores": {
+        "South Korea": 0.006829908724581258
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1195,
+      "attribute_score": 0.0068138496259625035,
+      "scores": {
+        "South Korea": 0.0068138496259625035
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2842,
+      "attribute_score": 0.006803473729765817,
+      "scores": {
+        "South Korea": 0.006803473729765817
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 733,
+      "attribute_score": 0.006788998507381825,
+      "scores": {
+        "South Korea": 0.006788998507381825
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3036,
+      "attribute_score": 0.006779654642169395,
+      "scores": {
+        "South Korea": 0.006779654642169395
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 674,
+      "attribute_score": 0.006749684891004241,
+      "scores": {
+        "South Korea": 0.006749684891004241
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1498,
+      "attribute_score": 0.006729894809508591,
+      "scores": {
+        "South Korea": 0.006729894809508591
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2733,
+      "attribute_score": 0.006729594777139385,
+      "scores": {
+        "South Korea": 0.006729594777139385
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 898,
+      "attribute_score": 0.006716824649425035,
+      "scores": {
+        "South Korea": 0.006716824649425035
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 236,
+      "attribute_score": 0.006707195485575816,
+      "scores": {
+        "South Korea": 0.006707195485575816
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 276,
+      "attribute_score": 0.006705402658226785,
+      "scores": {
+        "South Korea": 0.006705402658226785
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2661,
+      "attribute_score": 0.006687684005565858,
+      "scores": {
+        "South Korea": 0.006687684005565858
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1832,
+      "attribute_score": 0.006676834620786517,
+      "scores": {
+        "South Korea": 0.006676834620786517
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 411,
+      "attribute_score": 0.006671503688512223,
+      "scores": {
+        "South Korea": 0.006671503688512223
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1655,
+      "attribute_score": 0.006670290164733201,
+      "scores": {
+        "South Korea": 0.006670290164733201
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 674,
+      "attribute_score": 0.006614451997735527,
+      "scores": {
+        "South Korea": 0.006614451997735527
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2169,
+      "attribute_score": 0.006560502427347591,
+      "scores": {
+        "South Korea": 0.006560502427347591
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2126,
+      "attribute_score": 0.006491010108690584,
+      "scores": {
+        "South Korea": 0.006491010108690584
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2530,
+      "attribute_score": 0.006484875518284487,
+      "scores": {
+        "South Korea": 0.006484875518284487
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1475,
+      "attribute_score": 0.0064761129657873945,
+      "scores": {
+        "South Korea": 0.0064761129657873945
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1271,
+      "attribute_score": 0.006462617536609093,
+      "scores": {
+        "South Korea": 0.006462617536609093
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2588,
+      "attribute_score": 0.006446693720442526,
+      "scores": {
+        "South Korea": 0.006446693720442526
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2816,
+      "attribute_score": 0.006397819251156925,
+      "scores": {
+        "South Korea": 0.006397819251156925
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2449,
+      "attribute_score": 0.0063894558488652945,
+      "scores": {
+        "South Korea": 0.0063894558488652945
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 183,
+      "attribute_score": 0.006383767288722349,
+      "scores": {
+        "South Korea": 0.006383767288722349
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 776,
+      "attribute_score": 0.0063736853974588805,
+      "scores": {
+        "South Korea": 0.0063736853974588805
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2673,
+      "attribute_score": 0.006361621149470297,
+      "scores": {
+        "South Korea": 0.006361621149470297
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2902,
+      "attribute_score": 0.006329081031713593,
+      "scores": {
+        "South Korea": 0.006329081031713593
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 232,
+      "attribute_score": 0.006316120704908049,
+      "scores": {
+        "South Korea": 0.006316120704908049
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1513,
+      "attribute_score": 0.006315902377782243,
+      "scores": {
+        "South Korea": 0.006315902377782243
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1348,
+      "attribute_score": 0.006310239936528581,
+      "scores": {
+        "South Korea": 0.006310239936528581
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1064,
+      "attribute_score": 0.006274036477121075,
+      "scores": {
+        "South Korea": 0.006274036477121075
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1682,
+      "attribute_score": 0.006246471672915341,
+      "scores": {
+        "South Korea": 0.006246471672915341
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 929,
+      "attribute_score": 0.006243226233493077,
+      "scores": {
+        "South Korea": 0.006243226233493077
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1073,
+      "attribute_score": 0.006236531761255157,
+      "scores": {
+        "South Korea": 0.006236531761255157
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1950,
+      "attribute_score": 0.006235764267739285,
+      "scores": {
+        "South Korea": 0.006235764267739285
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2632,
+      "attribute_score": 0.006213339527001541,
+      "scores": {
+        "South Korea": 0.006213339527001541
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 747,
+      "attribute_score": 0.006212036261397801,
+      "scores": {
+        "South Korea": 0.006212036261397801
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1687,
+      "attribute_score": 0.006205194451835718,
+      "scores": {
+        "South Korea": 0.006205194451835718
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1301,
+      "attribute_score": 0.006201304746477791,
+      "scores": {
+        "South Korea": 0.006201304746477791
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1074,
+      "attribute_score": 0.006198424971505498,
+      "scores": {
+        "South Korea": 0.006198424971505498
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2795,
+      "attribute_score": 0.006184683756881885,
+      "scores": {
+        "South Korea": 0.006184683756881885
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2834,
+      "attribute_score": 0.0061792309364576015,
+      "scores": {
+        "South Korea": 0.0061792309364576015
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2428,
+      "attribute_score": 0.00617238577831997,
+      "scores": {
+        "South Korea": 0.00617238577831997
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 416,
+      "attribute_score": 0.006171534570415368,
+      "scores": {
+        "South Korea": 0.006171534570415368
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 395,
+      "attribute_score": 0.006166254536489423,
+      "scores": {
+        "South Korea": 0.006166254536489423
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 910,
+      "attribute_score": 0.006162931410114417,
+      "scores": {
+        "South Korea": 0.006162931410114417
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2921,
+      "attribute_score": 0.0061571283286876895,
+      "scores": {
+        "South Korea": 0.0061571283286876895
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2607,
+      "attribute_score": 0.006149247121275141,
+      "scores": {
+        "South Korea": 0.006149247121275141
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1519,
+      "attribute_score": 0.006140897783000817,
+      "scores": {
+        "South Korea": 0.006140897783000817
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1881,
+      "attribute_score": 0.006129674697190188,
+      "scores": {
+        "South Korea": 0.006129674697190188
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 769,
+      "attribute_score": 0.006125637654508098,
+      "scores": {
+        "South Korea": 0.006125637654508098
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1226,
+      "attribute_score": 0.006117078695404395,
+      "scores": {
+        "South Korea": 0.006117078695404395
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2831,
+      "attribute_score": 0.006117006366172534,
+      "scores": {
+        "South Korea": 0.006117006366172534
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2466,
+      "attribute_score": 0.00609555940949515,
+      "scores": {
+        "South Korea": 0.00609555940949515
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2633,
+      "attribute_score": 0.006085267227687193,
+      "scores": {
+        "South Korea": 0.006085267227687193
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2299,
+      "attribute_score": 0.00606700007835131,
+      "scores": {
+        "South Korea": 0.00606700007835131
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 267,
+      "attribute_score": 0.006031268768096238,
+      "scores": {
+        "South Korea": 0.006031268768096238
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2739,
+      "attribute_score": 0.006026843960365552,
+      "scores": {
+        "South Korea": 0.006026843960365552
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 378,
+      "attribute_score": 0.006024909823128347,
+      "scores": {
+        "South Korea": 0.006024909823128347
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 202,
+      "attribute_score": 0.006016159325503231,
+      "scores": {
+        "South Korea": 0.006016159325503231
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1042,
+      "attribute_score": 0.00598422128163027,
+      "scores": {
+        "South Korea": 0.00598422128163027
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2776,
+      "attribute_score": 0.005980021498176489,
+      "scores": {
+        "South Korea": 0.005980021498176489
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2085,
+      "attribute_score": 0.005979679943470473,
+      "scores": {
+        "South Korea": 0.005979679943470473
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1517,
+      "attribute_score": 0.005959873119097078,
+      "scores": {
+        "South Korea": 0.005959873119097078
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1800,
+      "attribute_score": 0.00595480404543073,
+      "scores": {
+        "South Korea": 0.00595480404543073
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1003,
+      "attribute_score": 0.005934297368767556,
+      "scores": {
+        "South Korea": 0.005934297368767556
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1860,
+      "attribute_score": 0.005919816788662685,
+      "scores": {
+        "South Korea": 0.005919816788662685
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 294,
+      "attribute_score": 0.0059070480003785555,
+      "scores": {
+        "South Korea": 0.0059070480003785555
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1148,
+      "attribute_score": 0.0058997139502107426,
+      "scores": {
+        "South Korea": 0.0058997139502107426
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 179,
+      "attribute_score": 0.005876193555553307,
+      "scores": {
+        "South Korea": 0.005876193555553307
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 361,
+      "attribute_score": 0.00587365600500214,
+      "scores": {
+        "South Korea": 0.00587365600500214
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1308,
+      "attribute_score": 0.0058408640743641375,
+      "scores": {
+        "South Korea": 0.0058408640743641375
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1839,
+      "attribute_score": 0.005835086442111583,
+      "scores": {
+        "South Korea": 0.005835086442111583
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1011,
+      "attribute_score": 0.005804893675814854,
+      "scores": {
+        "South Korea": 0.005804893675814854
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2461,
+      "attribute_score": 0.0058001099007852965,
+      "scores": {
+        "South Korea": 0.0058001099007852965
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1378,
+      "attribute_score": 0.005795139275240094,
+      "scores": {
+        "South Korea": 0.005795139275240094
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 812,
+      "attribute_score": 0.0057950984226183945,
+      "scores": {
+        "South Korea": 0.0057950984226183945
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2068,
+      "attribute_score": 0.005762654743837506,
+      "scores": {
+        "South Korea": 0.005762654743837506
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1491,
+      "attribute_score": 0.005753206403067942,
+      "scores": {
+        "South Korea": 0.005753206403067942
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1267,
+      "attribute_score": 0.005748440710346351,
+      "scores": {
+        "South Korea": 0.005748440710346351
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2193,
+      "attribute_score": 0.005748308106754603,
+      "scores": {
+        "South Korea": 0.005748308106754603
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1079,
+      "attribute_score": 0.005742541859658916,
+      "scores": {
+        "South Korea": 0.005742541859658916
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1903,
+      "attribute_score": 0.005722313784481434,
+      "scores": {
+        "South Korea": 0.005722313784481434
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 264,
+      "attribute_score": 0.0057169326235739035,
+      "scores": {
+        "South Korea": 0.0057169326235739035
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1638,
+      "attribute_score": 0.005710693557610672,
+      "scores": {
+        "South Korea": 0.005710693557610672
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1591,
+      "attribute_score": 0.005710291058829661,
+      "scores": {
+        "South Korea": 0.005710291058829661
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1806,
+      "attribute_score": 0.0057098517257176086,
+      "scores": {
+        "South Korea": 0.0057098517257176086
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 902,
+      "attribute_score": 0.0056998287693838055,
+      "scores": {
+        "South Korea": 0.0056998287693838055
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 567,
+      "attribute_score": 0.005679888671703553,
+      "scores": {
+        "South Korea": 0.005679888671703553
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 206,
+      "attribute_score": 0.0056786697902036515,
+      "scores": {
+        "South Korea": 0.0056786697902036515
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 292,
+      "attribute_score": 0.0056721293524409945,
+      "scores": {
+        "South Korea": 0.0056721293524409945
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 69,
+      "attribute_score": 0.005666359087054649,
+      "scores": {
+        "South Korea": 0.005666359087054649
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2589,
+      "attribute_score": 0.005654881509502282,
+      "scores": {
+        "South Korea": 0.005654881509502282
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1479,
+      "attribute_score": 0.005653517969538656,
+      "scores": {
+        "South Korea": 0.005653517969538656
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1860,
+      "attribute_score": 0.005653133553065611,
+      "scores": {
+        "South Korea": 0.005653133553065611
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 519,
+      "attribute_score": 0.005648245972194029,
+      "scores": {
+        "South Korea": 0.005648245972194029
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2959,
+      "attribute_score": 0.005645462636197551,
+      "scores": {
+        "South Korea": 0.005645462636197551
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3015,
+      "attribute_score": 0.005644178792331996,
+      "scores": {
+        "South Korea": 0.005644178792331996
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2478,
+      "attribute_score": 0.005636150917310393,
+      "scores": {
+        "South Korea": 0.005636150917310393
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 71,
+      "attribute_score": 0.005623838874731171,
+      "scores": {
+        "South Korea": 0.005623838874731171
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2002,
+      "attribute_score": 0.005599450529291389,
+      "scores": {
+        "South Korea": 0.005599450529291389
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 392,
+      "attribute_score": 0.0055945964341752984,
+      "scores": {
+        "South Korea": 0.0055945964341752984
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 469,
+      "attribute_score": 0.005578674627154061,
+      "scores": {
+        "South Korea": 0.005578674627154061
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2045,
+      "attribute_score": 0.005575339445907078,
+      "scores": {
+        "South Korea": 0.005575339445907078
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2263,
+      "attribute_score": 0.005563886647813775,
+      "scores": {
+        "South Korea": 0.005563886647813775
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2424,
+      "attribute_score": 0.0055284098293004414,
+      "scores": {
+        "South Korea": 0.0055284098293004414
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 783,
+      "attribute_score": 0.005526026982939645,
+      "scores": {
+        "South Korea": 0.005526026982939645
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2753,
+      "attribute_score": 0.00552188680413064,
+      "scores": {
+        "South Korea": 0.00552188680413064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 824,
+      "attribute_score": 0.0055200316932763945,
+      "scores": {
+        "South Korea": 0.0055200316932763945
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 403,
+      "attribute_score": 0.005515772974892949,
+      "scores": {
+        "South Korea": 0.005515772974892949
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 575,
+      "attribute_score": 0.005515088860908251,
+      "scores": {
+        "South Korea": 0.005515088860908251
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 92,
+      "attribute_score": 0.005514081944240613,
+      "scores": {
+        "South Korea": 0.005514081944240613
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1737,
+      "attribute_score": 0.005504267939021078,
+      "scores": {
+        "South Korea": 0.005504267939021078
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 430,
+      "attribute_score": 0.005503971924942531,
+      "scores": {
+        "South Korea": 0.005503971924942531
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2515,
+      "attribute_score": 0.005495945389351148,
+      "scores": {
+        "South Korea": 0.005495945389351148
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2912,
+      "attribute_score": 0.005495069401987483,
+      "scores": {
+        "South Korea": 0.005495069401987483
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1318,
+      "attribute_score": 0.005482936173342587,
+      "scores": {
+        "South Korea": 0.005482936173342587
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1932,
+      "attribute_score": 0.005482770753710457,
+      "scores": {
+        "South Korea": 0.005482770753710457
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 576,
+      "attribute_score": 0.005476623438717274,
+      "scores": {
+        "South Korea": 0.005476623438717274
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1756,
+      "attribute_score": 0.00547656048549695,
+      "scores": {
+        "South Korea": 0.00547656048549695
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1764,
+      "attribute_score": 0.005468181010042684,
+      "scores": {
+        "South Korea": 0.005468181010042684
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1314,
+      "attribute_score": 0.0054620571350783445,
+      "scores": {
+        "South Korea": 0.0054620571350783445
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1954,
+      "attribute_score": 0.005457612905609473,
+      "scores": {
+        "South Korea": 0.005457612905609473
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2770,
+      "attribute_score": 0.005456142211228274,
+      "scores": {
+        "South Korea": 0.005456142211228274
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2096,
+      "attribute_score": 0.005452871322631836,
+      "scores": {
+        "South Korea": 0.005452871322631836
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2515,
+      "attribute_score": 0.00545216142461541,
+      "scores": {
+        "South Korea": 0.00545216142461541
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2605,
+      "attribute_score": 0.005446075053697222,
+      "scores": {
+        "South Korea": 0.005446075053697222
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2662,
+      "attribute_score": 0.005439708741863122,
+      "scores": {
+        "South Korea": 0.005439708741863122
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 207,
+      "attribute_score": 0.005420218692736679,
+      "scores": {
+        "South Korea": 0.005420218692736679
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1803,
+      "attribute_score": 0.005406800280796008,
+      "scores": {
+        "South Korea": 0.005406800280796008
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 749,
+      "attribute_score": 0.005400341548276752,
+      "scores": {
+        "South Korea": 0.005400341548276752
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1535,
+      "attribute_score": 0.005399933022059752,
+      "scores": {
+        "South Korea": 0.005399933022059752
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 702,
+      "attribute_score": 0.005393815844246511,
+      "scores": {
+        "South Korea": 0.005393815844246511
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1650,
+      "attribute_score": 0.005392958608905921,
+      "scores": {
+        "South Korea": 0.005392958608905921
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 219,
+      "attribute_score": 0.005385179198190068,
+      "scores": {
+        "South Korea": 0.005385179198190068
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1738,
+      "attribute_score": 0.005370807111932991,
+      "scores": {
+        "South Korea": 0.005370807111932991
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1853,
+      "attribute_score": 0.00536432159080934,
+      "scores": {
+        "South Korea": 0.00536432159080934
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2875,
+      "attribute_score": 0.005359119243836135,
+      "scores": {
+        "South Korea": 0.005359119243836135
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 121,
+      "attribute_score": 0.0053511094511224985,
+      "scores": {
+        "South Korea": 0.0053511094511224985
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3013,
+      "attribute_score": 0.005344741799858179,
+      "scores": {
+        "South Korea": 0.005344741799858179
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1863,
+      "attribute_score": 0.005336130602975909,
+      "scores": {
+        "South Korea": 0.005336130602975909
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2046,
+      "attribute_score": 0.005332094899724039,
+      "scores": {
+        "South Korea": 0.005332094899724039
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2903,
+      "attribute_score": 0.0053312001603372985,
+      "scores": {
+        "South Korea": 0.0053312001603372985
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 162,
+      "attribute_score": 0.005329848675245649,
+      "scores": {
+        "South Korea": 0.005329848675245649
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1242,
+      "attribute_score": 0.0053291307406479055,
+      "scores": {
+        "South Korea": 0.0053291307406479055
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2856,
+      "attribute_score": 0.005317738551772043,
+      "scores": {
+        "South Korea": 0.005317738551772043
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1079,
+      "attribute_score": 0.005315460515825936,
+      "scores": {
+        "South Korea": 0.005315460515825936
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2254,
+      "attribute_score": 0.005279740590727731,
+      "scores": {
+        "South Korea": 0.005279740590727731
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1840,
+      "attribute_score": 0.005276199137226919,
+      "scores": {
+        "South Korea": 0.005276199137226919
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 99,
+      "attribute_score": 0.005266518405314242,
+      "scores": {
+        "South Korea": 0.005266518405314242
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1201,
+      "attribute_score": 0.005261354901817407,
+      "scores": {
+        "South Korea": 0.005261354901817407
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2355,
+      "attribute_score": 0.005259844694244727,
+      "scores": {
+        "South Korea": 0.005259844694244727
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2055,
+      "attribute_score": 0.005246593711081516,
+      "scores": {
+        "South Korea": 0.005246593711081516
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2751,
+      "attribute_score": 0.005237544520517413,
+      "scores": {
+        "South Korea": 0.005237544520517413
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2275,
+      "attribute_score": 0.005233447873190547,
+      "scores": {
+        "South Korea": 0.005233447873190547
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1334,
+      "attribute_score": 0.0052267038420345,
+      "scores": {
+        "South Korea": 0.0052267038420345
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1197,
+      "attribute_score": 0.0052124596713634015,
+      "scores": {
+        "South Korea": 0.0052124596713634015
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1423,
+      "attribute_score": 0.005208575323726354,
+      "scores": {
+        "South Korea": 0.005208575323726354
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2199,
+      "attribute_score": 0.005205545532569456,
+      "scores": {
+        "South Korea": 0.005205545532569456
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2305,
+      "attribute_score": 0.00520312384273229,
+      "scores": {
+        "South Korea": 0.00520312384273229
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 844,
+      "attribute_score": 0.005202304111437851,
+      "scores": {
+        "South Korea": 0.005202304111437851
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1181,
+      "attribute_score": 0.005198797483122751,
+      "scores": {
+        "South Korea": 0.005198797483122751
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2940,
+      "attribute_score": 0.005194449692629696,
+      "scores": {
+        "South Korea": 0.005194449692629696
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2327,
+      "attribute_score": 0.0051752355661285054,
+      "scores": {
+        "South Korea": 0.0051752355661285054
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 500,
+      "attribute_score": 0.005173123954387193,
+      "scores": {
+        "South Korea": 0.005173123954387193
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1880,
+      "attribute_score": 0.0051721588949139195,
+      "scores": {
+        "South Korea": 0.0051721588949139195
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 461,
+      "attribute_score": 0.0051573615395620965,
+      "scores": {
+        "South Korea": 0.0051573615395620965
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1000,
+      "attribute_score": 0.005155900221192435,
+      "scores": {
+        "South Korea": 0.005155900221192435
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2144,
+      "attribute_score": 0.005151869205946333,
+      "scores": {
+        "South Korea": 0.005151869205946333
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2037,
+      "attribute_score": 0.005147037881143977,
+      "scores": {
+        "South Korea": 0.005147037881143977
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 896,
+      "attribute_score": 0.00514001056049647,
+      "scores": {
+        "South Korea": 0.00514001056049647
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 996,
+      "attribute_score": 0.005137341745783773,
+      "scores": {
+        "South Korea": 0.005137341745783773
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1275,
+      "attribute_score": 0.005136953311020069,
+      "scores": {
+        "South Korea": 0.005136953311020069
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 832,
+      "attribute_score": 0.005129796735356363,
+      "scores": {
+        "South Korea": 0.005129796735356363
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 838,
+      "attribute_score": 0.005128032036041946,
+      "scores": {
+        "South Korea": 0.005128032036041946
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2743,
+      "attribute_score": 0.005127022105656313,
+      "scores": {
+        "South Korea": 0.005127022105656313
+      }
+    }
+  ],
+  "layer_distribution": {
+    "0": 44,
+    "1": 39,
+    "2": 38,
+    "3": 31,
+    "4": 19,
+    "5": 24,
+    "6": 15,
+    "7": 11,
+    "8": 4,
+    "9": 8,
+    "10": 6,
+    "11": 5
+  },
+  "total_selected": 244,
+  "total_candidates": 36864
+}

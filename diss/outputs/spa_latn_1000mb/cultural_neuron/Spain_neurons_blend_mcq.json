@@ -1,0 +1,2752 @@
+{
+  "model_name": "goldfish-models/spa_latn_1000mb",
+  "target_country": "Spain",
+  "revision": null,
+  "dataset_ids": {
+    "blend_mcq": [
+      "eblnd-es-ES_0001",
+      "eblnd-es-ES_0002",
+      "eblnd-es-ES_0003",
+      "eblnd-es-ES_0004",
+      "eblnd-es-ES_0005",
+      "eblnd-es-ES_0085",
+      "eblnd-es-ES_0086",
+      "eblnd-es-ES_0087",
+      "eblnd-es-ES_0088",
+      "eblnd-es-ES_0089",
+      "eblnd-es-ES_0090",
+      "eblnd-es-ES_0091",
+      "eblnd-es-ES_0092",
+      "eblnd-es-ES_0093",
+      "eblnd-es-ES_0375",
+      "eblnd-es-ES_0376",
+      "eblnd-es-ES_0377",
+      "eblnd-es-ES_0378",
+      "eblnd-es-ES_0379",
+      "eblnd-es-ES_0380",
+      "eblnd-es-ES_0381",
+      "eblnd-es-ES_0382",
+      "eblnd-es-ES_0383",
+      "eblnd-es-ES_0384",
+      "eblnd-es-ES_0385",
+      "eblnd-es-ES_0386",
+      "eblnd-es-ES_0387",
+      "eblnd-es-ES_0388",
+      "eblnd-es-ES_0389",
+      "eblnd-es-ES_0405",
+      "eblnd-es-ES_0406",
+      "eblnd-es-ES_0407",
+      "eblnd-es-ES_0408",
+      "eblnd-es-ES_0409",
+      "eblnd-es-ES_0424",
+      "eblnd-es-ES_0425",
+      "eblnd-es-ES_0426",
+      "eblnd-es-ES_0454",
+      "eblnd-es-ES_0455",
+      "eblnd-es-ES_0456",
+      "eblnd-es-ES_0457",
+      "eblnd-es-ES_0458",
+      "eblnd-es-ES_0459",
+      "eblnd-es-ES_0478",
+      "eblnd-es-ES_0479",
+      "eblnd-es-ES_0480",
+      "eblnd-es-ES_0481",
+      "eblnd-es-ES_0482",
+      "eblnd-es-ES_0508",
+      "eblnd-es-ES_0509",
+      "eblnd-es-ES_0510",
+      "eblnd-es-ES_0511",
+      "eblnd-es-ES_0512",
+      "eblnd-es-ES_0628",
+      "eblnd-es-ES_0629",
+      "eblnd-es-ES_0630",
+      "eblnd-es-ES_0631",
+      "eblnd-es-ES_0632",
+      "eblnd-es-ES_0994",
+      "eblnd-es-ES_0995",
+      "eblnd-es-ES_0996",
+      "eblnd-es-ES_0997",
+      "eblnd-es-ES_0998",
+      "eblnd-es-ES_1004",
+      "eblnd-es-ES_1005",
+      "eblnd-es-ES_1006",
+      "eblnd-es-ES_1007",
+      "eblnd-es-ES_1008",
+      "eblnd-es-ES_1010",
+      "eblnd-es-ES_1011",
+      "eblnd-es-ES_1012",
+      "eblnd-es-ES_1013",
+      "eblnd-es-ES_1014",
+      "eblnd-es-ES_1015",
+      "eblnd-es-ES_1016",
+      "eblnd-es-ES_1017",
+      "eblnd-es-ES_1018",
+      "eblnd-es-ES_1019",
+      "eblnd-es-ES_1020",
+      "eblnd-es-ES_1021",
+      "eblnd-es-ES_1022",
+      "eblnd-es-ES_1023",
+      "eblnd-es-ES_1024",
+      "eblnd-es-ES_1040",
+      "eblnd-es-ES_1041",
+      "eblnd-es-ES_1042",
+      "eblnd-es-ES_1045",
+      "eblnd-es-ES_1046",
+      "eblnd-es-ES_1047",
+      "eblnd-es-ES_1048",
+      "eblnd-es-ES_1049",
+      "eblnd-es-ES_1170",
+      "eblnd-es-ES_1171",
+      "eblnd-es-ES_1172",
+      "eblnd-es-ES_1173",
+      "eblnd-es-ES_1174",
+      "eblnd-es-ES_1175",
+      "eblnd-es-ES_1176",
+      "eblnd-es-ES_1177",
+      "eblnd-es-ES_1183",
+      "eblnd-es-ES_1184",
+      "eblnd-es-ES_1185",
+      "eblnd-es-ES_1186",
+      "eblnd-es-ES_1187",
+      "eblnd-es-ES_1218",
+      "eblnd-es-ES_1219",
+      "eblnd-es-ES_1220",
+      "eblnd-es-ES_1221",
+      "eblnd-es-ES_1222",
+      "eblnd-es-ES_1276",
+      "eblnd-es-ES_1277",
+      "eblnd-es-ES_1278",
+      "eblnd-es-ES_1279",
+      "eblnd-es-ES_1280",
+      "eblnd-es-ES_1281",
+      "eblnd-es-ES_1282",
+      "eblnd-es-ES_1283",
+      "eblnd-es-ES_1284",
+      "eblnd-es-ES_1285",
+      "eblnd-es-ES_1286",
+      "eblnd-es-ES_1287",
+      "eblnd-es-ES_1289",
+      "eblnd-es-ES_1290",
+      "eblnd-es-ES_1291",
+      "eblnd-es-ES_1292",
+      "eblnd-es-ES_1293",
+      "eblnd-es-ES_1373",
+      "eblnd-es-ES_1374",
+      "eblnd-es-ES_1375",
+      "eblnd-es-ES_1376",
+      "eblnd-es-ES_1377",
+      "eblnd-es-ES_1378",
+      "eblnd-es-ES_1409",
+      "eblnd-es-ES_1410",
+      "eblnd-es-ES_1411",
+      "eblnd-es-ES_1412",
+      "eblnd-es-ES_1423",
+      "eblnd-es-ES_1424",
+      "eblnd-es-ES_1425",
+      "eblnd-es-ES_1426",
+      "eblnd-es-ES_1427",
+      "eblnd-es-ES_1428",
+      "eblnd-es-ES_1445",
+      "eblnd-es-ES_1446",
+      "eblnd-es-ES_1447",
+      "eblnd-es-ES_1448",
+      "eblnd-es-ES_1449",
+      "eblnd-es-ES_1694",
+      "eblnd-es-ES_1695",
+      "eblnd-es-ES_1696",
+      "eblnd-es-ES_1767",
+      "eblnd-es-ES_1768",
+      "eblnd-es-ES_1769",
+      "eblnd-es-ES_1770",
+      "eblnd-es-ES_1771",
+      "eblnd-es-ES_1789",
+      "eblnd-es-ES_1790",
+      "eblnd-es-ES_1791",
+      "eblnd-es-ES_1839",
+      "eblnd-es-ES_1840",
+      "eblnd-es-ES_1841",
+      "eblnd-es-ES_1842",
+      "eblnd-es-ES_1843",
+      "eblnd-es-ES_1844"
+    ],
+    "countryrc_localized": [
+      "es-spain-0",
+      "es-spain-1",
+      "es-spain-10",
+      "es-spain-11",
+      "es-spain-12",
+      "es-spain-13",
+      "es-spain-14",
+      "es-spain-15",
+      "es-spain-16",
+      "es-spain-17",
+      "es-spain-18",
+      "es-spain-19",
+      "es-spain-2",
+      "es-spain-20",
+      "es-spain-21",
+      "es-spain-22",
+      "es-spain-23",
+      "es-spain-24",
+      "es-spain-3",
+      "es-spain-4",
+      "es-spain-5",
+      "es-spain-6",
+      "es-spain-7",
+      "es-spain-8",
+      "es-spain-9"
+    ]
+  },
+  "thresholds": {
+    "mlp_threshold": 0.01,
+    "countryrc_threshold": 0.01
+  },
+  "top_neurons": [
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2261,
+      "attribute_score": 0.02874541864162538,
+      "scores": {
+        "Spain": 0.02874541864162538
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1577,
+      "attribute_score": 0.01968533672937533,
+      "scores": {
+        "Spain": 0.01968533672937533
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 790,
+      "attribute_score": 0.01594937719949862,
+      "scores": {
+        "Spain": 0.01594937719949862
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1716,
+      "attribute_score": 0.015620712826891644,
+      "scores": {
+        "Spain": 0.015620712826891644
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 644,
+      "attribute_score": 0.015553052832440632,
+      "scores": {
+        "Spain": 0.015553052832440632
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 310,
+      "attribute_score": 0.015537168921493903,
+      "scores": {
+        "Spain": 0.015537168921493903
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2971,
+      "attribute_score": 0.015533005318990567,
+      "scores": {
+        "Spain": 0.015533005318990567
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 890,
+      "attribute_score": 0.014479381282155106,
+      "scores": {
+        "Spain": 0.014479381282155106
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1380,
+      "attribute_score": 0.01430984822715201,
+      "scores": {
+        "Spain": 0.01430984822715201
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2097,
+      "attribute_score": 0.013349094041963903,
+      "scores": {
+        "Spain": 0.013349094041963903
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1862,
+      "attribute_score": 0.012512858321027057,
+      "scores": {
+        "Spain": 0.012512858321027057
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 824,
+      "attribute_score": 0.012166255857886337,
+      "scores": {
+        "Spain": 0.012166255857886337
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2854,
+      "attribute_score": 0.011566115588676639,
+      "scores": {
+        "Spain": 0.011566115588676639
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2013,
+      "attribute_score": 0.011545073695299102,
+      "scores": {
+        "Spain": 0.011545073695299102
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1883,
+      "attribute_score": 0.011331072667749917,
+      "scores": {
+        "Spain": 0.011331072667749917
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1338,
+      "attribute_score": 0.011257668093937198,
+      "scores": {
+        "Spain": 0.011257668093937198
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1149,
+      "attribute_score": 0.010904746811564376,
+      "scores": {
+        "Spain": 0.010904746811564376
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1312,
+      "attribute_score": 0.010877109155422303,
+      "scores": {
+        "Spain": 0.010877109155422303
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1116,
+      "attribute_score": 0.010779709350772021,
+      "scores": {
+        "Spain": 0.010779709350772021
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2215,
+      "attribute_score": 0.01067620370446182,
+      "scores": {
+        "Spain": 0.01067620370446182
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1940,
+      "attribute_score": 0.010665849941532786,
+      "scores": {
+        "Spain": 0.010665849941532786
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1448,
+      "attribute_score": 0.010446922081272776,
+      "scores": {
+        "Spain": 0.010446922081272776
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1772,
+      "attribute_score": 0.010185596419543756,
+      "scores": {
+        "Spain": 0.010185596419543756
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 59,
+      "attribute_score": 0.010004871502155212,
+      "scores": {
+        "Spain": 0.010004871502155212
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 842,
+      "attribute_score": 0.009898342737337439,
+      "scores": {
+        "Spain": 0.009898342737337439
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1191,
+      "attribute_score": 0.009700455316683142,
+      "scores": {
+        "Spain": 0.009700455316683142
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 84,
+      "attribute_score": 0.00948998113957847,
+      "scores": {
+        "Spain": 0.00948998113957847
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2889,
+      "attribute_score": 0.009489646772059,
+      "scores": {
+        "Spain": 0.009489646772059
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2015,
+      "attribute_score": 0.009448940434106967,
+      "scores": {
+        "Spain": 0.009448940434106967
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 843,
+      "attribute_score": 0.009376777381431766,
+      "scores": {
+        "Spain": 0.009376777381431766
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1612,
+      "attribute_score": 0.00936649921463757,
+      "scores": {
+        "Spain": 0.00936649921463757
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2516,
+      "attribute_score": 0.009362351603624298,
+      "scores": {
+        "Spain": 0.009362351603624298
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2635,
+      "attribute_score": 0.00932373797021261,
+      "scores": {
+        "Spain": 0.00932373797021261
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2904,
+      "attribute_score": 0.009188303860222421,
+      "scores": {
+        "Spain": 0.009188303860222421
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 351,
+      "attribute_score": 0.009111224151239163,
+      "scores": {
+        "Spain": 0.009111224151239163
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3016,
+      "attribute_score": 0.009065420162387011,
+      "scores": {
+        "Spain": 0.009065420162387011
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2816,
+      "attribute_score": 0.008945465087890625,
+      "scores": {
+        "Spain": 0.008945465087890625
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 149,
+      "attribute_score": 0.008917360770993116,
+      "scores": {
+        "Spain": 0.008917360770993116
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 428,
+      "attribute_score": 0.008853867286589087,
+      "scores": {
+        "Spain": 0.008853867286589087
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1920,
+      "attribute_score": 0.008768731501044296,
+      "scores": {
+        "Spain": 0.008768731501044296
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2515,
+      "attribute_score": 0.00871350125568669,
+      "scores": {
+        "Spain": 0.00871350125568669
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 88,
+      "attribute_score": 0.008704906556664444,
+      "scores": {
+        "Spain": 0.008704906556664444
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1569,
+      "attribute_score": 0.008684120527127893,
+      "scores": {
+        "Spain": 0.008684120527127893
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2585,
+      "attribute_score": 0.008615235003029428,
+      "scores": {
+        "Spain": 0.008615235003029428
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 210,
+      "attribute_score": 0.008596527867200898,
+      "scores": {
+        "Spain": 0.008596527867200898
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1057,
+      "attribute_score": 0.00857935155310282,
+      "scores": {
+        "Spain": 0.00857935155310282
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2860,
+      "attribute_score": 0.008565143841068918,
+      "scores": {
+        "Spain": 0.008565143841068918
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2655,
+      "attribute_score": 0.008465628798415021,
+      "scores": {
+        "Spain": 0.008465628798415021
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2243,
+      "attribute_score": 0.008336299803198837,
+      "scores": {
+        "Spain": 0.008336299803198837
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2210,
+      "attribute_score": 0.008205282978895233,
+      "scores": {
+        "Spain": 0.008205282978895233
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 118,
+      "attribute_score": 0.008191271526057546,
+      "scores": {
+        "Spain": 0.008191271526057546
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2232,
+      "attribute_score": 0.008126075674847858,
+      "scores": {
+        "Spain": 0.008126075674847858
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2022,
+      "attribute_score": 0.008084470179022812,
+      "scores": {
+        "Spain": 0.008084470179022812
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2218,
+      "attribute_score": 0.008079529535479663,
+      "scores": {
+        "Spain": 0.008079529535479663
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 581,
+      "attribute_score": 0.008014093085033138,
+      "scores": {
+        "Spain": 0.008014093085033138
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2347,
+      "attribute_score": 0.007938480231820083,
+      "scores": {
+        "Spain": 0.007938480231820083
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2821,
+      "attribute_score": 0.007933700956949374,
+      "scores": {
+        "Spain": 0.007933700956949374
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2825,
+      "attribute_score": 0.007863614617324457,
+      "scores": {
+        "Spain": 0.007863614617324457
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1699,
+      "attribute_score": 0.007830375578345322,
+      "scores": {
+        "Spain": 0.007830375578345322
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1153,
+      "attribute_score": 0.007799811479521961,
+      "scores": {
+        "Spain": 0.007799811479521961
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1456,
+      "attribute_score": 0.007799660287252287,
+      "scores": {
+        "Spain": 0.007799660287252287
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 962,
+      "attribute_score": 0.0077911877050632385,
+      "scores": {
+        "Spain": 0.0077911877050632385
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2414,
+      "attribute_score": 0.007782130706601027,
+      "scores": {
+        "Spain": 0.007782130706601027
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2127,
+      "attribute_score": 0.007781842859779916,
+      "scores": {
+        "Spain": 0.007781842859779916
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1197,
+      "attribute_score": 0.007764641831560832,
+      "scores": {
+        "Spain": 0.007764641831560832
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2950,
+      "attribute_score": 0.007731990116398509,
+      "scores": {
+        "Spain": 0.007731990116398509
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2883,
+      "attribute_score": 0.007725587705286537,
+      "scores": {
+        "Spain": 0.007725587705286537
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 986,
+      "attribute_score": 0.007692066634573587,
+      "scores": {
+        "Spain": 0.007692066634573587
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1503,
+      "attribute_score": 0.007675114201336372,
+      "scores": {
+        "Spain": 0.007675114201336372
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2984,
+      "attribute_score": 0.007670728171743997,
+      "scores": {
+        "Spain": 0.007670728171743997
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1155,
+      "attribute_score": 0.007645107624007434,
+      "scores": {
+        "Spain": 0.007645107624007434
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2367,
+      "attribute_score": 0.007641571324046065,
+      "scores": {
+        "Spain": 0.007641571324046065
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1483,
+      "attribute_score": 0.007640251299230064,
+      "scores": {
+        "Spain": 0.007640251299230064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1091,
+      "attribute_score": 0.007585214405525021,
+      "scores": {
+        "Spain": 0.007585214405525021
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1002,
+      "attribute_score": 0.007555205647538348,
+      "scores": {
+        "Spain": 0.007555205647538348
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2208,
+      "attribute_score": 0.0075147239173330915,
+      "scores": {
+        "Spain": 0.0075147239173330915
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2733,
+      "attribute_score": 0.007509680782876364,
+      "scores": {
+        "Spain": 0.007509680782876364
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1899,
+      "attribute_score": 0.0075087343774190764,
+      "scores": {
+        "Spain": 0.0075087343774190764
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 422,
+      "attribute_score": 0.007507843215291093,
+      "scores": {
+        "Spain": 0.007507843215291093
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 201,
+      "attribute_score": 0.007499723899655226,
+      "scores": {
+        "Spain": 0.007499723899655226
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1007,
+      "attribute_score": 0.007477928952472966,
+      "scores": {
+        "Spain": 0.007477928952472966
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1670,
+      "attribute_score": 0.007428378593630907,
+      "scores": {
+        "Spain": 0.007428378593630907
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1526,
+      "attribute_score": 0.007414736398836461,
+      "scores": {
+        "Spain": 0.007414736398836461
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1580,
+      "attribute_score": 0.00741369259066698,
+      "scores": {
+        "Spain": 0.00741369259066698
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 983,
+      "attribute_score": 0.007398699841848234,
+      "scores": {
+        "Spain": 0.007398699841848234
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 346,
+      "attribute_score": 0.007390959233772464,
+      "scores": {
+        "Spain": 0.007390959233772464
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 549,
+      "attribute_score": 0.00738234636260242,
+      "scores": {
+        "Spain": 0.00738234636260242
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 308,
+      "attribute_score": 0.007366863692679056,
+      "scores": {
+        "Spain": 0.007366863692679056
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 640,
+      "attribute_score": 0.007333230681535675,
+      "scores": {
+        "Spain": 0.007333230681535675
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1697,
+      "attribute_score": 0.007320232507659168,
+      "scores": {
+        "Spain": 0.007320232507659168
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2928,
+      "attribute_score": 0.007274828306058558,
+      "scores": {
+        "Spain": 0.007274828306058558
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1954,
+      "attribute_score": 0.007270466990587188,
+      "scores": {
+        "Spain": 0.007270466990587188
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1126,
+      "attribute_score": 0.007270179143766078,
+      "scores": {
+        "Spain": 0.007270179143766078
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 158,
+      "attribute_score": 0.007269586004861971,
+      "scores": {
+        "Spain": 0.007269586004861971
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1239,
+      "attribute_score": 0.007250181058558022,
+      "scores": {
+        "Spain": 0.007250181058558022
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2016,
+      "attribute_score": 0.007237834174458574,
+      "scores": {
+        "Spain": 0.007237834174458574
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2669,
+      "attribute_score": 0.007235291527538765,
+      "scores": {
+        "Spain": 0.007235291527538765
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 206,
+      "attribute_score": 0.00723026874588757,
+      "scores": {
+        "Spain": 0.00723026874588757
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2863,
+      "attribute_score": 0.007210346256814352,
+      "scores": {
+        "Spain": 0.007210346256814352
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 537,
+      "attribute_score": 0.0071671139903184845,
+      "scores": {
+        "Spain": 0.0071671139903184845
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2484,
+      "attribute_score": 0.007166251903626977,
+      "scores": {
+        "Spain": 0.007166251903626977
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1831,
+      "attribute_score": 0.007158442241389577,
+      "scores": {
+        "Spain": 0.007158442241389577
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1929,
+      "attribute_score": 0.007145337942169934,
+      "scores": {
+        "Spain": 0.007145337942169934
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 305,
+      "attribute_score": 0.007135327269391316,
+      "scores": {
+        "Spain": 0.007135327269391316
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2128,
+      "attribute_score": 0.007134202049999702,
+      "scores": {
+        "Spain": 0.007134202049999702
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2313,
+      "attribute_score": 0.007129532534901689,
+      "scores": {
+        "Spain": 0.007129532534901689
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 9,
+      "attribute_score": 0.007127505976979326,
+      "scores": {
+        "Spain": 0.007127505976979326
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3059,
+      "attribute_score": 0.007124063445300591,
+      "scores": {
+        "Spain": 0.007124063445300591
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2770,
+      "attribute_score": 0.007121398681547583,
+      "scores": {
+        "Spain": 0.007121398681547583
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 206,
+      "attribute_score": 0.007119444085330498,
+      "scores": {
+        "Spain": 0.007119444085330498
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1779,
+      "attribute_score": 0.007107898229505957,
+      "scores": {
+        "Spain": 0.007107898229505957
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 218,
+      "attribute_score": 0.007101326453976515,
+      "scores": {
+        "Spain": 0.007101326453976515
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1234,
+      "attribute_score": 0.007071564837199886,
+      "scores": {
+        "Spain": 0.007071564837199886
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2268,
+      "attribute_score": 0.007071233377224062,
+      "scores": {
+        "Spain": 0.007071233377224062
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2689,
+      "attribute_score": 0.007059731134554235,
+      "scores": {
+        "Spain": 0.007059731134554235
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2404,
+      "attribute_score": 0.007056770528235086,
+      "scores": {
+        "Spain": 0.007056770528235086
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 186,
+      "attribute_score": 0.007049758259843036,
+      "scores": {
+        "Spain": 0.007049758259843036
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 109,
+      "attribute_score": 0.007030655698078435,
+      "scores": {
+        "Spain": 0.007030655698078435
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 529,
+      "attribute_score": 0.007026209336955373,
+      "scores": {
+        "Spain": 0.007026209336955373
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2643,
+      "attribute_score": 0.007025634370199064,
+      "scores": {
+        "Spain": 0.007025634370199064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 447,
+      "attribute_score": 0.007019822190447551,
+      "scores": {
+        "Spain": 0.007019822190447551
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2353,
+      "attribute_score": 0.0070049879027575986,
+      "scores": {
+        "Spain": 0.0070049879027575986
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 477,
+      "attribute_score": 0.006988310232395079,
+      "scores": {
+        "Spain": 0.006988310232395079
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 424,
+      "attribute_score": 0.006986728528650795,
+      "scores": {
+        "Spain": 0.006986728528650795
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3013,
+      "attribute_score": 0.006979089684602691,
+      "scores": {
+        "Spain": 0.006979089684602691
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2788,
+      "attribute_score": 0.006954751363614711,
+      "scores": {
+        "Spain": 0.006954751363614711
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 103,
+      "attribute_score": 0.006919814319145389,
+      "scores": {
+        "Spain": 0.006919814319145389
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 863,
+      "attribute_score": 0.006916663995603236,
+      "scores": {
+        "Spain": 0.006916663995603236
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 439,
+      "attribute_score": 0.006892734911383652,
+      "scores": {
+        "Spain": 0.006892734911383652
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1449,
+      "attribute_score": 0.006876721614744605,
+      "scores": {
+        "Spain": 0.006876721614744605
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2134,
+      "attribute_score": 0.006876445398098085,
+      "scores": {
+        "Spain": 0.006876445398098085
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 922,
+      "attribute_score": 0.0068751428185439695,
+      "scores": {
+        "Spain": 0.0068751428185439695
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 800,
+      "attribute_score": 0.0068707233521996475,
+      "scores": {
+        "Spain": 0.0068707233521996475
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1309,
+      "attribute_score": 0.006862433945260397,
+      "scores": {
+        "Spain": 0.006862433945260397
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2167,
+      "attribute_score": 0.006851938439578545,
+      "scores": {
+        "Spain": 0.006851938439578545
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2621,
+      "attribute_score": 0.00685147250570902,
+      "scores": {
+        "Spain": 0.00685147250570902
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2689,
+      "attribute_score": 0.006842967940539848,
+      "scores": {
+        "Spain": 0.006842967940539848
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2049,
+      "attribute_score": 0.006835449032667206,
+      "scores": {
+        "Spain": 0.006835449032667206
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2472,
+      "attribute_score": 0.0068272991878230395,
+      "scores": {
+        "Spain": 0.0068272991878230395
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 3017,
+      "attribute_score": 0.006815546896399521,
+      "scores": {
+        "Spain": 0.006815546896399521
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1036,
+      "attribute_score": 0.0068113367731978255,
+      "scores": {
+        "Spain": 0.0068113367731978255
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1652,
+      "attribute_score": 0.006796991679726578,
+      "scores": {
+        "Spain": 0.006796991679726578
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 503,
+      "attribute_score": 0.006792455184750441,
+      "scores": {
+        "Spain": 0.006792455184750441
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1241,
+      "attribute_score": 0.006778280909468488,
+      "scores": {
+        "Spain": 0.006778280909468488
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2162,
+      "attribute_score": 0.006777480608079492,
+      "scores": {
+        "Spain": 0.006777480608079492
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 20,
+      "attribute_score": 0.006775464953445807,
+      "scores": {
+        "Spain": 0.006775464953445807
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2670,
+      "attribute_score": 0.006760134202678029,
+      "scores": {
+        "Spain": 0.006760134202678029
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1559,
+      "attribute_score": 0.006757641710886141,
+      "scores": {
+        "Spain": 0.006757641710886141
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1330,
+      "attribute_score": 0.006749089171246785,
+      "scores": {
+        "Spain": 0.006749089171246785
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1863,
+      "attribute_score": 0.006748004657466237,
+      "scores": {
+        "Spain": 0.006748004657466237
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2693,
+      "attribute_score": 0.006743739290935237,
+      "scores": {
+        "Spain": 0.006743739290935237
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 330,
+      "attribute_score": 0.006722770813034802,
+      "scores": {
+        "Spain": 0.006722770813034802
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2597,
+      "attribute_score": 0.006716931738504549,
+      "scores": {
+        "Spain": 0.006716931738504549
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 990,
+      "attribute_score": 0.006685639299997469,
+      "scores": {
+        "Spain": 0.006685639299997469
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2076,
+      "attribute_score": 0.006646010933852777,
+      "scores": {
+        "Spain": 0.006646010933852777
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2687,
+      "attribute_score": 0.006640942358389133,
+      "scores": {
+        "Spain": 0.006640942358389133
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 141,
+      "attribute_score": 0.006633674226156096,
+      "scores": {
+        "Spain": 0.006633674226156096
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 411,
+      "attribute_score": 0.006606596272166182,
+      "scores": {
+        "Spain": 0.006606596272166182
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 975,
+      "attribute_score": 0.006599107166615928,
+      "scores": {
+        "Spain": 0.006599107166615928
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2298,
+      "attribute_score": 0.006589133565018817,
+      "scores": {
+        "Spain": 0.006589133565018817
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2479,
+      "attribute_score": 0.006580157977778737,
+      "scores": {
+        "Spain": 0.006580157977778737
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2363,
+      "attribute_score": 0.006577587709194276,
+      "scores": {
+        "Spain": 0.006577587709194276
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2174,
+      "attribute_score": 0.006574439566309859,
+      "scores": {
+        "Spain": 0.006574439566309859
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 231,
+      "attribute_score": 0.006559386485960425,
+      "scores": {
+        "Spain": 0.006559386485960425
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 698,
+      "attribute_score": 0.006559075378790134,
+      "scores": {
+        "Spain": 0.006559075378790134
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2946,
+      "attribute_score": 0.0065509458867515,
+      "scores": {
+        "Spain": 0.0065509458867515
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 331,
+      "attribute_score": 0.006544880750702649,
+      "scores": {
+        "Spain": 0.006544880750702649
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2713,
+      "attribute_score": 0.006544258536362067,
+      "scores": {
+        "Spain": 0.006544258536362067
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2812,
+      "attribute_score": 0.00652557175333907,
+      "scores": {
+        "Spain": 0.00652557175333907
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2468,
+      "attribute_score": 0.00652488557303824,
+      "scores": {
+        "Spain": 0.00652488557303824
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2593,
+      "attribute_score": 0.006508507379671422,
+      "scores": {
+        "Spain": 0.006508507379671422
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 626,
+      "attribute_score": 0.0065014304184332124,
+      "scores": {
+        "Spain": 0.0065014304184332124
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1050,
+      "attribute_score": 0.006498662436880716,
+      "scores": {
+        "Spain": 0.006498662436880716
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1975,
+      "attribute_score": 0.00649760118344935,
+      "scores": {
+        "Spain": 0.00649760118344935
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 416,
+      "attribute_score": 0.0064911507978671935,
+      "scores": {
+        "Spain": 0.0064911507978671935
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2659,
+      "attribute_score": 0.006485084208046518,
+      "scores": {
+        "Spain": 0.006485084208046518
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 445,
+      "attribute_score": 0.006484663341103531,
+      "scores": {
+        "Spain": 0.006484663341103531
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2734,
+      "attribute_score": 0.00646963061355963,
+      "scores": {
+        "Spain": 0.00646963061355963
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1473,
+      "attribute_score": 0.006457635542241539,
+      "scores": {
+        "Spain": 0.006457635542241539
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1257,
+      "attribute_score": 0.006431823823510147,
+      "scores": {
+        "Spain": 0.006431823823510147
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1730,
+      "attribute_score": 0.006430195599067502,
+      "scores": {
+        "Spain": 0.006430195599067502
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 609,
+      "attribute_score": 0.0064111162976520815,
+      "scores": {
+        "Spain": 0.0064111162976520815
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 880,
+      "attribute_score": 0.006383055593909287,
+      "scores": {
+        "Spain": 0.006383055593909287
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2366,
+      "attribute_score": 0.006381404109117462,
+      "scores": {
+        "Spain": 0.006381404109117462
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2594,
+      "attribute_score": 0.006380819692844298,
+      "scores": {
+        "Spain": 0.006380819692844298
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 12,
+      "attribute_score": 0.006374910110380591,
+      "scores": {
+        "Spain": 0.006374910110380591
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2892,
+      "attribute_score": 0.006372211182989725,
+      "scores": {
+        "Spain": 0.006372211182989725
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1048,
+      "attribute_score": 0.006365384997391119,
+      "scores": {
+        "Spain": 0.006365384997391119
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2187,
+      "attribute_score": 0.0063498659831721605,
+      "scores": {
+        "Spain": 0.0063498659831721605
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2036,
+      "attribute_score": 0.006324404623450302,
+      "scores": {
+        "Spain": 0.006324404623450302
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 776,
+      "attribute_score": 0.006319168137341011,
+      "scores": {
+        "Spain": 0.006319168137341011
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2043,
+      "attribute_score": 0.00630586176383786,
+      "scores": {
+        "Spain": 0.00630586176383786
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1877,
+      "attribute_score": 0.00630023421310797,
+      "scores": {
+        "Spain": 0.00630023421310797
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1611,
+      "attribute_score": 0.006281945763564691,
+      "scores": {
+        "Spain": 0.006281945763564691
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2680,
+      "attribute_score": 0.006272484616535466,
+      "scores": {
+        "Spain": 0.006272484616535466
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1193,
+      "attribute_score": 0.006271424816875923,
+      "scores": {
+        "Spain": 0.006271424816875923
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 816,
+      "attribute_score": 0.006271299065613165,
+      "scores": {
+        "Spain": 0.006271299065613165
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 890,
+      "attribute_score": 0.006269571257800591,
+      "scores": {
+        "Spain": 0.006269571257800591
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1869,
+      "attribute_score": 0.00625799051145228,
+      "scores": {
+        "Spain": 0.00625799051145228
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 395,
+      "attribute_score": 0.006256606520676031,
+      "scores": {
+        "Spain": 0.006256606520676031
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2769,
+      "attribute_score": 0.0062478548142968155,
+      "scores": {
+        "Spain": 0.0062478548142968155
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2444,
+      "attribute_score": 0.006226936491524301,
+      "scores": {
+        "Spain": 0.006226936491524301
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 59,
+      "attribute_score": 0.006211434922567228,
+      "scores": {
+        "Spain": 0.006211434922567228
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1080,
+      "attribute_score": 0.006209105980105516,
+      "scores": {
+        "Spain": 0.006209105980105516
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 740,
+      "attribute_score": 0.00620313097790974,
+      "scores": {
+        "Spain": 0.00620313097790974
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 71,
+      "attribute_score": 0.006195391096719881,
+      "scores": {
+        "Spain": 0.006195391096719881
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2718,
+      "attribute_score": 0.0061797993939097335,
+      "scores": {
+        "Spain": 0.0061797993939097335
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1609,
+      "attribute_score": 0.006177614374858577,
+      "scores": {
+        "Spain": 0.006177614374858577
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 259,
+      "attribute_score": 0.006140854300522223,
+      "scores": {
+        "Spain": 0.006140854300522223
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1139,
+      "attribute_score": 0.006136564219870218,
+      "scores": {
+        "Spain": 0.006136564219870218
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2634,
+      "attribute_score": 0.006114971346971466,
+      "scores": {
+        "Spain": 0.006114971346971466
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 849,
+      "attribute_score": 0.006107981612042683,
+      "scores": {
+        "Spain": 0.006107981612042683
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2109,
+      "attribute_score": 0.006104469299316406,
+      "scores": {
+        "Spain": 0.006104469299316406
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1460,
+      "attribute_score": 0.006095508249794565,
+      "scores": {
+        "Spain": 0.006095508249794565
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 688,
+      "attribute_score": 0.006088297541548566,
+      "scores": {
+        "Spain": 0.006088297541548566
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 774,
+      "attribute_score": 0.006083348902260385,
+      "scores": {
+        "Spain": 0.006083348902260385
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2646,
+      "attribute_score": 0.006082620562576666,
+      "scores": {
+        "Spain": 0.006082620562576666
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 411,
+      "attribute_score": 0.0060812961764451934,
+      "scores": {
+        "Spain": 0.0060812961764451934
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2798,
+      "attribute_score": 0.006069961117535103,
+      "scores": {
+        "Spain": 0.006069961117535103
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1548,
+      "attribute_score": 0.0060625294359718885,
+      "scores": {
+        "Spain": 0.0060625294359718885
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 313,
+      "attribute_score": 0.006048057137466058,
+      "scores": {
+        "Spain": 0.006048057137466058
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 104,
+      "attribute_score": 0.006044347111771747,
+      "scores": {
+        "Spain": 0.006044347111771747
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1716,
+      "attribute_score": 0.006033920660251524,
+      "scores": {
+        "Spain": 0.006033920660251524
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2607,
+      "attribute_score": 0.006029658201264172,
+      "scores": {
+        "Spain": 0.006029658201264172
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1309,
+      "attribute_score": 0.006029230792347978,
+      "scores": {
+        "Spain": 0.006029230792347978
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 137,
+      "attribute_score": 0.006026366861855112,
+      "scores": {
+        "Spain": 0.006026366861855112
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 475,
+      "attribute_score": 0.006019315341623818,
+      "scores": {
+        "Spain": 0.006019315341623818
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 972,
+      "attribute_score": 0.00601388477697605,
+      "scores": {
+        "Spain": 0.00601388477697605
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1413,
+      "attribute_score": 0.0059888159356466155,
+      "scores": {
+        "Spain": 0.0059888159356466155
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2634,
+      "attribute_score": 0.005985360320021466,
+      "scores": {
+        "Spain": 0.005985360320021466
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 219,
+      "attribute_score": 0.00597819249804427,
+      "scores": {
+        "Spain": 0.00597819249804427
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2892,
+      "attribute_score": 0.005965959735032989,
+      "scores": {
+        "Spain": 0.005965959735032989
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 426,
+      "attribute_score": 0.005965861241991927,
+      "scores": {
+        "Spain": 0.005965861241991927
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1191,
+      "attribute_score": 0.005962079618035293,
+      "scores": {
+        "Spain": 0.005962079618035293
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1288,
+      "attribute_score": 0.005961822300422482,
+      "scores": {
+        "Spain": 0.005961822300422482
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 370,
+      "attribute_score": 0.005943810794411636,
+      "scores": {
+        "Spain": 0.005943810794411636
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 537,
+      "attribute_score": 0.005928070079989549,
+      "scores": {
+        "Spain": 0.005928070079989549
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1402,
+      "attribute_score": 0.005920825208105692,
+      "scores": {
+        "Spain": 0.005920825208105692
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 409,
+      "attribute_score": 0.005919950764353682,
+      "scores": {
+        "Spain": 0.005919950764353682
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2530,
+      "attribute_score": 0.0059198242862050126,
+      "scores": {
+        "Spain": 0.0059198242862050126
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 245,
+      "attribute_score": 0.005917328159983565,
+      "scores": {
+        "Spain": 0.005917328159983565
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 468,
+      "attribute_score": 0.005895940268911966,
+      "scores": {
+        "Spain": 0.005895940268911966
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1810,
+      "attribute_score": 0.005884885787963867,
+      "scores": {
+        "Spain": 0.005884885787963867
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2097,
+      "attribute_score": 0.005884007709782298,
+      "scores": {
+        "Spain": 0.005884007709782298
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 256,
+      "attribute_score": 0.005861953991215404,
+      "scores": {
+        "Spain": 0.005861953991215404
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1274,
+      "attribute_score": 0.0058403945550685975,
+      "scores": {
+        "Spain": 0.0058403945550685975
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1712,
+      "attribute_score": 0.005838251695400331,
+      "scores": {
+        "Spain": 0.005838251695400331
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1938,
+      "attribute_score": 0.005837074867108973,
+      "scores": {
+        "Spain": 0.005837074867108973
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2914,
+      "attribute_score": 0.005831357909411919,
+      "scores": {
+        "Spain": 0.005831357909411919
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2815,
+      "attribute_score": 0.005822338709017125,
+      "scores": {
+        "Spain": 0.005822338709017125
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 606,
+      "attribute_score": 0.0058026822601876605,
+      "scores": {
+        "Spain": 0.0058026822601876605
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1189,
+      "attribute_score": 0.005799610440323993,
+      "scores": {
+        "Spain": 0.005799610440323993
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 837,
+      "attribute_score": 0.005794545499289908,
+      "scores": {
+        "Spain": 0.005794545499289908
+      }
+    }
+  ],
+  "layer_distribution": {
+    "0": 33,
+    "1": 38,
+    "2": 13,
+    "3": 31,
+    "4": 25,
+    "5": 30,
+    "6": 30,
+    "7": 17,
+    "8": 18,
+    "9": 9,
+    "10": 6,
+    "11": 3
+  },
+  "total_selected": 253,
+  "total_candidates": 36864
+}

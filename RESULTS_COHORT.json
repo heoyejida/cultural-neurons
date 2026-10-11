@@ -1,0 +1,449 @@
+{
+  "behavior_pairs": [
+    {
+      "model_id": "ar-en-intermediate",
+      "locale": "ar"
+    },
+    {
+      "model_id": "croissantllm-base",
+      "locale": "fr"
+    },
+    {
+      "model_id": "es-en-intermediate",
+      "locale": "es"
+    },
+    {
+      "model_id": "fr-en-intermediate",
+      "locale": "fr"
+    },
+    {
+      "model_id": "goldfish-ar",
+      "locale": "ar"
+    },
+    {
+      "model_id": "goldfish-es",
+      "locale": "es"
+    },
+    {
+      "model_id": "goldfish-fr",
+      "locale": "fr"
+    },
+    {
+      "model_id": "goldfish-ja",
+      "locale": "ja"
+    },
+    {
+      "model_id": "goldfish-ko",
+      "locale": "ko"
+    },
+    {
+      "model_id": "goldfish-zh",
+      "locale": "zh"
+    },
+    {
+      "model_id": "hplt2c-ara",
+      "locale": "ar"
+    },
+    {
+      "model_id": "hplt2c-fra",
+      "locale": "fr"
+    },
+    {
+      "model_id": "hplt2c-kor",
+      "locale": "ko"
+    },
+    {
+      "model_id": "ja-en-intermediate",
+      "locale": "ja"
+    },
+    {
+      "model_id": "jais-family-1p3b",
+      "locale": "ar"
+    },
+    {
+      "model_id": "kanana-1p5-2p1b-base",
+      "locale": "ko"
+    },
+    {
+      "model_id": "ko-en-intermediate",
+      "locale": "ko"
+    },
+    {
+      "model_id": "qwen3-1p7b-base",
+      "locale": "ar"
+    },
+    {
+      "model_id": "qwen3-1p7b-base",
+      "locale": "fr"
+    },
+    {
+      "model_id": "qwen3-1p7b-base",
+      "locale": "ko"
+    },
+    {
+      "model_id": "qwen3-4b-base",
+      "locale": "ja"
+    },
+    {
+      "model_id": "rinna-bilingual-neox-4b",
+      "locale": "ja"
+    },
+    {
+      "model_id": "rinna-monolingual-neox-3p6b",
+      "locale": "ja"
+    },
+    {
+      "model_id": "xglm-564m",
+      "locale": "ar"
+    },
+    {
+      "model_id": "xglm-564m",
+      "locale": "es"
+    },
+    {
+      "model_id": "xglm-564m",
+      "locale": "fr"
+    },
+    {
+      "model_id": "xglm-564m",
+      "locale": "ja"
+    },
+    {
+      "model_id": "xglm-564m",
+      "locale": "ko"
+    },
+    {
+      "model_id": "xglm-564m",
+      "locale": "zh"
+    },
+    {
+      "model_id": "zh-en-intermediate",
+      "locale": "zh"
+    }
+  ],
+  "masking_pairs": [
+    {
+      "model_id": "ar-en-intermediate",
+      "slug": "ar-en-intermediate",
+      "locale": "ar",
+      "country": "Saudi Arabia"
+    },
+    {
+      "model_id": "croissantllm-base",
+      "slug": "CroissantLLMBase",
+      "locale": "fr",
+      "country": "France"
+    },
+    {
+      "model_id": "es-en-intermediate",
+      "slug": "es-en-intermediate",
+      "locale": "es",
+      "country": "Spain"
+    },
+    {
+      "model_id": "eurollm-1p7b",
+      "slug": "EuroLLM-1.7B",
+      "locale": "ar",
+      "country": "Saudi Arabia"
+    },
+    {
+      "model_id": "eurollm-1p7b",
+      "slug": "EuroLLM-1.7B",
+      "locale": "es",
+      "country": "Spain"
+    },
+    {
+      "model_id": "eurollm-1p7b",
+      "slug": "EuroLLM-1.7B",
+      "locale": "fr",
+      "country": "France"
+    },
+    {
+      "model_id": "eurollm-1p7b",
+      "slug": "EuroLLM-1.7B",
+      "locale": "ko",
+      "country": "South Korea"
+    },
+    {
+      "model_id": "eurollm-1p7b",
+      "slug": "EuroLLM-1.7B",
+      "locale": "zh",
+      "country": "China"
+    },
+    {
+      "model_id": "fr-en-intermediate",
+      "slug": "fr-en-intermediate",
+      "locale": "fr",
+      "country": "France"
+    },
+    {
+      "model_id": "goldfish-ar",
+      "slug": "arb_arab_1000mb",
+      "locale": "ar",
+      "country": "Saudi Arabia"
+    },
+    {
+      "model_id": "goldfish-es",
+      "slug": "spa_latn_1000mb",
+      "locale": "es",
+      "country": "Spain"
+    },
+    {
+      "model_id": "goldfish-fr",
+      "slug": "fra_latn_1000mb",
+      "locale": "fr",
+      "country": "France"
+    },
+    {
+      "model_id": "goldfish-ko",
+      "slug": "kor_hang_1000mb",
+      "locale": "ko",
+      "country": "South Korea"
+    },
+    {
+      "model_id": "goldfish-zh",
+      "slug": "zho_hans_1000mb",
+      "locale": "zh",
+      "country": "China"
+    },
+    {
+      "model_id": "hplt2c-ara",
+      "slug": "hplt2c_ara_checkpoints",
+      "locale": "ar",
+      "country": "Saudi Arabia"
+    },
+    {
+      "model_id": "hplt2c-fra",
+      "slug": "hplt2c_fra_checkpoints",
+      "locale": "fr",
+      "country": "France"
+    },
+    {
+      "model_id": "hplt2c-kor",
+      "slug": "hplt2c_kor_checkpoints",
+      "locale": "ko",
+      "country": "South Korea"
+    },
+    {
+      "model_id": "jais-family-1p3b",
+      "slug": "jais-family-1p3b",
+      "locale": "ar",
+      "country": "Saudi Arabia"
+    },
+    {
+      "model_id": "kanana-1p5-2p1b-base",
+      "slug": "kanana-1.5-2.1b-base",
+      "locale": "ko",
+      "country": "South Korea"
+    },
+    {
+      "model_id": "ko-en-intermediate",
+      "slug": "ko-en-intermediate",
+      "locale": "ko",
+      "country": "South Korea"
+    },
+    {
+      "model_id": "qwen3-1p7b-base",
+      "slug": "Qwen3-1.7B-Base",
+      "locale": "ar",
+      "country": "Saudi Arabia"
+    },
+    {
+      "model_id": "qwen3-1p7b-base",
+      "slug": "Qwen3-1.7B-Base",
+      "locale": "es",
+      "country": "Spain"
+    },
+    {
+      "model_id": "qwen3-1p7b-base",
+      "slug": "Qwen3-1.7B-Base",
+      "locale": "fr",
+      "country": "France"
+    },
+    {
+      "model_id": "qwen3-1p7b-base",
+      "slug": "Qwen3-1.7B-Base",
+      "locale": "ko",
+      "country": "South Korea"
+    },
+    {
+      "model_id": "qwen3-1p7b-base",
+      "slug": "Qwen3-1.7B-Base",
+      "locale": "zh",
+      "country": "China"
+    },
+    {
+      "model_id": "tiny-aya-base",
+      "slug": "tiny-aya-base",
+      "locale": "ar",
+      "country": "Saudi Arabia"
+    },
+    {
+      "model_id": "tiny-aya-base",
+      "slug": "tiny-aya-base",
+      "locale": "es",
+      "country": "Spain"
+    },
+    {
+      "model_id": "tiny-aya-base",
+      "slug": "tiny-aya-base",
+      "locale": "fr",
+      "country": "France"
+    },
+    {
+      "model_id": "tiny-aya-base",
+      "slug": "tiny-aya-base",
+      "locale": "ko",
+      "country": "South Korea"
+    },
+    {
+      "model_id": "tiny-aya-base",
+      "slug": "tiny-aya-base",
+      "locale": "zh",
+      "country": "China"
+    },
+    {
+      "model_id": "xglm-564m",
+      "slug": "xglm-564M",
+      "locale": "ar",
+      "country": "Saudi Arabia"
+    },
+    {
+      "model_id": "xglm-564m",
+      "slug": "xglm-564M",
+      "locale": "es",
+      "country": "Spain"
+    },
+    {
+      "model_id": "xglm-564m",
+      "slug": "xglm-564M",
+      "locale": "fr",
+      "country": "France"
+    },
+    {
+      "model_id": "xglm-564m",
+      "slug": "xglm-564M",
+      "locale": "ko",
+      "country": "South Korea"
+    },
+    {
+      "model_id": "xglm-564m",
+      "slug": "xglm-564M",
+      "locale": "zh",
+      "country": "China"
+    },
+    {
+      "model_id": "zh-en-intermediate",
+      "slug": "zh-en-intermediate",
+      "locale": "zh",
+      "country": "China"
+    }
+  ],
+  "checkpoints": [
+    {
+      "model": "hplt2c-kor",
+      "checkpoint": "checkpoint_0001000",
+      "locale": "ko"
+    },
+    {
+      "model": "hplt2c-kor",
+      "checkpoint": "checkpoint_0002000",
+      "locale": "ko"
+    },
+    {
+      "model": "hplt2c-kor",
+      "checkpoint": "checkpoint_0004000",
+      "locale": "ko"
+    },
+    {
+      "model": "hplt2c-kor",
+      "checkpoint": "checkpoint_0007000",
+      "locale": "ko"
+    },
+    {
+      "model": "hplt2c-kor",
+      "checkpoint": "checkpoint_0016000",
+      "locale": "ko"
+    },
+    {
+      "model": "hplt2c-kor",
+      "checkpoint": "checkpoint_0032000",
+      "locale": "ko"
+    },
+    {
+      "model": "hplt2c-kor",
+      "checkpoint": "checkpoint_0047000",
+      "locale": "ko"
+    },
+    {
+      "model": "hplt2c-ara",
+      "checkpoint": "checkpoint_0001000",
+      "locale": "ar"
+    },
+    {
+      "model": "hplt2c-ara",
+      "checkpoint": "checkpoint_0002000",
+      "locale": "ar"
+    },
+    {
+      "model": "hplt2c-ara",
+      "checkpoint": "checkpoint_0004000",
+      "locale": "ar"
+    },
+    {
+      "model": "hplt2c-ara",
+      "checkpoint": "checkpoint_0007000",
+      "locale": "ar"
+    },
+    {
+      "model": "hplt2c-ara",
+      "checkpoint": "checkpoint_0016000",
+      "locale": "ar"
+    },
+    {
+      "model": "hplt2c-ara",
+      "checkpoint": "checkpoint_0032000",
+      "locale": "ar"
+    },
+    {
+      "model": "hplt2c-ara",
+      "checkpoint": "checkpoint_0047000",
+      "locale": "ar"
+    },
+    {
+      "model": "hplt2c-fra",
+      "checkpoint": "checkpoint_0001000",
+      "locale": "fr"
+    },
+    {
+      "model": "hplt2c-fra",
+      "checkpoint": "checkpoint_0002000",
+      "locale": "fr"
+    },
+    {
+      "model": "hplt2c-fra",
+      "checkpoint": "checkpoint_0004000",
+      "locale": "fr"
+    },
+    {
+      "model": "hplt2c-fra",
+      "checkpoint": "checkpoint_0007000",
+      "locale": "fr"
+    },
+    {
+      "model": "hplt2c-fra",
+      "checkpoint": "checkpoint_0016000",
+      "locale": "fr"
+    },
+    {
+      "model": "hplt2c-fra",
+      "checkpoint": "checkpoint_0032000",
+      "locale": "fr"
+    },
+    {
+      "model": "hplt2c-fra",
+      "checkpoint": "checkpoint_0047000",
+      "locale": "fr"
+    }
+  ]
+}

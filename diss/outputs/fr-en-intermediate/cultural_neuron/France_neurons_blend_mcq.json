@@ -1,0 +1,7534 @@
+{
+  "model_name": "RA-ALTA/fr-en-intermediate",
+  "target_country": "France",
+  "revision": null,
+  "dataset_ids": {
+    "blend_mcq": [
+      "eblnd-fr-FR_0006",
+      "eblnd-fr-FR_0007",
+      "eblnd-fr-FR_0008",
+      "eblnd-fr-FR_0009",
+      "eblnd-fr-FR_0010",
+      "eblnd-fr-FR_0011",
+      "eblnd-fr-FR_0012",
+      "eblnd-fr-FR_0014",
+      "eblnd-fr-FR_0015",
+      "eblnd-fr-FR_0017",
+      "eblnd-fr-FR_0018",
+      "eblnd-fr-FR_0019",
+      "eblnd-fr-FR_0020",
+      "eblnd-fr-FR_0021",
+      "eblnd-fr-FR_0022",
+      "eblnd-fr-FR_0023",
+      "eblnd-fr-FR_0024",
+      "eblnd-fr-FR_0025",
+      "eblnd-fr-FR_0028",
+      "eblnd-fr-FR_0029",
+      "eblnd-fr-FR_0030",
+      "eblnd-fr-FR_0031",
+      "eblnd-fr-FR_0032",
+      "eblnd-fr-FR_0049",
+      "eblnd-fr-FR_0050",
+      "eblnd-fr-FR_0051",
+      "eblnd-fr-FR_0052",
+      "eblnd-fr-FR_0053",
+      "eblnd-fr-FR_0058",
+      "eblnd-fr-FR_0059",
+      "eblnd-fr-FR_0068",
+      "eblnd-fr-FR_0071",
+      "eblnd-fr-FR_0072",
+      "eblnd-fr-FR_0073",
+      "eblnd-fr-FR_0074",
+      "eblnd-fr-FR_0075",
+      "eblnd-fr-FR_0076",
+      "eblnd-fr-FR_0077",
+      "eblnd-fr-FR_0078",
+      "eblnd-fr-FR_0079",
+      "eblnd-fr-FR_0080",
+      "eblnd-fr-FR_0081",
+      "eblnd-fr-FR_0082",
+      "eblnd-fr-FR_0084",
+      "eblnd-fr-FR_0085",
+      "eblnd-fr-FR_0086",
+      "eblnd-fr-FR_0087",
+      "eblnd-fr-FR_0088",
+      "eblnd-fr-FR_0125",
+      "eblnd-fr-FR_0126",
+      "eblnd-fr-FR_0127",
+      "eblnd-fr-FR_0128",
+      "eblnd-fr-FR_0129",
+      "eblnd-fr-FR_0130",
+      "eblnd-fr-FR_0131",
+      "eblnd-fr-FR_0132",
+      "eblnd-fr-FR_0133",
+      "eblnd-fr-FR_0134",
+      "eblnd-fr-FR_0138",
+      "eblnd-fr-FR_0139",
+      "eblnd-fr-FR_0140",
+      "eblnd-fr-FR_0141",
+      "eblnd-fr-FR_0145",
+      "eblnd-fr-FR_0146",
+      "eblnd-fr-FR_0147",
+      "eblnd-fr-FR_0148",
+      "eblnd-fr-FR_0151",
+      "eblnd-fr-FR_0152",
+      "eblnd-fr-FR_0153",
+      "eblnd-fr-FR_0154",
+      "eblnd-fr-FR_0155",
+      "eblnd-fr-FR_0186",
+      "eblnd-fr-FR_0187",
+      "eblnd-fr-FR_0188",
+      "eblnd-fr-FR_0189",
+      "eblnd-fr-FR_0190",
+      "eblnd-fr-FR_0191",
+      "eblnd-fr-FR_0192",
+      "eblnd-fr-FR_0208",
+      "eblnd-fr-FR_0209",
+      "eblnd-fr-FR_0210",
+      "eblnd-fr-FR_0211",
+      "eblnd-fr-FR_0212",
+      "eblnd-fr-FR_0213",
+      "eblnd-fr-FR_0214",
+      "eblnd-fr-FR_0215",
+      "eblnd-fr-FR_0218",
+      "eblnd-fr-FR_0220",
+      "eblnd-fr-FR_0221",
+      "eblnd-fr-FR_0222",
+      "eblnd-fr-FR_0226",
+      "eblnd-fr-FR_0233",
+      "eblnd-fr-FR_0234",
+      "eblnd-fr-FR_0235",
+      "eblnd-fr-FR_0236",
+      "eblnd-fr-FR_0237",
+      "eblnd-fr-FR_0238",
+      "eblnd-fr-FR_0240",
+      "eblnd-fr-FR_0241",
+      "eblnd-fr-FR_0245",
+      "eblnd-fr-FR_0246",
+      "eblnd-fr-FR_0266",
+      "eblnd-fr-FR_0267",
+      "eblnd-fr-FR_0288",
+      "eblnd-fr-FR_0289",
+      "eblnd-fr-FR_0290",
+      "eblnd-fr-FR_0291",
+      "eblnd-fr-FR_0293",
+      "eblnd-fr-FR_0294",
+      "eblnd-fr-FR_0295",
+      "eblnd-fr-FR_0296",
+      "eblnd-fr-FR_0297",
+      "eblnd-fr-FR_0300",
+      "eblnd-fr-FR_0301"
+    ],
+    "countryrc_localized": [
+      "fr-france-0",
+      "fr-france-1",
+      "fr-france-10",
+      "fr-france-11",
+      "fr-france-12",
+      "fr-france-13",
+      "fr-france-14",
+      "fr-france-15",
+      "fr-france-16",
+      "fr-france-17",
+      "fr-france-18",
+      "fr-france-19",
+      "fr-france-2",
+      "fr-france-20",
+      "fr-france-21",
+      "fr-france-22",
+      "fr-france-23",
+      "fr-france-24",
+      "fr-france-3",
+      "fr-france-4",
+      "fr-france-5",
+      "fr-france-6",
+      "fr-france-7",
+      "fr-france-8",
+      "fr-france-9"
+    ]
+  },
+  "thresholds": {
+    "mlp_threshold": 0.01,
+    "countryrc_threshold": 0.01
+  },
+  "top_neurons": [
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2513,
+      "attribute_score": 0.0674367954856471,
+      "scores": {
+        "France": 0.0674367954856471
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2369,
+      "attribute_score": 0.06506780155918054,
+      "scores": {
+        "France": 0.06506780155918054
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2223,
+      "attribute_score": 0.030703435864364893,
+      "scores": {
+        "France": 0.030703435864364893
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2508,
+      "attribute_score": 0.030670291499087687,
+      "scores": {
+        "France": 0.030670291499087687
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1129,
+      "attribute_score": 0.027978365881401197,
+      "scores": {
+        "France": 0.027978365881401197
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1682,
+      "attribute_score": 0.025256374426055373,
+      "scores": {
+        "France": 0.025256374426055373
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2588,
+      "attribute_score": 0.02423145059953656,
+      "scores": {
+        "France": 0.02423145059953656
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 7,
+      "attribute_score": 0.023916508022107576,
+      "scores": {
+        "France": 0.023916508022107576
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3144,
+      "attribute_score": 0.023802681973105984,
+      "scores": {
+        "France": 0.023802681973105984
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 812,
+      "attribute_score": 0.023748682256330523,
+      "scores": {
+        "France": 0.023748682256330523
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1427,
+      "attribute_score": 0.023511480866817005,
+      "scores": {
+        "France": 0.023511480866817005
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2594,
+      "attribute_score": 0.0230944365785833,
+      "scores": {
+        "France": 0.0230944365785833
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2093,
+      "attribute_score": 0.022891408518741007,
+      "scores": {
+        "France": 0.022891408518741007
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2663,
+      "attribute_score": 0.02281648652595386,
+      "scores": {
+        "France": 0.02281648652595386
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 104,
+      "attribute_score": 0.022207544561018023,
+      "scores": {
+        "France": 0.022207544561018023
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2691,
+      "attribute_score": 0.021304030167429072,
+      "scores": {
+        "France": 0.021304030167429072
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1302,
+      "attribute_score": 0.021245236982379043,
+      "scores": {
+        "France": 0.021245236982379043
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 438,
+      "attribute_score": 0.021000828659325316,
+      "scores": {
+        "France": 0.021000828659325316
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3344,
+      "attribute_score": 0.01984137401246188,
+      "scores": {
+        "France": 0.01984137401246188
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2969,
+      "attribute_score": 0.019297616523608827,
+      "scores": {
+        "France": 0.019297616523608827
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2854,
+      "attribute_score": 0.01920690034565173,
+      "scores": {
+        "France": 0.01920690034565173
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3185,
+      "attribute_score": 0.017766701547723068,
+      "scores": {
+        "France": 0.017766701547723068
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1641,
+      "attribute_score": 0.017219652209365575,
+      "scores": {
+        "France": 0.017219652209365575
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1002,
+      "attribute_score": 0.016674353365312544,
+      "scores": {
+        "France": 0.016674353365312544
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3347,
+      "attribute_score": 0.01664332339638158,
+      "scores": {
+        "France": 0.01664332339638158
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1872,
+      "attribute_score": 0.015772836250171327,
+      "scores": {
+        "France": 0.015772836250171327
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3349,
+      "attribute_score": 0.015559815523917215,
+      "scores": {
+        "France": 0.015559815523917215
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 391,
+      "attribute_score": 0.01539183499520285,
+      "scores": {
+        "France": 0.01539183499520285
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 450,
+      "attribute_score": 0.01537523771587171,
+      "scores": {
+        "France": 0.01537523771587171
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1331,
+      "attribute_score": 0.01504960813020405,
+      "scores": {
+        "France": 0.01504960813020405
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3046,
+      "attribute_score": 0.015024348309165552,
+      "scores": {
+        "France": 0.015024348309165552
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2811,
+      "attribute_score": 0.014960790935315584,
+      "scores": {
+        "France": 0.014960790935315584
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1975,
+      "attribute_score": 0.014611796328895971,
+      "scores": {
+        "France": 0.014611796328895971
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1562,
+      "attribute_score": 0.014507544668097245,
+      "scores": {
+        "France": 0.014507544668097245
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2570,
+      "attribute_score": 0.014105545847039474,
+      "scores": {
+        "France": 0.014105545847039474
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2885,
+      "attribute_score": 0.013599466859248647,
+      "scores": {
+        "France": 0.013599466859248647
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1839,
+      "attribute_score": 0.013298766654834412,
+      "scores": {
+        "France": 0.013298766654834412
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 912,
+      "attribute_score": 0.012774534392775152,
+      "scores": {
+        "France": 0.012774534392775152
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2697,
+      "attribute_score": 0.012596895820216128,
+      "scores": {
+        "France": 0.012596895820216128
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 138,
+      "attribute_score": 0.012497935378760622,
+      "scores": {
+        "France": 0.012497935378760622
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 413,
+      "attribute_score": 0.012249076575563666,
+      "scores": {
+        "France": 0.012249076575563666
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1761,
+      "attribute_score": 0.012176480209618284,
+      "scores": {
+        "France": 0.012176480209618284
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2661,
+      "attribute_score": 0.012125182570072642,
+      "scores": {
+        "France": 0.012125182570072642
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1179,
+      "attribute_score": 0.012073633963601631,
+      "scores": {
+        "France": 0.012073633963601631
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2042,
+      "attribute_score": 0.011895756972463508,
+      "scores": {
+        "France": 0.011895756972463508
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 900,
+      "attribute_score": 0.011885735026577063,
+      "scores": {
+        "France": 0.011885735026577063
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2743,
+      "attribute_score": 0.011672605547988624,
+      "scores": {
+        "France": 0.011672605547988624
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 436,
+      "attribute_score": 0.011567048859177973,
+      "scores": {
+        "France": 0.011567048859177973
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1137,
+      "attribute_score": 0.01155853271484375,
+      "scores": {
+        "France": 0.01155853271484375
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 659,
+      "attribute_score": 0.011513542710689077,
+      "scores": {
+        "France": 0.011513542710689077
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 211,
+      "attribute_score": 0.011442184448242188,
+      "scores": {
+        "France": 0.011442184448242188
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 2553,
+      "attribute_score": 0.011372055923729613,
+      "scores": {
+        "France": 0.011372055923729613
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1285,
+      "attribute_score": 0.011367877324422201,
+      "scores": {
+        "France": 0.011367877324422201
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 642,
+      "attribute_score": 0.011269063280339827,
+      "scores": {
+        "France": 0.011269063280339827
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3197,
+      "attribute_score": 0.011268414949115953,
+      "scores": {
+        "France": 0.011268414949115953
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 774,
+      "attribute_score": 0.011163878859135142,
+      "scores": {
+        "France": 0.011163878859135142
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2306,
+      "attribute_score": 0.011112012361225328,
+      "scores": {
+        "France": 0.011112012361225328
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1476,
+      "attribute_score": 0.01105918382343493,
+      "scores": {
+        "France": 0.01105918382343493
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2808,
+      "attribute_score": 0.010744914673922355,
+      "scores": {
+        "France": 0.010744914673922355
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 815,
+      "attribute_score": 0.010742287886770148,
+      "scores": {
+        "France": 0.010742287886770148
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 255,
+      "attribute_score": 0.010703379647773608,
+      "scores": {
+        "France": 0.010703379647773608
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 653,
+      "attribute_score": 0.010636773025780394,
+      "scores": {
+        "France": 0.010636773025780394
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3067,
+      "attribute_score": 0.010566343340957374,
+      "scores": {
+        "France": 0.010566343340957374
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 65,
+      "attribute_score": 0.010559659255178351,
+      "scores": {
+        "France": 0.010559659255178351
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1994,
+      "attribute_score": 0.010517488446152001,
+      "scores": {
+        "France": 0.010517488446152001
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2496,
+      "attribute_score": 0.010500481254176089,
+      "scores": {
+        "France": 0.010500481254176089
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1249,
+      "attribute_score": 0.010474096264755517,
+      "scores": {
+        "France": 0.010474096264755517
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 13,
+      "attribute_score": 0.010468349122164542,
+      "scores": {
+        "France": 0.010468349122164542
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 347,
+      "attribute_score": 0.01043105543705455,
+      "scores": {
+        "France": 0.01043105543705455
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1469,
+      "attribute_score": 0.010423074688827782,
+      "scores": {
+        "France": 0.010423074688827782
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 211,
+      "attribute_score": 0.010384509437962583,
+      "scores": {
+        "France": 0.010384509437962583
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1808,
+      "attribute_score": 0.010248853449235883,
+      "scores": {
+        "France": 0.010248853449235883
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1539,
+      "attribute_score": 0.010178720741941217,
+      "scores": {
+        "France": 0.010178720741941217
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2435,
+      "attribute_score": 0.010115941365559896,
+      "scores": {
+        "France": 0.010115941365559896
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 473,
+      "attribute_score": 0.010090648082264682,
+      "scores": {
+        "France": 0.010090648082264682
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 837,
+      "attribute_score": 0.010079626451458847,
+      "scores": {
+        "France": 0.010079626451458847
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1106,
+      "attribute_score": 0.010068604820653013,
+      "scores": {
+        "France": 0.010068604820653013
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1253,
+      "attribute_score": 0.01005512789676064,
+      "scores": {
+        "France": 0.01005512789676064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3427,
+      "attribute_score": 0.009962583843030427,
+      "scores": {
+        "France": 0.009962583843030427
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1053,
+      "attribute_score": 0.009924202634577165,
+      "scores": {
+        "France": 0.009924202634577165
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3301,
+      "attribute_score": 0.009854818645276521,
+      "scores": {
+        "France": 0.009854818645276521
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3134,
+      "attribute_score": 0.00981860411794562,
+      "scores": {
+        "France": 0.00981860411794562
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2183,
+      "attribute_score": 0.009775784977695398,
+      "scores": {
+        "France": 0.009775784977695398
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 539,
+      "attribute_score": 0.009754431875128495,
+      "scores": {
+        "France": 0.009754431875128495
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3325,
+      "attribute_score": 0.009710069288287246,
+      "scores": {
+        "France": 0.009710069288287246
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3211,
+      "attribute_score": 0.009653242010819284,
+      "scores": {
+        "France": 0.009653242010819284
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2686,
+      "attribute_score": 0.009633930105912058,
+      "scores": {
+        "France": 0.009633930105912058
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 688,
+      "attribute_score": 0.009616517184073465,
+      "scores": {
+        "France": 0.009616517184073465
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2157,
+      "attribute_score": 0.009566708614951685,
+      "scores": {
+        "France": 0.009566708614951685
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2048,
+      "attribute_score": 0.00956575075785319,
+      "scores": {
+        "France": 0.00956575075785319
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2657,
+      "attribute_score": 0.009545610662092242,
+      "scores": {
+        "France": 0.009545610662092242
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2127,
+      "attribute_score": 0.00954219751190721,
+      "scores": {
+        "France": 0.00954219751190721
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 105,
+      "attribute_score": 0.00951804194534034,
+      "scores": {
+        "France": 0.00951804194534034
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3515,
+      "attribute_score": 0.009498219741018195,
+      "scores": {
+        "France": 0.009498219741018195
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1096,
+      "attribute_score": 0.009351939485784163,
+      "scores": {
+        "France": 0.009351939485784163
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2027,
+      "attribute_score": 0.009346192343193189,
+      "scores": {
+        "France": 0.009346192343193189
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1679,
+      "attribute_score": 0.009343164008960389,
+      "scores": {
+        "France": 0.009343164008960389
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2091,
+      "attribute_score": 0.00931155054192794,
+      "scores": {
+        "France": 0.00931155054192794
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1140,
+      "attribute_score": 0.009300600018417626,
+      "scores": {
+        "France": 0.009300600018417626
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2300,
+      "attribute_score": 0.009282513668662623,
+      "scores": {
+        "France": 0.009282513668662623
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 41,
+      "attribute_score": 0.009232270090203536,
+      "scores": {
+        "France": 0.009232270090203536
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1928,
+      "attribute_score": 0.009193767581069679,
+      "scores": {
+        "France": 0.009193767581069679
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3297,
+      "attribute_score": 0.009163421497010348,
+      "scores": {
+        "France": 0.009163421497010348
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2394,
+      "attribute_score": 0.009156712314538788,
+      "scores": {
+        "France": 0.009156712314538788
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 88,
+      "attribute_score": 0.009119736520867599,
+      "scores": {
+        "France": 0.009119736520867599
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2816,
+      "attribute_score": 0.009100830345823053,
+      "scores": {
+        "France": 0.009100830345823053
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 195,
+      "attribute_score": 0.0090845969685337,
+      "scores": {
+        "France": 0.0090845969685337
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2815,
+      "attribute_score": 0.00907201934279057,
+      "scores": {
+        "France": 0.00907201934279057
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2650,
+      "attribute_score": 0.009057889904892235,
+      "scores": {
+        "France": 0.009057889904892235
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 337,
+      "attribute_score": 0.009042070623029742,
+      "scores": {
+        "France": 0.009042070623029742
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 640,
+      "attribute_score": 0.009002719009131716,
+      "scores": {
+        "France": 0.009002719009131716
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1297,
+      "attribute_score": 0.008987995616176673,
+      "scores": {
+        "France": 0.008987995616176673
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1915,
+      "attribute_score": 0.008970674715544047,
+      "scores": {
+        "France": 0.008970674715544047
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1550,
+      "attribute_score": 0.008936898750171327,
+      "scores": {
+        "France": 0.008936898750171327
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2380,
+      "attribute_score": 0.008915365787974576,
+      "scores": {
+        "France": 0.008915365787974576
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2196,
+      "attribute_score": 0.008914161146732798,
+      "scores": {
+        "France": 0.008914161146732798
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1806,
+      "attribute_score": 0.008913006698876097,
+      "scores": {
+        "France": 0.008913006698876097
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2905,
+      "attribute_score": 0.00891138377942537,
+      "scores": {
+        "France": 0.00891138377942537
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 530,
+      "attribute_score": 0.00888330894604064,
+      "scores": {
+        "France": 0.00888330894604064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 928,
+      "attribute_score": 0.008828849123235335,
+      "scores": {
+        "France": 0.008828849123235335
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1027,
+      "attribute_score": 0.008812887626781798,
+      "scores": {
+        "France": 0.008812887626781798
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 5,
+      "attribute_score": 0.008805191307737116,
+      "scores": {
+        "France": 0.008805191307737116
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2868,
+      "attribute_score": 0.008800514957361054,
+      "scores": {
+        "France": 0.008800514957361054
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1339,
+      "attribute_score": 0.008785582425301535,
+      "scores": {
+        "France": 0.008785582425301535
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1814,
+      "attribute_score": 0.00878127415974935,
+      "scores": {
+        "France": 0.00878127415974935
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1467,
+      "attribute_score": 0.00877761213402999,
+      "scores": {
+        "France": 0.00877761213402999
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1057,
+      "attribute_score": 0.008725199783057497,
+      "scores": {
+        "France": 0.008725199783057497
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 936,
+      "attribute_score": 0.00867110804507607,
+      "scores": {
+        "France": 0.00867110804507607
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1062,
+      "attribute_score": 0.008670405337685034,
+      "scores": {
+        "France": 0.008670405337685034
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1267,
+      "attribute_score": 0.008663779810855263,
+      "scores": {
+        "France": 0.008663779810855263
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2504,
+      "attribute_score": 0.008650963766533033,
+      "scores": {
+        "France": 0.008650963766533033
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 608,
+      "attribute_score": 0.008649909705446478,
+      "scores": {
+        "France": 0.008649909705446478
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1175,
+      "attribute_score": 0.008638616193804825,
+      "scores": {
+        "France": 0.008638616193804825
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2210,
+      "attribute_score": 0.008624980324193052,
+      "scores": {
+        "France": 0.008624980324193052
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3464,
+      "attribute_score": 0.008623039513303522,
+      "scores": {
+        "France": 0.008623039513303522
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 390,
+      "attribute_score": 0.008618220948336417,
+      "scores": {
+        "France": 0.008618220948336417
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 583,
+      "attribute_score": 0.00860478585226494,
+      "scores": {
+        "France": 0.00860478585226494
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 668,
+      "attribute_score": 0.008586699502509936,
+      "scores": {
+        "France": 0.008586699502509936
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 1665,
+      "attribute_score": 0.008568470938163892,
+      "scores": {
+        "France": 0.008568470938163892
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1364,
+      "attribute_score": 0.008555705087226733,
+      "scores": {
+        "France": 0.008555705087226733
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1725,
+      "attribute_score": 0.008544311188814933,
+      "scores": {
+        "France": 0.008544311188814933
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3185,
+      "attribute_score": 0.008538907034355298,
+      "scores": {
+        "France": 0.008538907034355298
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2993,
+      "attribute_score": 0.008520429594474927,
+      "scores": {
+        "France": 0.008520429594474927
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2504,
+      "attribute_score": 0.008492486518726014,
+      "scores": {
+        "France": 0.008492486518726014
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 591,
+      "attribute_score": 0.008469698721902412,
+      "scores": {
+        "France": 0.008469698721902412
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1583,
+      "attribute_score": 0.008462705110248766,
+      "scores": {
+        "France": 0.008462705110248766
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1149,
+      "attribute_score": 0.008457284224660773,
+      "scores": {
+        "France": 0.008457284224660773
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2089,
+      "attribute_score": 0.0084567153662966,
+      "scores": {
+        "France": 0.0084567153662966
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2109,
+      "attribute_score": 0.008422307800828364,
+      "scores": {
+        "France": 0.008422307800828364
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1946,
+      "attribute_score": 0.008419538799085115,
+      "scores": {
+        "France": 0.008419538799085115
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 978,
+      "attribute_score": 0.008396746819479424,
+      "scores": {
+        "France": 0.008396746819479424
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2902,
+      "attribute_score": 0.008392484564530222,
+      "scores": {
+        "France": 0.008392484564530222
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 344,
+      "attribute_score": 0.008372231533652857,
+      "scores": {
+        "France": 0.008372231533652857
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1090,
+      "attribute_score": 0.008344658634118866,
+      "scores": {
+        "France": 0.008344658634118866
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2838,
+      "attribute_score": 0.008335059149223462,
+      "scores": {
+        "France": 0.008335059149223462
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 773,
+      "attribute_score": 0.008328663675408614,
+      "scores": {
+        "France": 0.008328663675408614
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2847,
+      "attribute_score": 0.008322866339432565,
+      "scores": {
+        "France": 0.008322866339432565
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1085,
+      "attribute_score": 0.008312426115337172,
+      "scores": {
+        "France": 0.008312426115337172
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 947,
+      "attribute_score": 0.00830899623402378,
+      "scores": {
+        "France": 0.00830899623402378
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1170,
+      "attribute_score": 0.008267419380054139,
+      "scores": {
+        "France": 0.008267419380054139
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 318,
+      "attribute_score": 0.008258116872687089,
+      "scores": {
+        "France": 0.008258116872687089
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2210,
+      "attribute_score": 0.008238252840544047,
+      "scores": {
+        "France": 0.008238252840544047
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1590,
+      "attribute_score": 0.008238190098812706,
+      "scores": {
+        "France": 0.008238190098812706
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1453,
+      "attribute_score": 0.008192932396604303,
+      "scores": {
+        "France": 0.008192932396604303
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1017,
+      "attribute_score": 0.008190991585714775,
+      "scores": {
+        "France": 0.008190991585714775
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2792,
+      "attribute_score": 0.008189786944472999,
+      "scores": {
+        "France": 0.008189786944472999
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 914,
+      "attribute_score": 0.008163263923243472,
+      "scores": {
+        "France": 0.008163263923243472
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1396,
+      "attribute_score": 0.008161427681906181,
+      "scores": {
+        "France": 0.008161427681906181
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2997,
+      "attribute_score": 0.008153442750897324,
+      "scores": {
+        "France": 0.008153442750897324
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 529,
+      "attribute_score": 0.00814618562397204,
+      "scores": {
+        "France": 0.00814618562397204
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2610,
+      "attribute_score": 0.00812278714096337,
+      "scores": {
+        "France": 0.00812278714096337
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1552,
+      "attribute_score": 0.00809010288171601,
+      "scores": {
+        "France": 0.00809010288171601
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 941,
+      "attribute_score": 0.008089149207399603,
+      "scores": {
+        "France": 0.008089149207399603
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 878,
+      "attribute_score": 0.008082640798468339,
+      "scores": {
+        "France": 0.008082640798468339
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2856,
+      "attribute_score": 0.008076902021441543,
+      "scores": {
+        "France": 0.008076902021441543
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3343,
+      "attribute_score": 0.00805412259018212,
+      "scores": {
+        "France": 0.00805412259018212
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3424,
+      "attribute_score": 0.008035776907937569,
+      "scores": {
+        "France": 0.008035776907937569
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1878,
+      "attribute_score": 0.008024215698242188,
+      "scores": {
+        "France": 0.008024215698242188
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3411,
+      "attribute_score": 0.007987858956320244,
+      "scores": {
+        "France": 0.007987858956320244
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3000,
+      "attribute_score": 0.00798135054738898,
+      "scores": {
+        "France": 0.00798135054738898
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2509,
+      "attribute_score": 0.007980145906147203,
+      "scores": {
+        "France": 0.007980145906147203
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3573,
+      "attribute_score": 0.007974967621920402,
+      "scores": {
+        "France": 0.007974967621920402
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 638,
+      "attribute_score": 0.007948218730458041,
+      "scores": {
+        "France": 0.007948218730458041
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1673,
+      "attribute_score": 0.0079401877888462,
+      "scores": {
+        "France": 0.0079401877888462
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1040,
+      "attribute_score": 0.007910644798948053,
+      "scores": {
+        "France": 0.007910644798948053
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3341,
+      "attribute_score": 0.007901777300918312,
+      "scores": {
+        "France": 0.007901777300918312
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2908,
+      "attribute_score": 0.007901308829324287,
+      "scores": {
+        "France": 0.007901308829324287
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1321,
+      "attribute_score": 0.007894976097240783,
+      "scores": {
+        "France": 0.007894976097240783
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 525,
+      "attribute_score": 0.007860509972823294,
+      "scores": {
+        "France": 0.007860509972823294
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3129,
+      "attribute_score": 0.007834568358304208,
+      "scores": {
+        "France": 0.007834568358304208
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2246,
+      "attribute_score": 0.007830352113957991,
+      "scores": {
+        "France": 0.007830352113957991
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1426,
+      "attribute_score": 0.007815160249408922,
+      "scores": {
+        "France": 0.007815160249408922
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1591,
+      "attribute_score": 0.007800269545170299,
+      "scores": {
+        "France": 0.007800269545170299
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 537,
+      "attribute_score": 0.007785127874006305,
+      "scores": {
+        "France": 0.007785127874006305
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 230,
+      "attribute_score": 0.007779439290364583,
+      "scores": {
+        "France": 0.007779439290364583
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 353,
+      "attribute_score": 0.007778569271689967,
+      "scores": {
+        "France": 0.007778569271689967
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2125,
+      "attribute_score": 0.007758312058030513,
+      "scores": {
+        "France": 0.007758312058030513
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2740,
+      "attribute_score": 0.007738615337171052,
+      "scores": {
+        "France": 0.007738615337171052
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2485,
+      "attribute_score": 0.0077347462637382645,
+      "scores": {
+        "France": 0.0077347462637382645
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 389,
+      "attribute_score": 0.007710507041529605,
+      "scores": {
+        "France": 0.007710507041529605
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 832,
+      "attribute_score": 0.0077088673909505205,
+      "scores": {
+        "France": 0.0077088673909505205
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1592,
+      "attribute_score": 0.007707830060992325,
+      "scores": {
+        "France": 0.007707830060992325
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3478,
+      "attribute_score": 0.0077061402170281665,
+      "scores": {
+        "France": 0.0077061402170281665
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2687,
+      "attribute_score": 0.007704065557111774,
+      "scores": {
+        "France": 0.007704065557111774
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 631,
+      "attribute_score": 0.007702576486687911,
+      "scores": {
+        "France": 0.007702576486687911
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 214,
+      "attribute_score": 0.007698578792705871,
+      "scores": {
+        "France": 0.007698578792705871
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 442,
+      "attribute_score": 0.007691467017458196,
+      "scores": {
+        "France": 0.007691467017458196
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1624,
+      "attribute_score": 0.007689399677410461,
+      "scores": {
+        "France": 0.007689399677410461
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 2937,
+      "attribute_score": 0.007689175898568672,
+      "scores": {
+        "France": 0.007689175898568672
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3439,
+      "attribute_score": 0.007670686956037555,
+      "scores": {
+        "France": 0.007670686956037555
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2845,
+      "attribute_score": 0.0076671232256973,
+      "scores": {
+        "France": 0.0076671232256973
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 973,
+      "attribute_score": 0.007665500306246574,
+      "scores": {
+        "France": 0.007665500306246574
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2335,
+      "attribute_score": 0.007654223525733279,
+      "scores": {
+        "France": 0.007654223525733279
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1587,
+      "attribute_score": 0.007652483488384046,
+      "scores": {
+        "France": 0.007652483488384046
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1749,
+      "attribute_score": 0.007645678101924428,
+      "scores": {
+        "France": 0.007645678101924428
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 715,
+      "attribute_score": 0.007623494717112759,
+      "scores": {
+        "France": 0.007623494717112759
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2351,
+      "attribute_score": 0.007608664663214432,
+      "scores": {
+        "France": 0.007608664663214432
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2874,
+      "attribute_score": 0.007595045524731017,
+      "scores": {
+        "France": 0.007595045524731017
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 600,
+      "attribute_score": 0.007593857614617599,
+      "scores": {
+        "France": 0.007593857614617599
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2125,
+      "attribute_score": 0.007590971494975843,
+      "scores": {
+        "France": 0.007590971494975843
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 787,
+      "attribute_score": 0.007590394271047492,
+      "scores": {
+        "France": 0.007590394271047492
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2891,
+      "attribute_score": 0.007582915456671464,
+      "scores": {
+        "France": 0.007582915456671464
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 1224,
+      "attribute_score": 0.007558455592707584,
+      "scores": {
+        "France": 0.007558455592707584
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 149,
+      "attribute_score": 0.007555936512194182,
+      "scores": {
+        "France": 0.007555936512194182
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3436,
+      "attribute_score": 0.007543898465340598,
+      "scores": {
+        "France": 0.007543898465340598
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1997,
+      "attribute_score": 0.007540911958928694,
+      "scores": {
+        "France": 0.007540911958928694
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3081,
+      "attribute_score": 0.007538314451251114,
+      "scores": {
+        "France": 0.007538314451251114
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 786,
+      "attribute_score": 0.007535762954176518,
+      "scores": {
+        "France": 0.007535762954176518
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 2800,
+      "attribute_score": 0.00753431989435564,
+      "scores": {
+        "France": 0.00753431989435564
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3345,
+      "attribute_score": 0.007530346251370614,
+      "scores": {
+        "France": 0.007530346251370614
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 880,
+      "attribute_score": 0.007519496114630448,
+      "scores": {
+        "France": 0.007519496114630448
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2561,
+      "attribute_score": 0.007514961978845429,
+      "scores": {
+        "France": 0.007514961978845429
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 209,
+      "attribute_score": 0.00748502162464878,
+      "scores": {
+        "France": 0.00748502162464878
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2538,
+      "attribute_score": 0.007480454026607045,
+      "scores": {
+        "France": 0.007480454026607045
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 666,
+      "attribute_score": 0.007476965586344401,
+      "scores": {
+        "France": 0.007476965586344401
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2579,
+      "attribute_score": 0.007476923758523506,
+      "scores": {
+        "France": 0.007476923758523506
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1291,
+      "attribute_score": 0.007454470584267064,
+      "scores": {
+        "France": 0.007454470584267064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3448,
+      "attribute_score": 0.007438283217580695,
+      "scores": {
+        "France": 0.007438283217580695
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 631,
+      "attribute_score": 0.0074175617151093064,
+      "scores": {
+        "France": 0.0074175617151093064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 784,
+      "attribute_score": 0.007412902095861602,
+      "scores": {
+        "France": 0.007412902095861602
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 649,
+      "attribute_score": 0.007397133007384183,
+      "scores": {
+        "France": 0.007397133007384183
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 673,
+      "attribute_score": 0.007395915817796138,
+      "scores": {
+        "France": 0.007395915817796138
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 16,
+      "attribute_score": 0.007395342776649876,
+      "scores": {
+        "France": 0.007395342776649876
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 465,
+      "attribute_score": 0.007390482383861877,
+      "scores": {
+        "France": 0.007390482383861877
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2815,
+      "attribute_score": 0.007382834166811223,
+      "scores": {
+        "France": 0.007382834166811223
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1919,
+      "attribute_score": 0.007368606433533786,
+      "scores": {
+        "France": 0.007368606433533786
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1155,
+      "attribute_score": 0.007345266509474369,
+      "scores": {
+        "France": 0.007345266509474369
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 88,
+      "attribute_score": 0.007334516759504352,
+      "scores": {
+        "France": 0.007334516759504352
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1774,
+      "attribute_score": 0.00733285201223273,
+      "scores": {
+        "France": 0.00733285201223273
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 453,
+      "attribute_score": 0.007302271692376388,
+      "scores": {
+        "France": 0.007302271692376388
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 374,
+      "attribute_score": 0.007297758470501816,
+      "scores": {
+        "France": 0.007297758470501816
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2123,
+      "attribute_score": 0.007286782850298965,
+      "scores": {
+        "France": 0.007286782850298965
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 986,
+      "attribute_score": 0.007272755890561824,
+      "scores": {
+        "France": 0.007272755890561824
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 566,
+      "attribute_score": 0.007270737698203639,
+      "scores": {
+        "France": 0.007270737698203639
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3038,
+      "attribute_score": 0.007266011154442502,
+      "scores": {
+        "France": 0.007266011154442502
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1302,
+      "attribute_score": 0.007261472835875394,
+      "scores": {
+        "France": 0.007261472835875394
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 582,
+      "attribute_score": 0.007256993076257538,
+      "scores": {
+        "France": 0.007256993076257538
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1919,
+      "attribute_score": 0.007253011067708333,
+      "scores": {
+        "France": 0.007253011067708333
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3402,
+      "attribute_score": 0.007252224704675507,
+      "scores": {
+        "France": 0.007252224704675507
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 693,
+      "attribute_score": 0.007250434473941201,
+      "scores": {
+        "France": 0.007250434473941201
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2907,
+      "attribute_score": 0.0072461429395173724,
+      "scores": {
+        "France": 0.0072461429395173724
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 991,
+      "attribute_score": 0.007216001811780427,
+      "scores": {
+        "France": 0.007216001811780427
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2971,
+      "attribute_score": 0.007201721793726871,
+      "scores": {
+        "France": 0.007201721793726871
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3075,
+      "attribute_score": 0.007201671600341797,
+      "scores": {
+        "France": 0.007201671600341797
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 417,
+      "attribute_score": 0.007200743022717927,
+      "scores": {
+        "France": 0.007200743022717927
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1031,
+      "attribute_score": 0.007199220490037349,
+      "scores": {
+        "France": 0.007199220490037349
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 197,
+      "attribute_score": 0.00719468635425233,
+      "scores": {
+        "France": 0.00719468635425233
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 492,
+      "attribute_score": 0.007191038968270285,
+      "scores": {
+        "France": 0.007191038968270285
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2682,
+      "attribute_score": 0.007190570496676261,
+      "scores": {
+        "France": 0.007190570496676261
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 558,
+      "attribute_score": 0.007188993587828519,
+      "scores": {
+        "France": 0.007188993587828519
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 982,
+      "attribute_score": 0.007175604502360026,
+      "scores": {
+        "France": 0.007175604502360026
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 314,
+      "attribute_score": 0.00714647979067083,
+      "scores": {
+        "France": 0.00714647979067083
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 3090,
+      "attribute_score": 0.0071441750777395145,
+      "scores": {
+        "France": 0.0071441750777395145
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 3036,
+      "attribute_score": 0.007141631946229098,
+      "scores": {
+        "France": 0.007141631946229098
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3245,
+      "attribute_score": 0.007127862227590461,
+      "scores": {
+        "France": 0.007127862227590461
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 894,
+      "attribute_score": 0.007123294629548725,
+      "scores": {
+        "France": 0.007123294629548725
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 676,
+      "attribute_score": 0.007115146570038377,
+      "scores": {
+        "France": 0.007115146570038377
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1752,
+      "attribute_score": 0.0071138415420264525,
+      "scores": {
+        "France": 0.0071138415420264525
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3210,
+      "attribute_score": 0.0071129882544801945,
+      "scores": {
+        "France": 0.0071129882544801945
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2697,
+      "attribute_score": 0.007101995903148986,
+      "scores": {
+        "France": 0.007101995903148986
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 133,
+      "attribute_score": 0.007098616215220669,
+      "scores": {
+        "France": 0.007098616215220669
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2407,
+      "attribute_score": 0.0070983987105520145,
+      "scores": {
+        "France": 0.0070983987105520145
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1901,
+      "attribute_score": 0.007091630969131202,
+      "scores": {
+        "France": 0.007091630969131202
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2069,
+      "attribute_score": 0.0070872557790655835,
+      "scores": {
+        "France": 0.0070872557790655835
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1733,
+      "attribute_score": 0.007080931412546258,
+      "scores": {
+        "France": 0.007080931412546258
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3081,
+      "attribute_score": 0.007075728031626919,
+      "scores": {
+        "France": 0.007075728031626919
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1535,
+      "attribute_score": 0.007061732442755448,
+      "scores": {
+        "France": 0.007061732442755448
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2791,
+      "attribute_score": 0.007058294195877879,
+      "scores": {
+        "France": 0.007058294195877879
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 691,
+      "attribute_score": 0.0070539441025047975,
+      "scores": {
+        "France": 0.0070539441025047975
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 874,
+      "attribute_score": 0.007044524477239241,
+      "scores": {
+        "France": 0.007044524477239241
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3322,
+      "attribute_score": 0.007037463941072163,
+      "scores": {
+        "France": 0.007037463941072163
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2853,
+      "attribute_score": 0.007020686802111174,
+      "scores": {
+        "France": 0.007020686802111174
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2995,
+      "attribute_score": 0.007018156218947026,
+      "scores": {
+        "France": 0.007018156218947026
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2120,
+      "attribute_score": 0.007013684824893349,
+      "scores": {
+        "France": 0.007013684824893349
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1576,
+      "attribute_score": 0.007008820249323259,
+      "scores": {
+        "France": 0.007008820249323259
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1039,
+      "attribute_score": 0.007006954728511342,
+      "scores": {
+        "France": 0.007006954728511342
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 429,
+      "attribute_score": 0.006998873593514426,
+      "scores": {
+        "France": 0.006998873593514426
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1841,
+      "attribute_score": 0.006997459813168174,
+      "scores": {
+        "France": 0.006997459813168174
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3207,
+      "attribute_score": 0.006993983921251799,
+      "scores": {
+        "France": 0.006993983921251799
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1411,
+      "attribute_score": 0.006983823943556401,
+      "scores": {
+        "France": 0.006983823943556401
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1285,
+      "attribute_score": 0.006977215147854989,
+      "scores": {
+        "France": 0.006977215147854989
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 252,
+      "attribute_score": 0.006971794262266995,
+      "scores": {
+        "France": 0.006971794262266995
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 375,
+      "attribute_score": 0.006956870095771656,
+      "scores": {
+        "France": 0.006956870095771656
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2519,
+      "attribute_score": 0.006954289319222434,
+      "scores": {
+        "France": 0.006954289319222434
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2578,
+      "attribute_score": 0.006945923755043431,
+      "scores": {
+        "France": 0.006945923755043431
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 539,
+      "attribute_score": 0.006936943321897273,
+      "scores": {
+        "France": 0.006936943321897273
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 147,
+      "attribute_score": 0.006933015689515231,
+      "scores": {
+        "France": 0.006933015689515231
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2100,
+      "attribute_score": 0.006929715474446614,
+      "scores": {
+        "France": 0.006929715474446614
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 1040,
+      "attribute_score": 0.006928565209372002,
+      "scores": {
+        "France": 0.006928565209372002
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2930,
+      "attribute_score": 0.006924177470960115,
+      "scores": {
+        "France": 0.006924177470960115
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 427,
+      "attribute_score": 0.006908705360011051,
+      "scores": {
+        "France": 0.006908705360011051
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 615,
+      "attribute_score": 0.006901945984154416,
+      "scores": {
+        "France": 0.006901945984154416
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1214,
+      "attribute_score": 0.006897574976870888,
+      "scores": {
+        "France": 0.006897574976870888
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 3412,
+      "attribute_score": 0.00689211644624409,
+      "scores": {
+        "France": 0.00689211644624409
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1090,
+      "attribute_score": 0.00689110003019634,
+      "scores": {
+        "France": 0.00689110003019634
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1261,
+      "attribute_score": 0.006890121259187397,
+      "scores": {
+        "France": 0.006890121259187397
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2497,
+      "attribute_score": 0.006888975176894874,
+      "scores": {
+        "France": 0.006888975176894874
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2489,
+      "attribute_score": 0.0068658862197608275,
+      "scores": {
+        "France": 0.0068658862197608275
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 780,
+      "attribute_score": 0.0068609170746385005,
+      "scores": {
+        "France": 0.0068609170746385005
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 3450,
+      "attribute_score": 0.006834711944847776,
+      "scores": {
+        "France": 0.006834711944847776
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2672,
+      "attribute_score": 0.006828375029982182,
+      "scores": {
+        "France": 0.006828375029982182
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3036,
+      "attribute_score": 0.0068257315117016175,
+      "scores": {
+        "France": 0.0068257315117016175
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 350,
+      "attribute_score": 0.006819273296155427,
+      "scores": {
+        "France": 0.006819273296155427
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1351,
+      "attribute_score": 0.006810652582268966,
+      "scores": {
+        "France": 0.006810652582268966
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1013,
+      "attribute_score": 0.006800651550292969,
+      "scores": {
+        "France": 0.006800651550292969
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1541,
+      "attribute_score": 0.006799915380645217,
+      "scores": {
+        "France": 0.006799915380645217
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2063,
+      "attribute_score": 0.006797188206722862,
+      "scores": {
+        "France": 0.006797188206722862
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 3232,
+      "attribute_score": 0.00679686194971988,
+      "scores": {
+        "France": 0.00679686194971988
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3060,
+      "attribute_score": 0.006794168238054242,
+      "scores": {
+        "France": 0.006794168238054242
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1145,
+      "attribute_score": 0.006794143141361705,
+      "scores": {
+        "France": 0.006794143141361705
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3494,
+      "attribute_score": 0.006789098706161767,
+      "scores": {
+        "France": 0.006789098706161767
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 3568,
+      "attribute_score": 0.00678525682081256,
+      "scores": {
+        "France": 0.00678525682081256
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3192,
+      "attribute_score": 0.0067798380266156115,
+      "scores": {
+        "France": 0.0067798380266156115
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1597,
+      "attribute_score": 0.006769188663415741,
+      "scores": {
+        "France": 0.006769188663415741
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2064,
+      "attribute_score": 0.006763391327439693,
+      "scores": {
+        "France": 0.006763391327439693
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 352,
+      "attribute_score": 0.00676022914418003,
+      "scores": {
+        "France": 0.00676022914418003
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3291,
+      "attribute_score": 0.006760162219666598,
+      "scores": {
+        "France": 0.006760162219666598
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 1763,
+      "attribute_score": 0.00674379917613247,
+      "scores": {
+        "France": 0.00674379917613247
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 111,
+      "attribute_score": 0.00674272942961308,
+      "scores": {
+        "France": 0.00674272942961308
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 885,
+      "attribute_score": 0.006741440087033992,
+      "scores": {
+        "France": 0.006741440087033992
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1695,
+      "attribute_score": 0.006739762791416101,
+      "scores": {
+        "France": 0.006739762791416101
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 1102,
+      "attribute_score": 0.006731317754377399,
+      "scores": {
+        "France": 0.006731317754377399
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1857,
+      "attribute_score": 0.006725367746855083,
+      "scores": {
+        "France": 0.006725367746855083
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2314,
+      "attribute_score": 0.006725235989219264,
+      "scores": {
+        "France": 0.006725235989219264
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2635,
+      "attribute_score": 0.006721789376777515,
+      "scores": {
+        "France": 0.006721789376777515
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2699,
+      "attribute_score": 0.006721011379308868,
+      "scores": {
+        "France": 0.006721011379308868
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2854,
+      "attribute_score": 0.006715527751989532,
+      "scores": {
+        "France": 0.006715527751989532
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 691,
+      "attribute_score": 0.006704179864180715,
+      "scores": {
+        "France": 0.006704179864180715
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1050,
+      "attribute_score": 0.006697788573147958,
+      "scores": {
+        "France": 0.006697788573147958
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 2616,
+      "attribute_score": 0.006695996251022606,
+      "scores": {
+        "France": 0.006695996251022606
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2782,
+      "attribute_score": 0.006691288529780873,
+      "scores": {
+        "France": 0.006691288529780873
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 1486,
+      "attribute_score": 0.006678807108025802,
+      "scores": {
+        "France": 0.006678807108025802
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 842,
+      "attribute_score": 0.00667638945997807,
+      "scores": {
+        "France": 0.00667638945997807
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2738,
+      "attribute_score": 0.006673369491309451,
+      "scores": {
+        "France": 0.006673369491309451
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 168,
+      "attribute_score": 0.006673244007846765,
+      "scores": {
+        "France": 0.006673244007846765
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 557,
+      "attribute_score": 0.006651359691954495,
+      "scores": {
+        "France": 0.006651359691954495
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1028,
+      "attribute_score": 0.006650974876002262,
+      "scores": {
+        "France": 0.006650974876002262
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 1994,
+      "attribute_score": 0.006649385418808251,
+      "scores": {
+        "France": 0.006649385418808251
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 435,
+      "attribute_score": 0.006643880877578468,
+      "scores": {
+        "France": 0.006643880877578468
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 824,
+      "attribute_score": 0.006642985762211315,
+      "scores": {
+        "France": 0.006642985762211315
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 1945,
+      "attribute_score": 0.006641040768539696,
+      "scores": {
+        "France": 0.006641040768539696
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1911,
+      "attribute_score": 0.0066405973936382095,
+      "scores": {
+        "France": 0.0066405973936382095
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 545,
+      "attribute_score": 0.006635281077602454,
+      "scores": {
+        "France": 0.006635281077602454
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 202,
+      "attribute_score": 0.006630475060981617,
+      "scores": {
+        "France": 0.006630475060981617
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 129,
+      "attribute_score": 0.006628320928205524,
+      "scores": {
+        "France": 0.006628320928205524
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1352,
+      "attribute_score": 0.006627986305638363,
+      "scores": {
+        "France": 0.006627986305638363
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2806,
+      "attribute_score": 0.006627584758557771,
+      "scores": {
+        "France": 0.006627584758557771
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2695,
+      "attribute_score": 0.006622866580360814,
+      "scores": {
+        "France": 0.006622866580360814
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2934,
+      "attribute_score": 0.006622347915381716,
+      "scores": {
+        "France": 0.006622347915381716
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1687,
+      "attribute_score": 0.006618616873757881,
+      "scores": {
+        "France": 0.006618616873757881
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1097,
+      "attribute_score": 0.006609799569113213,
+      "scores": {
+        "France": 0.006609799569113213
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 154,
+      "attribute_score": 0.0066075659634774195,
+      "scores": {
+        "France": 0.0066075659634774195
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3553,
+      "attribute_score": 0.0066017602619371915,
+      "scores": {
+        "France": 0.0066017602619371915
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2732,
+      "attribute_score": 0.00658089654487476,
+      "scores": {
+        "France": 0.00658089654487476
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1933,
+      "attribute_score": 0.0065756011427494515,
+      "scores": {
+        "France": 0.0065756011427494515
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 501,
+      "attribute_score": 0.006573421913280822,
+      "scores": {
+        "France": 0.006573421913280822
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 106,
+      "attribute_score": 0.006569870731286835,
+      "scores": {
+        "France": 0.006569870731286835
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 882,
+      "attribute_score": 0.0065628854851973685,
+      "scores": {
+        "France": 0.0065628854851973685
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 756,
+      "attribute_score": 0.006562684711657073,
+      "scores": {
+        "France": 0.006562684711657073
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1773,
+      "attribute_score": 0.006560911212051124,
+      "scores": {
+        "France": 0.006560911212051124
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1085,
+      "attribute_score": 0.006557201084337737,
+      "scores": {
+        "France": 0.006557201084337737
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 2551,
+      "attribute_score": 0.006553273451955695,
+      "scores": {
+        "France": 0.006553273451955695
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3206,
+      "attribute_score": 0.006551525049042283,
+      "scores": {
+        "France": 0.006551525049042283
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 586,
+      "attribute_score": 0.00654476567318565,
+      "scores": {
+        "France": 0.00654476567318565
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2812,
+      "attribute_score": 0.006543205495466266,
+      "scores": {
+        "France": 0.006543205495466266
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2800,
+      "attribute_score": 0.006542302014534934,
+      "scores": {
+        "France": 0.006542302014534934
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2956,
+      "attribute_score": 0.0065354548002544205,
+      "scores": {
+        "France": 0.0065354548002544205
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1308,
+      "attribute_score": 0.006530335074976871,
+      "scores": {
+        "France": 0.006530335074976871
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 449,
+      "attribute_score": 0.006529989995454487,
+      "scores": {
+        "France": 0.006529989995454487
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3232,
+      "attribute_score": 0.006527432224206757,
+      "scores": {
+        "France": 0.006527432224206757
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 245,
+      "attribute_score": 0.006523065399705318,
+      "scores": {
+        "France": 0.006523065399705318
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 815,
+      "attribute_score": 0.006519836291932223,
+      "scores": {
+        "France": 0.006519836291932223
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3217,
+      "attribute_score": 0.006517644514117325,
+      "scores": {
+        "France": 0.006517644514117325
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2898,
+      "attribute_score": 0.006512022854989035,
+      "scores": {
+        "France": 0.006512022854989035
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2026,
+      "attribute_score": 0.006504326535944353,
+      "scores": {
+        "France": 0.006504326535944353
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3346,
+      "attribute_score": 0.006493990881401196,
+      "scores": {
+        "France": 0.006493990881401196
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2625,
+      "attribute_score": 0.0064900381523266175,
+      "scores": {
+        "France": 0.0064900381523266175
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1087,
+      "attribute_score": 0.006484182257401316,
+      "scores": {
+        "France": 0.006484182257401316
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 923,
+      "attribute_score": 0.006478317996911835,
+      "scores": {
+        "France": 0.006478317996911835
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 296,
+      "attribute_score": 0.006476469207228276,
+      "scores": {
+        "France": 0.006476469207228276
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1959,
+      "attribute_score": 0.006475415146141721,
+      "scores": {
+        "France": 0.006475415146141721
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1021,
+      "attribute_score": 0.006474101752565618,
+      "scores": {
+        "France": 0.006474101752565618
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 309,
+      "attribute_score": 0.006467049581962719,
+      "scores": {
+        "France": 0.006467049581962719
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 236,
+      "attribute_score": 0.006467016119706004,
+      "scores": {
+        "France": 0.006467016119706004
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3065,
+      "attribute_score": 0.006464565009401555,
+      "scores": {
+        "France": 0.006464565009401555
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2853,
+      "attribute_score": 0.006464389332553796,
+      "scores": {
+        "France": 0.006464389332553796
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1453,
+      "attribute_score": 0.006459453649688186,
+      "scores": {
+        "France": 0.006459453649688186
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3025,
+      "attribute_score": 0.006457972944828502,
+      "scores": {
+        "France": 0.006457972944828502
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1690,
+      "attribute_score": 0.006457914385879249,
+      "scores": {
+        "France": 0.006457914385879249
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1058,
+      "attribute_score": 0.0064512595795748525,
+      "scores": {
+        "France": 0.0064512595795748525
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2170,
+      "attribute_score": 0.006450627979479338,
+      "scores": {
+        "France": 0.006450627979479338
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 80,
+      "attribute_score": 0.006450552689401727,
+      "scores": {
+        "France": 0.006450552689401727
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 273,
+      "attribute_score": 0.006450402109246505,
+      "scores": {
+        "France": 0.006450402109246505
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1135,
+      "attribute_score": 0.006446737992136102,
+      "scores": {
+        "France": 0.006446737992136102
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1112,
+      "attribute_score": 0.006445725758870442,
+      "scores": {
+        "France": 0.006445725758870442
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1940,
+      "attribute_score": 0.006444905933580901,
+      "scores": {
+        "France": 0.006444905933580901
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 2223,
+      "attribute_score": 0.006433001212906419,
+      "scores": {
+        "France": 0.006433001212906419
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3106,
+      "attribute_score": 0.0064207043564110475,
+      "scores": {
+        "France": 0.0064207043564110475
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1904,
+      "attribute_score": 0.006420470120614035,
+      "scores": {
+        "France": 0.006420470120614035
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3247,
+      "attribute_score": 0.006420470120614035,
+      "scores": {
+        "France": 0.006420470120614035
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1233,
+      "attribute_score": 0.006414923751563357,
+      "scores": {
+        "France": 0.006414923751563357
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 183,
+      "attribute_score": 0.006409795660721629,
+      "scores": {
+        "France": 0.006409795660721629
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 661,
+      "attribute_score": 0.006403774545903792,
+      "scores": {
+        "France": 0.006403774545903792
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 11,
+      "attribute_score": 0.006391353774489018,
+      "scores": {
+        "France": 0.006391353774489018
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2542,
+      "attribute_score": 0.006386334435981617,
+      "scores": {
+        "France": 0.006386334435981617
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1244,
+      "attribute_score": 0.006366294726990817,
+      "scores": {
+        "France": 0.006366294726990817
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 441,
+      "attribute_score": 0.006365872265999778,
+      "scores": {
+        "France": 0.006365872265999778
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2314,
+      "attribute_score": 0.006365776062011719,
+      "scores": {
+        "France": 0.006365776062011719
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2948,
+      "attribute_score": 0.0063648809466445655,
+      "scores": {
+        "France": 0.0063648809466445655
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3109,
+      "attribute_score": 0.0063599348068237305,
+      "scores": {
+        "France": 0.0063599348068237305
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2915,
+      "attribute_score": 0.006358882837128221,
+      "scores": {
+        "France": 0.006358882837128221
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2208,
+      "attribute_score": 0.006357845507170025,
+      "scores": {
+        "France": 0.006357845507170025
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3200,
+      "attribute_score": 0.006357418863396896,
+      "scores": {
+        "France": 0.006357418863396896
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3062,
+      "attribute_score": 0.006355594647558112,
+      "scores": {
+        "France": 0.006355594647558112
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2593,
+      "attribute_score": 0.006354089368853653,
+      "scores": {
+        "France": 0.006354089368853653
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3106,
+      "attribute_score": 0.006351554602907415,
+      "scores": {
+        "France": 0.006351554602907415
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3243,
+      "attribute_score": 0.006350191015946238,
+      "scores": {
+        "France": 0.006350191015946238
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2797,
+      "attribute_score": 0.006343808090477659,
+      "scores": {
+        "France": 0.006343808090477659
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1953,
+      "attribute_score": 0.006332614965606154,
+      "scores": {
+        "France": 0.006332614965606154
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 431,
+      "attribute_score": 0.006332021010549445,
+      "scores": {
+        "France": 0.006332021010549445
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1379,
+      "attribute_score": 0.006331117529618113,
+      "scores": {
+        "France": 0.006331117529618113
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 906,
+      "attribute_score": 0.006330506843433045,
+      "scores": {
+        "France": 0.006330506843433045
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 101,
+      "attribute_score": 0.006321739732173451,
+      "scores": {
+        "France": 0.006321739732173451
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 19,
+      "attribute_score": 0.006317205596388432,
+      "scores": {
+        "France": 0.006317205596388432
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2536,
+      "attribute_score": 0.006315967492889939,
+      "scores": {
+        "France": 0.006315967492889939
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1226,
+      "attribute_score": 0.006315135119254129,
+      "scores": {
+        "France": 0.006315135119254129
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3259,
+      "attribute_score": 0.006302457106740851,
+      "scores": {
+        "France": 0.006302457106740851
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2590,
+      "attribute_score": 0.006302277247111003,
+      "scores": {
+        "France": 0.006302277247111003
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2916,
+      "attribute_score": 0.006298422813415527,
+      "scores": {
+        "France": 0.006298422813415527
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2069,
+      "attribute_score": 0.006283224674693325,
+      "scores": {
+        "France": 0.006283224674693325
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2105,
+      "attribute_score": 0.006280225619935153,
+      "scores": {
+        "France": 0.006280225619935153
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1447,
+      "attribute_score": 0.0062785399587530835,
+      "scores": {
+        "France": 0.0062785399587530835
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2384,
+      "attribute_score": 0.006278257620962043,
+      "scores": {
+        "France": 0.006278257620962043
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 409,
+      "attribute_score": 0.006275714489451626,
+      "scores": {
+        "France": 0.006275714489451626
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 445,
+      "attribute_score": 0.006275361044365063,
+      "scores": {
+        "France": 0.006275361044365063
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1074,
+      "attribute_score": 0.006274842379385965,
+      "scores": {
+        "France": 0.006274842379385965
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2175,
+      "attribute_score": 0.006274440832305373,
+      "scores": {
+        "France": 0.006274440832305373
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 91,
+      "attribute_score": 0.006265573334275631,
+      "scores": {
+        "France": 0.006265573334275631
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1734,
+      "attribute_score": 0.006263465212102522,
+      "scores": {
+        "France": 0.006263465212102522
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2264,
+      "attribute_score": 0.006263030202765214,
+      "scores": {
+        "France": 0.006263030202765214
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 841,
+      "attribute_score": 0.006262486441093579,
+      "scores": {
+        "France": 0.006262486441093579
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 3094,
+      "attribute_score": 0.006259011594872726,
+      "scores": {
+        "France": 0.006259011594872726
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1881,
+      "attribute_score": 0.00625501599228173,
+      "scores": {
+        "France": 0.00625501599228173
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3571,
+      "attribute_score": 0.006251205477798194,
+      "scores": {
+        "France": 0.006251205477798194
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 106,
+      "attribute_score": 0.006244927121881853,
+      "scores": {
+        "France": 0.006244927121881853
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 3063,
+      "attribute_score": 0.006243049052723667,
+      "scores": {
+        "France": 0.006243049052723667
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2197,
+      "attribute_score": 0.0062391214203416255,
+      "scores": {
+        "France": 0.0062391214203416255
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1448,
+      "attribute_score": 0.006238389433475963,
+      "scores": {
+        "France": 0.006238389433475963
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3284,
+      "attribute_score": 0.006236770696807326,
+      "scores": {
+        "France": 0.006236770696807326
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 652,
+      "attribute_score": 0.006233060569093938,
+      "scores": {
+        "France": 0.006233060569093938
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3049,
+      "attribute_score": 0.006226899331076103,
+      "scores": {
+        "France": 0.006226899331076103
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2846,
+      "attribute_score": 0.006220917952688117,
+      "scores": {
+        "France": 0.006220917952688117
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1895,
+      "attribute_score": 0.006220700448019463,
+      "scores": {
+        "France": 0.006220700448019463
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2367,
+      "attribute_score": 0.006209636989392732,
+      "scores": {
+        "France": 0.006209636989392732
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2786,
+      "attribute_score": 0.006207340642025596,
+      "scores": {
+        "France": 0.006207340642025596
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1435,
+      "attribute_score": 0.006207282083076343,
+      "scores": {
+        "France": 0.006207282083076343
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2869,
+      "attribute_score": 0.0062032080533211695,
+      "scores": {
+        "France": 0.0062032080533211695
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 492,
+      "attribute_score": 0.006198389488354064,
+      "scores": {
+        "France": 0.006198389488354064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 281,
+      "attribute_score": 0.0061945204149212755,
+      "scores": {
+        "France": 0.0061945204149212755
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 478,
+      "attribute_score": 0.006190785190515351,
+      "scores": {
+        "France": 0.006190785190515351
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1837,
+      "attribute_score": 0.006180533191613984,
+      "scores": {
+        "France": 0.006180533191613984
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 227,
+      "attribute_score": 0.006180177655136376,
+      "scores": {
+        "France": 0.006180177655136376
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 222,
+      "attribute_score": 0.00617710644738716,
+      "scores": {
+        "France": 0.00617710644738716
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3546,
+      "attribute_score": 0.006175129037154348,
+      "scores": {
+        "France": 0.006175129037154348
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 949,
+      "attribute_score": 0.00617452253375137,
+      "scores": {
+        "France": 0.00617452253375137
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 2454,
+      "attribute_score": 0.006170028134396202,
+      "scores": {
+        "France": 0.006170028134396202
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1372,
+      "attribute_score": 0.006168767025596217,
+      "scores": {
+        "France": 0.006168767025596217
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3297,
+      "attribute_score": 0.006168390575208162,
+      "scores": {
+        "France": 0.006168390575208162
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 2348,
+      "attribute_score": 0.006167298869082802,
+      "scores": {
+        "France": 0.006167298869082802
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1613,
+      "attribute_score": 0.0061653873376679,
+      "scores": {
+        "France": 0.0061653873376679
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1001,
+      "attribute_score": 0.006161346770169442,
+      "scores": {
+        "France": 0.006161346770169442
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2129,
+      "attribute_score": 0.0061612840284380995,
+      "scores": {
+        "France": 0.0061612840284380995
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2770,
+      "attribute_score": 0.0061589333049038,
+      "scores": {
+        "France": 0.0061589333049038
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2550,
+      "attribute_score": 0.006157875061035156,
+      "scores": {
+        "France": 0.006157875061035156
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1150,
+      "attribute_score": 0.006154846726802357,
+      "scores": {
+        "France": 0.006154846726802357
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 897,
+      "attribute_score": 0.006153089958324767,
+      "scores": {
+        "France": 0.006153089958324767
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 799,
+      "attribute_score": 0.00615079779373972,
+      "scores": {
+        "France": 0.00615079779373972
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3074,
+      "attribute_score": 0.006146535538790519,
+      "scores": {
+        "France": 0.006146535538790519
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1766,
+      "attribute_score": 0.006145694799590529,
+      "scores": {
+        "France": 0.006145694799590529
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1069,
+      "attribute_score": 0.006145678068462171,
+      "scores": {
+        "France": 0.006145678068462171
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 850,
+      "attribute_score": 0.006142185445417438,
+      "scores": {
+        "France": 0.006142185445417438
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2797,
+      "attribute_score": 0.006140395214683131,
+      "scores": {
+        "France": 0.006140395214683131
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 3495,
+      "attribute_score": 0.006140311559041341,
+      "scores": {
+        "France": 0.006140311559041341
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1292,
+      "attribute_score": 0.006135003608569764,
+      "scores": {
+        "France": 0.006135003608569764
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2707,
+      "attribute_score": 0.006128411543996711,
+      "scores": {
+        "France": 0.006128411543996711
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1110,
+      "attribute_score": 0.006126035723769874,
+      "scores": {
+        "France": 0.006126035723769874
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3005,
+      "attribute_score": 0.0061243918904087,
+      "scores": {
+        "France": 0.0061243918904087
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2144,
+      "attribute_score": 0.006119493852581894,
+      "scores": {
+        "France": 0.006119493852581894
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1822,
+      "attribute_score": 0.006118159545095344,
+      "scores": {
+        "France": 0.006118159545095344
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 261,
+      "attribute_score": 0.006115999138146116,
+      "scores": {
+        "France": 0.006115999138146116
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1379,
+      "attribute_score": 0.006112569256832725,
+      "scores": {
+        "France": 0.006112569256832725
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1677,
+      "attribute_score": 0.006111856092486465,
+      "scores": {
+        "France": 0.006111856092486465
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1113,
+      "attribute_score": 0.00610712536594324,
+      "scores": {
+        "France": 0.00610712536594324
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2669,
+      "attribute_score": 0.00610318100243284,
+      "scores": {
+        "France": 0.00610318100243284
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1670,
+      "attribute_score": 0.00609428840771056,
+      "scores": {
+        "France": 0.00609428840771056
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1905,
+      "attribute_score": 0.006093995612964295,
+      "scores": {
+        "France": 0.006093995612964295
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2864,
+      "attribute_score": 0.006091452481453879,
+      "scores": {
+        "France": 0.006091452481453879
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2857,
+      "attribute_score": 0.006091268439041941,
+      "scores": {
+        "France": 0.006091268439041941
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1937,
+      "attribute_score": 0.0060878050954718335,
+      "scores": {
+        "France": 0.0060878050954718335
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2154,
+      "attribute_score": 0.006080301184403269,
+      "scores": {
+        "France": 0.006080301184403269
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1319,
+      "attribute_score": 0.006078577878182395,
+      "scores": {
+        "France": 0.006078577878182395
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1885,
+      "attribute_score": 0.006075792145310787,
+      "scores": {
+        "France": 0.006075792145310787
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1624,
+      "attribute_score": 0.006073817872164542,
+      "scores": {
+        "France": 0.006073817872164542
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1927,
+      "attribute_score": 0.006060583549633361,
+      "scores": {
+        "France": 0.006060583549633361
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1580,
+      "attribute_score": 0.006052761747125993,
+      "scores": {
+        "France": 0.006052761747125993
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 223,
+      "attribute_score": 0.006050523958708111,
+      "scores": {
+        "France": 0.006050523958708111
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2220,
+      "attribute_score": 0.006045048696952954,
+      "scores": {
+        "France": 0.006045048696952954
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3393,
+      "attribute_score": 0.0060430493271141725,
+      "scores": {
+        "France": 0.0060430493271141725
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2158,
+      "attribute_score": 0.006041175440738076,
+      "scores": {
+        "France": 0.006041175440738076
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 266,
+      "attribute_score": 0.00603778320446349,
+      "scores": {
+        "France": 0.00603778320446349
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1317,
+      "attribute_score": 0.006029756445633738,
+      "scores": {
+        "France": 0.006029756445633738
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1544,
+      "attribute_score": 0.006029664424427769,
+      "scores": {
+        "France": 0.006029664424427769
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2566,
+      "attribute_score": 0.006028551804391961,
+      "scores": {
+        "France": 0.006028551804391961
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 2882,
+      "attribute_score": 0.006027213314123321,
+      "scores": {
+        "France": 0.006027213314123321
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3088,
+      "attribute_score": 0.006020704905192058,
+      "scores": {
+        "France": 0.006020704905192058
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 1979,
+      "attribute_score": 0.006018906308893571,
+      "scores": {
+        "France": 0.006018906308893571
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 2160,
+      "attribute_score": 0.0060179860968338815,
+      "scores": {
+        "France": 0.0060179860968338815
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 402,
+      "attribute_score": 0.006010390164559348,
+      "scores": {
+        "France": 0.006010390164559348
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2990,
+      "attribute_score": 0.006008750513980263,
+      "scores": {
+        "France": 0.006008750513980263
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 522,
+      "attribute_score": 0.006006001380451939,
+      "scores": {
+        "France": 0.006006001380451939
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1824,
+      "attribute_score": 0.0060027942322848134,
+      "scores": {
+        "France": 0.0060027942322848134
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 27,
+      "attribute_score": 0.006002583001789294,
+      "scores": {
+        "France": 0.006002583001789294
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 627,
+      "attribute_score": 0.006000251100774397,
+      "scores": {
+        "France": 0.006000251100774397
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3581,
+      "attribute_score": 0.005997875280547561,
+      "scores": {
+        "France": 0.005997875280547561
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 0,
+      "attribute_score": 0.005995566384834156,
+      "scores": {
+        "France": 0.005995566384834156
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 658,
+      "attribute_score": 0.005994549968786407,
+      "scores": {
+        "France": 0.005994549968786407
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 2018,
+      "attribute_score": 0.005994144238923725,
+      "scores": {
+        "France": 0.005994144238923725
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2402,
+      "attribute_score": 0.0059940396693714875,
+      "scores": {
+        "France": 0.0059940396693714875
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3160,
+      "attribute_score": 0.005992688630756579,
+      "scores": {
+        "France": 0.005992688630756579
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2095,
+      "attribute_score": 0.00599041319729989,
+      "scores": {
+        "France": 0.00599041319729989
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 52,
+      "attribute_score": 0.005990388100607353,
+      "scores": {
+        "France": 0.005990388100607353
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2970,
+      "attribute_score": 0.005989505533586468,
+      "scores": {
+        "France": 0.005989505533586468
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3375,
+      "attribute_score": 0.005985979448285019,
+      "scores": {
+        "France": 0.005985979448285019
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3138,
+      "attribute_score": 0.005982771254422372,
+      "scores": {
+        "France": 0.005982771254422372
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1503,
+      "attribute_score": 0.005977931775544819,
+      "scores": {
+        "France": 0.005977931775544819
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 95,
+      "attribute_score": 0.005973096479449356,
+      "scores": {
+        "France": 0.005973096479449356
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1308,
+      "attribute_score": 0.005972226460774739,
+      "scores": {
+        "France": 0.005972226460774739
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 378,
+      "attribute_score": 0.005969415631210595,
+      "scores": {
+        "France": 0.005969415631210595
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3093,
+      "attribute_score": 0.005967148563318085,
+      "scores": {
+        "France": 0.005967148563318085
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3241,
+      "attribute_score": 0.0059660359432822775,
+      "scores": {
+        "France": 0.0059660359432822775
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1929,
+      "attribute_score": 0.005962405288428591,
+      "scores": {
+        "France": 0.005962405288428591
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2113,
+      "attribute_score": 0.005961363775688305,
+      "scores": {
+        "France": 0.005961363775688305
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1068,
+      "attribute_score": 0.005961217378315173,
+      "scores": {
+        "France": 0.005961217378315173
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 1312,
+      "attribute_score": 0.0059611922816226355,
+      "scores": {
+        "France": 0.0059611922816226355
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2023,
+      "attribute_score": 0.005959376954195792,
+      "scores": {
+        "France": 0.005959376954195792
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 3446,
+      "attribute_score": 0.00595914690118087,
+      "scores": {
+        "France": 0.00595914690118087
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 654,
+      "attribute_score": 0.005954508195843613,
+      "scores": {
+        "France": 0.005954508195843613
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2249,
+      "attribute_score": 0.005953972799736157,
+      "scores": {
+        "France": 0.005953972799736157
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2245,
+      "attribute_score": 0.00594296371727659,
+      "scores": {
+        "France": 0.00594296371727659
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2277,
+      "attribute_score": 0.005941478829634817,
+      "scores": {
+        "France": 0.005941478829634817
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3271,
+      "attribute_score": 0.005938898053085595,
+      "scores": {
+        "France": 0.005938898053085595
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 1179,
+      "attribute_score": 0.0059332648913065595,
+      "scores": {
+        "France": 0.0059332648913065595
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 850,
+      "attribute_score": 0.005932155408357319,
+      "scores": {
+        "France": 0.005932155408357319
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 1206,
+      "attribute_score": 0.005930708165754352,
+      "scores": {
+        "France": 0.005930708165754352
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3555,
+      "attribute_score": 0.0059297628570021245,
+      "scores": {
+        "France": 0.0059297628570021245
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 1628,
+      "attribute_score": 0.005921999613444011,
+      "scores": {
+        "France": 0.005921999613444011
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 2066,
+      "attribute_score": 0.005920535639712685,
+      "scores": {
+        "France": 0.005920535639712685
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1485,
+      "attribute_score": 0.0059194941269724,
+      "scores": {
+        "France": 0.0059194941269724
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 2750,
+      "attribute_score": 0.005918306216858981,
+      "scores": {
+        "France": 0.005918306216858981
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3185,
+      "attribute_score": 0.005917147586220189,
+      "scores": {
+        "France": 0.005917147586220189
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1100,
+      "attribute_score": 0.005914554261324699,
+      "scores": {
+        "France": 0.005914554261324699
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2807,
+      "attribute_score": 0.005912260005348607,
+      "scores": {
+        "France": 0.005912260005348607
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3202,
+      "attribute_score": 0.005910952885945638,
+      "scores": {
+        "France": 0.005910952885945638
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2090,
+      "attribute_score": 0.005908229894805373,
+      "scores": {
+        "France": 0.005908229894805373
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 376,
+      "attribute_score": 0.005907305499963593,
+      "scores": {
+        "France": 0.005907305499963593
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1072,
+      "attribute_score": 0.005907033619127776,
+      "scores": {
+        "France": 0.005907033619127776
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1180,
+      "attribute_score": 0.005899094698721902,
+      "scores": {
+        "France": 0.005899094698721902
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2412,
+      "attribute_score": 0.005895773569742839,
+      "scores": {
+        "France": 0.005895773569742839
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2495,
+      "attribute_score": 0.005894978841145833,
+      "scores": {
+        "France": 0.005894978841145833
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 79,
+      "attribute_score": 0.005893958242315995,
+      "scores": {
+        "France": 0.005893958242315995
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2613,
+      "attribute_score": 0.005892920912357799,
+      "scores": {
+        "France": 0.005892920912357799
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2144,
+      "attribute_score": 0.00588125931589227,
+      "scores": {
+        "France": 0.00588125931589227
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2846,
+      "attribute_score": 0.005880556608501233,
+      "scores": {
+        "France": 0.005880556608501233
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 228,
+      "attribute_score": 0.005879050806949013,
+      "scores": {
+        "France": 0.005879050806949013
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1790,
+      "attribute_score": 0.005876164687307258,
+      "scores": {
+        "France": 0.005876164687307258
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 654,
+      "attribute_score": 0.00587488475598787,
+      "scores": {
+        "France": 0.00587488475598787
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 162,
+      "attribute_score": 0.005874169500250565,
+      "scores": {
+        "France": 0.005874169500250565
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 20,
+      "neuron_idx": 2463,
+      "attribute_score": 0.005872245420489395,
+      "scores": {
+        "France": 0.005872245420489395
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3387,
+      "attribute_score": 0.005863298449599952,
+      "scores": {
+        "France": 0.005863298449599952
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2226,
+      "attribute_score": 0.005861851206996985,
+      "scores": {
+        "France": 0.005861851206996985
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 259,
+      "attribute_score": 0.005860864070423862,
+      "scores": {
+        "France": 0.005860864070423862
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 447,
+      "attribute_score": 0.005860420695522376,
+      "scores": {
+        "France": 0.005860420695522376
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 3190,
+      "attribute_score": 0.005857718618292557,
+      "scores": {
+        "France": 0.005857718618292557
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 54,
+      "attribute_score": 0.0058575847692656936,
+      "scores": {
+        "France": 0.0058575847692656936
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3495,
+      "attribute_score": 0.005855455733182137,
+      "scores": {
+        "France": 0.005855455733182137
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2984,
+      "attribute_score": 0.005854071232310513,
+      "scores": {
+        "France": 0.005854071232310513
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 2822,
+      "attribute_score": 0.005841104607833059,
+      "scores": {
+        "France": 0.005841104607833059
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 1316,
+      "attribute_score": 0.005834579990621199,
+      "scores": {
+        "France": 0.005834579990621199
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2312,
+      "attribute_score": 0.005832835247642116,
+      "scores": {
+        "France": 0.005832835247642116
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1142,
+      "attribute_score": 0.005831057565254078,
+      "scores": {
+        "France": 0.005831057565254078
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1468,
+      "attribute_score": 0.0058256785074869795,
+      "scores": {
+        "France": 0.0058256785074869795
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1226,
+      "attribute_score": 0.005822139873839261,
+      "scores": {
+        "France": 0.005822139873839261
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2759,
+      "attribute_score": 0.005821612843295984,
+      "scores": {
+        "France": 0.005821612843295984
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3339,
+      "attribute_score": 0.005819036249528851,
+      "scores": {
+        "France": 0.005819036249528851
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 481,
+      "attribute_score": 0.005813238913552803,
+      "scores": {
+        "France": 0.005813238913552803
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2925,
+      "attribute_score": 0.005811892057719983,
+      "scores": {
+        "France": 0.005811892057719983
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 26,
+      "attribute_score": 0.005811490510639392,
+      "scores": {
+        "France": 0.005811490510639392
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1132,
+      "attribute_score": 0.005808470541970772,
+      "scores": {
+        "France": 0.005808470541970772
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2922,
+      "attribute_score": 0.005807048396060341,
+      "scores": {
+        "France": 0.005807048396060341
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 482,
+      "attribute_score": 0.005805935776024534,
+      "scores": {
+        "France": 0.005805935776024534
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 3171,
+      "attribute_score": 0.005805684809099164,
+      "scores": {
+        "France": 0.005805684809099164
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3372,
+      "attribute_score": 0.005798833412036561,
+      "scores": {
+        "France": 0.005798833412036561
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1805,
+      "attribute_score": 0.005797202127021656,
+      "scores": {
+        "France": 0.005797202127021656
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 2577,
+      "attribute_score": 0.005795863636753015,
+      "scores": {
+        "France": 0.005795863636753015
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 536,
+      "attribute_score": 0.0057848712854218064,
+      "scores": {
+        "France": 0.0057848712854218064
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 664,
+      "attribute_score": 0.00578441954495614,
+      "scores": {
+        "France": 0.00578441954495614
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 1402,
+      "attribute_score": 0.005783884148848684,
+      "scores": {
+        "France": 0.005783884148848684
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1561,
+      "attribute_score": 0.005782185939320347,
+      "scores": {
+        "France": 0.005782185939320347
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 2909,
+      "attribute_score": 0.005780374794675593,
+      "scores": {
+        "France": 0.005780374794675593
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2749,
+      "attribute_score": 0.005776108356944302,
+      "scores": {
+        "France": 0.005776108356944302
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1694,
+      "attribute_score": 0.005771795908610026,
+      "scores": {
+        "France": 0.005771795908610026
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 3259,
+      "attribute_score": 0.005762334455523575,
+      "scores": {
+        "France": 0.005762334455523575
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 605,
+      "attribute_score": 0.005762075123034026,
+      "scores": {
+        "France": 0.005762075123034026
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1628,
+      "attribute_score": 0.005753379119069953,
+      "scores": {
+        "France": 0.005753379119069953
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2339,
+      "attribute_score": 0.005753115603798314,
+      "scores": {
+        "France": 0.005753115603798314
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1875,
+      "attribute_score": 0.005744490707129763,
+      "scores": {
+        "France": 0.005744490707129763
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 5,
+      "neuron_idx": 1744,
+      "attribute_score": 0.005738743564538788,
+      "scores": {
+        "France": 0.005738743564538788
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1090,
+      "attribute_score": 0.005738576253255208,
+      "scores": {
+        "France": 0.005738576253255208
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 1250,
+      "attribute_score": 0.005737831718043277,
+      "scores": {
+        "France": 0.005737831718043277
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2148,
+      "attribute_score": 0.005734797109637344,
+      "scores": {
+        "France": 0.005734797109637344
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 1364,
+      "attribute_score": 0.00573285839013886,
+      "scores": {
+        "France": 0.00573285839013886
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1350,
+      "attribute_score": 0.005732302080120957,
+      "scores": {
+        "France": 0.005732302080120957
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 551,
+      "attribute_score": 0.0057281360291598134,
+      "scores": {
+        "France": 0.0057281360291598134
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2065,
+      "attribute_score": 0.0057281360291598134,
+      "scores": {
+        "France": 0.0057281360291598134
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 370,
+      "attribute_score": 0.00572807747021056,
+      "scores": {
+        "France": 0.00572807747021056
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1273,
+      "attribute_score": 0.005727675923129968,
+      "scores": {
+        "France": 0.005727675923129968
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2964,
+      "attribute_score": 0.005726379260682223,
+      "scores": {
+        "France": 0.005726379260682223
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 2795,
+      "attribute_score": 0.005723911419249417,
+      "scores": {
+        "France": 0.005723911419249417
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1914,
+      "attribute_score": 0.005720172012061404,
+      "scores": {
+        "France": 0.005720172012061404
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 3297,
+      "attribute_score": 0.00571374725877193,
+      "scores": {
+        "France": 0.00571374725877193
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 986,
+      "attribute_score": 0.0057073559677391725,
+      "scores": {
+        "France": 0.0057073559677391725
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 6,
+      "neuron_idx": 1272,
+      "attribute_score": 0.005705214383309348,
+      "scores": {
+        "France": 0.005705214383309348
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 2657,
+      "attribute_score": 0.0057046371593809965,
+      "scores": {
+        "France": 0.0057046371593809965
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 3179,
+      "attribute_score": 0.005703965822855632,
+      "scores": {
+        "France": 0.005703965822855632
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 47,
+      "attribute_score": 0.0056968613674766135,
+      "scores": {
+        "France": 0.0056968613674766135
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2758,
+      "attribute_score": 0.005694272225363213,
+      "scores": {
+        "France": 0.005694272225363213
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 21,
+      "neuron_idx": 618,
+      "attribute_score": 0.005692548919142338,
+      "scores": {
+        "France": 0.005692548919142338
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 1535,
+      "attribute_score": 0.005691457213016979,
+      "scores": {
+        "France": 0.005691457213016979
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 661,
+      "attribute_score": 0.00568364795885588,
+      "scores": {
+        "France": 0.00568364795885588
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 53,
+      "attribute_score": 0.0056813014181036695,
+      "scores": {
+        "France": 0.0056813014181036695
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 608,
+      "attribute_score": 0.005679214209841008,
+      "scores": {
+        "France": 0.005679214209841008
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3099,
+      "attribute_score": 0.005677549462569387,
+      "scores": {
+        "France": 0.005677549462569387
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 59,
+      "attribute_score": 0.005674981234366433,
+      "scores": {
+        "France": 0.005674981234366433
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 7,
+      "neuron_idx": 3243,
+      "attribute_score": 0.005673492163942571,
+      "scores": {
+        "France": 0.005673492163942571
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3439,
+      "attribute_score": 0.005672672338653029,
+      "scores": {
+        "France": 0.005672672338653029
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2904,
+      "attribute_score": 0.005668778168527703,
+      "scores": {
+        "France": 0.005668778168527703
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 4,
+      "neuron_idx": 832,
+      "attribute_score": 0.005668280417459053,
+      "scores": {
+        "France": 0.005668280417459053
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3499,
+      "attribute_score": 0.005668100557829204,
+      "scores": {
+        "France": 0.005668100557829204
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1114,
+      "attribute_score": 0.005667853773685924,
+      "scores": {
+        "France": 0.005667853773685924
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 2868,
+      "attribute_score": 0.005664837987799393,
+      "scores": {
+        "France": 0.005664837987799393
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 442,
+      "attribute_score": 0.005662399425841214,
+      "scores": {
+        "France": 0.005662399425841214
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1053,
+      "attribute_score": 0.005662106631094949,
+      "scores": {
+        "France": 0.005662106631094949
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 17,
+      "neuron_idx": 754,
+      "attribute_score": 0.005659630424097965,
+      "scores": {
+        "France": 0.005659630424097965
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 1912,
+      "attribute_score": 0.005658266837136787,
+      "scores": {
+        "France": 0.005658266837136787
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3400,
+      "attribute_score": 0.00565564423276667,
+      "scores": {
+        "France": 0.00565564423276667
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 613,
+      "attribute_score": 0.005653180574115954,
+      "scores": {
+        "France": 0.005653180574115954
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2489,
+      "attribute_score": 0.0056526284468801395,
+      "scores": {
+        "France": 0.0056526284468801395
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 242,
+      "attribute_score": 0.0056511728387129935,
+      "scores": {
+        "France": 0.0056511728387129935
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 561,
+      "attribute_score": 0.0056479604620682565,
+      "scores": {
+        "France": 0.0056479604620682565
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 2683,
+      "attribute_score": 0.005646469300253349,
+      "scores": {
+        "France": 0.005646469300253349
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 3549,
+      "attribute_score": 0.005644547311883224,
+      "scores": {
+        "France": 0.005644547311883224
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 1932,
+      "attribute_score": 0.005643292477256374,
+      "scores": {
+        "France": 0.005643292477256374
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 719,
+      "attribute_score": 0.005641410225316098,
+      "scores": {
+        "France": 0.005641410225316098
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 3437,
+      "attribute_score": 0.005640690786796704,
+      "scores": {
+        "France": 0.005640690786796704
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 1083,
+      "attribute_score": 0.0056392435441937365,
+      "scores": {
+        "France": 0.0056392435441937365
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3334,
+      "attribute_score": 0.0056337975619132055,
+      "scores": {
+        "France": 0.0056337975619132055
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1367,
+      "attribute_score": 0.005631446838378906,
+      "scores": {
+        "France": 0.005631446838378906
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 62,
+      "attribute_score": 0.005631262795966968,
+      "scores": {
+        "France": 0.005631262795966968
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3311,
+      "attribute_score": 0.005620822571871574,
+      "scores": {
+        "France": 0.005620822571871574
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 494,
+      "attribute_score": 0.0056188399331611495,
+      "scores": {
+        "France": 0.0056188399331611495
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 867,
+      "attribute_score": 0.005613214091250771,
+      "scores": {
+        "France": 0.005613214091250771
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1904,
+      "attribute_score": 0.005611524247286613,
+      "scores": {
+        "France": 0.005611524247286613
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 2510,
+      "attribute_score": 0.005611402946606017,
+      "scores": {
+        "France": 0.005611402946606017
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3369,
+      "attribute_score": 0.005610620766355281,
+      "scores": {
+        "France": 0.005610620766355281
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2119,
+      "attribute_score": 0.005610315423262746,
+      "scores": {
+        "France": 0.005610315423262746
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 704,
+      "attribute_score": 0.00560911078202097,
+      "scores": {
+        "France": 0.00560911078202097
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2292,
+      "attribute_score": 0.005605496858295642,
+      "scores": {
+        "France": 0.005605496858295642
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 1729,
+      "attribute_score": 0.005604559915107593,
+      "scores": {
+        "France": 0.005604559915107593
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 1372,
+      "attribute_score": 0.005602497803537469,
+      "scores": {
+        "France": 0.005602497803537469
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1256,
+      "attribute_score": 0.0056009710880748015,
+      "scores": {
+        "France": 0.0056009710880748015
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 12,
+      "neuron_idx": 328,
+      "attribute_score": 0.005600109434964364,
+      "scores": {
+        "France": 0.005600109434964364
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3229,
+      "attribute_score": 0.00559905537387781,
+      "scores": {
+        "France": 0.00559905537387781
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 14,
+      "neuron_idx": 2493,
+      "attribute_score": 0.005599021911621094,
+      "scores": {
+        "France": 0.005599021911621094
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 1349,
+      "attribute_score": 0.005590974238880894,
+      "scores": {
+        "France": 0.005590974238880894
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2095,
+      "attribute_score": 0.005590476487812243,
+      "scores": {
+        "France": 0.005590476487812243
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 380,
+      "attribute_score": 0.005590225520886873,
+      "scores": {
+        "France": 0.005590225520886873
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 3,
+      "neuron_idx": 3119,
+      "attribute_score": 0.00558932622273763,
+      "scores": {
+        "France": 0.00558932622273763
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 3237,
+      "attribute_score": 0.005588698805424205,
+      "scores": {
+        "France": 0.005588698805424205
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2189,
+      "attribute_score": 0.005587632195991382,
+      "scores": {
+        "France": 0.005587632195991382
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 3283,
+      "attribute_score": 0.005587276659513775,
+      "scores": {
+        "France": 0.005587276659513775
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 2151,
+      "attribute_score": 0.00558647356535259,
+      "scores": {
+        "France": 0.00558647356535259
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 1404,
+      "attribute_score": 0.00558094811021236,
+      "scores": {
+        "France": 0.00558094811021236
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2478,
+      "attribute_score": 0.005577957421018367,
+      "scores": {
+        "France": 0.005577957421018367
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 2381,
+      "attribute_score": 0.005574519174140796,
+      "scores": {
+        "France": 0.005574519174140796
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 10,
+      "neuron_idx": 2193,
+      "attribute_score": 0.005566563522606565,
+      "scores": {
+        "France": 0.005566563522606565
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 1,
+      "neuron_idx": 2305,
+      "attribute_score": 0.005564631077281216,
+      "scores": {
+        "France": 0.005564631077281216
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1431,
+      "attribute_score": 0.00556425880967525,
+      "scores": {
+        "France": 0.00556425880967525
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2625,
+      "attribute_score": 0.0055613183138663305,
+      "scores": {
+        "France": 0.0055613183138663305
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 18,
+      "neuron_idx": 3564,
+      "attribute_score": 0.005559879436827542,
+      "scores": {
+        "France": 0.005559879436827542
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2039,
+      "attribute_score": 0.005553065684803745,
+      "scores": {
+        "France": 0.005553065684803745
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2563,
+      "attribute_score": 0.0055521078277052495,
+      "scores": {
+        "France": 0.0055521078277052495
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 22,
+      "neuron_idx": 970,
+      "attribute_score": 0.005547987787347091,
+      "scores": {
+        "France": 0.005547987787347091
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 8,
+      "neuron_idx": 2360,
+      "attribute_score": 0.0055467204043739725,
+      "scores": {
+        "France": 0.0055467204043739725
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 2,
+      "neuron_idx": 2207,
+      "attribute_score": 0.005544930173639665,
+      "scores": {
+        "France": 0.005544930173639665
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 11,
+      "neuron_idx": 2334,
+      "attribute_score": 0.005542805320338199,
+      "scores": {
+        "France": 0.005542805320338199
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 23,
+      "neuron_idx": 1441,
+      "attribute_score": 0.005542613958057605,
+      "scores": {
+        "France": 0.005542613958057605
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3401,
+      "attribute_score": 0.005541985495048657,
+      "scores": {
+        "France": 0.005541985495048657
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 1453,
+      "attribute_score": 0.0055390617303680955,
+      "scores": {
+        "France": 0.0055390617303680955
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 2969,
+      "attribute_score": 0.005537083274439762,
+      "scores": {
+        "France": 0.005537083274439762
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 0,
+      "neuron_idx": 2867,
+      "attribute_score": 0.005535744784171121,
+      "scores": {
+        "France": 0.005535744784171121
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 13,
+      "neuron_idx": 3112,
+      "attribute_score": 0.005534824572111431,
+      "scores": {
+        "France": 0.005534824572111431
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 19,
+      "neuron_idx": 2660,
+      "attribute_score": 0.005521565152887712,
+      "scores": {
+        "France": 0.005521565152887712
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 15,
+      "neuron_idx": 512,
+      "attribute_score": 0.005520511091801158,
+      "scores": {
+        "France": 0.005520511091801158
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 16,
+      "neuron_idx": 3380,
+      "attribute_score": 0.00551974145989669,
+      "scores": {
+        "France": 0.00551974145989669
+      }
+    },
+    {
+      "family": "gpt2_like",
+      "logical_module_name": "mlp.gate_proj",
+      "layer_idx": 9,
+      "neuron_idx": 246,
+      "attribute_score": 0.005519699632075795,
+      "scores": {
+        "France": 0.005519699632075795
+      }
+    }
+  ],
+  "layer_distribution": {
+    "0": 132,
+    "1": 33,
+    "2": 26,
+    "3": 10,
+    "4": 17,
+    "5": 27,
+    "6": 25,
+    "7": 21,
+    "8": 27,
+    "9": 25,
+    "10": 22,
+    "11": 37,
+    "12": 45,
+    "13": 51,
+    "14": 44,
+    "15": 56,
+    "16": 25,
+    "17": 17,
+    "18": 47,
+    "19": 8,
+    "20": 14,
+    "21": 8,
+    "22": 12,
+    "23": 6
+  },
+  "total_selected": 735,
+  "total_candidates": 86016
+}
