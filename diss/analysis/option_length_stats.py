@@ -10,7 +10,8 @@ normalisation is expected to strain (Kanji/Katakana country names).
 Outputs (under diss/outputs/):
   - option_length_raw.csv        one row per option (dataset, locale, role, lengths)
   - option_length_summary.csv    per (dataset, role) and per (dataset, locale)
-  - option_byte_length_by_locale.png   3-panel boxplot of option byte length
+  - figures/option_byte_length_by_locale.png   3-panel boxplot of option byte length
+  - figures/japanese_countryrc_byte_length.png Japanese CountryRC gold/distractor plot
 
 CPU-only. Run on flamingo:
   cd /local/scratch/yh614 && conda activate diss
@@ -186,7 +187,7 @@ def main() -> None:
     fig.legend(handles, ["gold", "distractor"], loc="upper right", ncol=2)
     fig.suptitle("Answer-option byte length by locale, gold versus distractor")
     fig.tight_layout()
-    fig.savefig(OUT / "option_byte_length_by_locale.png", dpi=200, bbox_inches="tight")
+    fig.savefig(OUT / "figures" / "option_byte_length_by_locale.png", dpi=200, bbox_inches="tight")
 
     # --- focused appendix figure: Japanese CountryRC gold vs distractor bytes ---
     jp = df[(df["dataset"] == "CountryRC") & (df["locale"] == "ja")]
@@ -209,10 +210,10 @@ def main() -> None:
     ax2.grid(axis="y", alpha=0.3)
     fig2.tight_layout()
     fig2.savefig(
-        OUT / "japanese_countryrc_byte_length.png", dpi=200, bbox_inches="tight"
+        OUT / "figures" / "japanese_countryrc_byte_length.png", dpi=200, bbox_inches="tight"
     )
-    print(f"\nwrote {OUT/'option_byte_length_by_locale.png'}")
-    print(f"wrote {OUT/'japanese_countryrc_byte_length.png'}")
+    print(f"\nwrote {OUT/'figures'/'option_byte_length_by_locale.png'}")
+    print(f"wrote {OUT/'figures'/'japanese_countryrc_byte_length.png'}")
     print(
         f"  ja CountryRC gold bytes: mean={gold_b.mean():.1f} std={gold_b.std():.2f} "
         f"min={gold_b.min()} max={gold_b.max()}"

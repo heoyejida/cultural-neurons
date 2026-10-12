@@ -14,7 +14,7 @@ Each cell is row-instance accuracy on Extended BLEnD (cultural) and Belebele
 regime mean is bolded in the mean block. Parameter counts come from HF
 safetensors metadata, with a nominal fallback for non-safetensors repos.
 
-Writes diss/outputs/tab_rq1_per_model_{sub1b,ge1b}.tex.
+Writes diss/outputs/tables/tab_rq1_per_model_{sub1b,ge1b}.tex.
 
 CPU-only. Run on flamingo:
   cd /local/scratch/yh614 && conda activate diss
@@ -28,7 +28,7 @@ from pathlib import Path
 import pandas as pd
 
 SUMMARY = Path("diss/outputs/behavior_summary.csv")
-TABLE_DIR = Path("diss/outputs")
+TABLE_DIR = Path("diss/outputs/tables")
 
 LOCALE_NAME = {
     "ko": "ko-KR",
@@ -151,12 +151,12 @@ def fmt_params(p: float | None) -> str:
     return f"{p/1e6:.0f}M" if p < 1e9 else f"{p/1e9:.1f}B"
 
 
-def emit_table(df: pd.DataFrame, order: list[str], caption: str, label: str) -> str:
+def emit_table(df: pd.DataFrame, order: list[str], label: str) -> str:
     lines = [
-        r"\begin{table}[t]",
+        r"\begin{table*}[t]",
         r"\centering",
         r"\small",
-        r"\caption{" + caption + "}",
+        r"\refstepcounter{table}",
         r"\label{" + label + "}",
         r"\begin{tabular}{lllrrr}",
         r"\toprule",
@@ -214,7 +214,7 @@ def emit_table(df: pd.DataFrame, order: list[str], caption: str, label: str) -> 
             else f"{r['belebele']:.3f}"
         )
         lines.append(f"{loc_cell} & {r['regime']} & & & {b} & {v} \\\\")
-    lines += [r"\bottomrule", r"\end{tabular}", r"\end{table}"]
+    lines += [r"\bottomrule", r"\end{tabular}", r"\end{table*}"]
     return "\n".join(lines) + "\n"
 
 
@@ -240,30 +240,10 @@ def main() -> None:
 
     TABLE_DIR.mkdir(parents=True, exist_ok=True)
     (TABLE_DIR / "tab_rq1_per_model_sub1b.tex").write_text(
-        emit_table(
-            sub1b,
-            SUB1B_ORDER,
-            "Sub-billion regime triple, one pretrained model per regime per locale, with "
-            "row-instance accuracy on the cultural target (Extended BLEnD) and the "
-            "reading-comprehension control (Belebele). The best value within each locale is "
-            "bold, and the bottom block gives the regime mean across the six locales. The "
-            "multilingual XGLM leads both means while the monolingual and bilingual regimes are tied.",
-            "tab_rq1_per_model_sub1b",
-        )
+        emit_table(sub1b, SUB1B_ORDER, "tab:regime_sub1b")
     )
     (TABLE_DIR / "tab_rq1_per_model_ge1b.tex").write_text(
-        emit_table(
-            ge1b,
-            GE1B_ORDER,
-            "One-billion-and-larger regime triple, one model per regime per locale at comparable "
-            "scale. The monolingual model is the architecture-matched HPLT-2.0 checkpoint, with "
-            "rinna-monolingual for Japanese, which has no HPLT checkpoint. The bilingual model is each "
-            "locale's billion-scale bilingual model, and the multilingual model is Qwen3 at 4B for "
-            "Japanese and 1.7B elsewhere. Chinese and Spanish are omitted for lack of a billion-scale "
-            "bilingual model. The best value within each locale is bold, and the bottom block gives "
-            "the regime mean across the four locales.",
-            "tab_rq1_per_model_ge1b",
-        )
+        emit_table(ge1b, GE1B_ORDER, "tab:regime_ge1b")
     )
 
     print(f"sub-1B rows: {len(sub1b)} (locales {sorted(sub1b['locale'].unique())})")

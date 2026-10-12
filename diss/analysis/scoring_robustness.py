@@ -45,9 +45,9 @@ PER_CELL_PATH = OUTPUT_ROOT / "masking_significance_per_cell.csv"
 SIGNIFICANCE_PATH = OUTPUT_ROOT / "masking_significance.json"
 
 SCORING_VALUES_PATH = ANALYSIS_ROOT / "scoring_robustness_values.csv"
-SCORING_TABLE_PATH = ANALYSIS_ROOT / "tables" / "tab_scoring_robustness.tex"
+SCORING_TABLE_PATH = OUTPUT_ROOT / "tables" / "tab_scoring_robustness.tex"
 OVERLAP_VALUES_PATH = ANALYSIS_ROOT / "overlap_null_values.csv"
-OVERLAP_TABLE_PATH = ANALYSIS_ROOT / "tables" / "tab_overlap_null.tex"
+OVERLAP_TABLE_PATH = OUTPUT_ROOT / "tables" / "tab_overlap_null.tex"
 
 EXPECTED_PAIRS = 36
 EXPECTED_DATASETS = ("blend_mcq", "belebele", "countryrc_localized")
@@ -484,6 +484,7 @@ def write_scoring_outputs(values: pd.DataFrame) -> None:
             "",
         ]
     )
+    SCORING_TABLE_PATH.parent.mkdir(parents=True, exist_ok=True)
     SCORING_TABLE_PATH.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -692,6 +693,7 @@ def write_overlap_outputs(values: pd.DataFrame) -> None:
             "",
         ]
     )
+    OVERLAP_TABLE_PATH.parent.mkdir(parents=True, exist_ok=True)
     OVERLAP_TABLE_PATH.write_text("\n".join(lines), encoding="utf-8")
 
 

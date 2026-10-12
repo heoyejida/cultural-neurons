@@ -49,8 +49,8 @@ ANALYSIS_ROOT = PROJECT_ROOT / "diss" / "outputs" / "analysis"
 OUTPUT_ROOT = PROJECT_ROOT / "diss" / "outputs"
 EBLEND_PATH = PROJECT_ROOT / "diss" / "data" / "eBLEnD" / "eblend_final.csv"
 
-FIGURE_ROOT = ANALYSIS_ROOT / "figures"
-TABLE_PATH = ANALYSIS_ROOT / "tables" / "tab_checkpoint_trajectories.tex"
+FIGURE_ROOT = OUTPUT_ROOT / "figures"
+TABLE_PATH = OUTPUT_ROOT / "tables" / "tab_checkpoint_trajectories.tex"
 
 EXPECTED_LABELS = [
     "checkpoint_0001000",

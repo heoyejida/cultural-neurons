@@ -57,12 +57,12 @@ SIGNIFICANCE_JSON_PATH = OUTPUT_ROOT / "masking_significance.json"
 EBLEND_PATH = PROJECT_ROOT / "diss" / "data" / "eBLEnD" / "eblend_final.csv"
 MODERATION_CELLS_PATH = OUTPUT_ROOT / "masking_moderation_cells.csv"
 
-TABLE_PATH = ANALYSIS_ROOT / "tables" / "tab_causal_summary.tex"
+TABLE_PATH = OUTPUT_ROOT / "tables" / "tab_causal_summary.tex"
 FRAMING_VALUES_PATH = ANALYSIS_ROOT / "framing_sensitivity_values.csv"
 VALUES_PATH = ANALYSIS_ROOT / "pair_slr_gap_values.csv"
-PAIR_TABLE_PATH = ANALYSIS_ROOT / "tables" / "tab_pair_slr_gap.tex"
-FIGURE_PDF_PATH = ANALYSIS_ROOT / "figures" / "fig_pair_slr_gap.pdf"
-FIGURE_PNG_PATH = ANALYSIS_ROOT / "figures" / "fig_pair_slr_gap.png"
+PAIR_TABLE_PATH = OUTPUT_ROOT / "tables" / "tab_pair_slr_gap.tex"
+FIGURE_PDF_PATH = OUTPUT_ROOT / "figures" / "fig_pair_slr_gap.pdf"
+FIGURE_PNG_PATH = OUTPUT_ROOT / "figures" / "fig_pair_slr_gap.png"
 
 BOOTSTRAP_B = 10_000
 ALPHA = 0.05

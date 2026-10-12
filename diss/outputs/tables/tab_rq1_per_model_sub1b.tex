@@ -1,0 +1,39 @@
+\begin{table*}[t]
+\centering
+\small
+\refstepcounter{table}
+\label{tab:regime_sub1b}
+\begin{tabular}{lllrrr}
+\toprule
+Locale & Pretraining regime & Model & Params & BLEnD & Belebele \\
+\midrule
+ko-KR & monolingual & Goldfish-ko & 125M & 0.343 & 0.252 \\
+ko-KR & bilingual & ko-en intermediate & 277M & 0.420 & 0.241 \\
+ko-KR & multilingual & XGLM & 564M & \textbf{0.475} & \textbf{0.303} \\
+\midrule
+ja-JP & monolingual & Goldfish-ja & 125M & 0.335 & 0.241 \\
+ja-JP & bilingual & ja-en intermediate & 277M & 0.445 & 0.234 \\
+ja-JP & multilingual & XGLM & 564M & \textbf{0.463} & \textbf{0.284} \\
+\midrule
+zh-CN & monolingual & Goldfish-zh & 125M & 0.361 & 0.243 \\
+zh-CN & bilingual & zh-en intermediate & 277M & 0.221 & 0.252 \\
+zh-CN & multilingual & XGLM & 564M & \textbf{0.421} & \textbf{0.314} \\
+\midrule
+fr-FR & monolingual & Goldfish-fr & 125M & 0.477 & 0.239 \\
+fr-FR & bilingual & fr-en intermediate & 277M & 0.436 & 0.236 \\
+fr-FR & multilingual & XGLM & 564M & \textbf{0.576} & \textbf{0.323} \\
+\midrule
+es-ES & monolingual & Goldfish-es & 125M & \textbf{0.431} & 0.239 \\
+es-ES & bilingual & es-en intermediate & 277M & 0.421 & 0.231 \\
+es-ES & multilingual & XGLM & 564M & 0.377 & \textbf{0.324} \\
+\midrule
+ar-SA & monolingual & Goldfish-ar & 125M & 0.478 & 0.262 \\
+ar-SA & bilingual & ar-en intermediate & 277M & 0.483 & 0.251 \\
+ar-SA & multilingual & XGLM & 564M & \textbf{0.550} & \textbf{0.301} \\
+\midrule
+Mean & monolingual & & & 0.404 & 0.246 \\
+ & bilingual & & & 0.404 & 0.241 \\
+ & multilingual & & & \textbf{0.477} & \textbf{0.309} \\
+\bottomrule
+\end{tabular}
+\end{table*}

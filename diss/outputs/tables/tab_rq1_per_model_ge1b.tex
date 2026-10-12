@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering
+\small
+\refstepcounter{table}
+\label{tab:regime_ge1b}
+\begin{tabular}{lllrrr}
+\toprule
+Locale & Pretraining regime & Model & Params & BLEnD & Belebele \\
+\midrule
+ko-KR & monolingual & HPLT 2.0-kor & 2.1B & 0.701 & 0.359 \\
+ko-KR & bilingual & Kanana 1.5 & 2.1B & \textbf{0.787} & \textbf{0.457} \\
+ko-KR & multilingual & Qwen3 & 1.7B & 0.586 & 0.431 \\
+\midrule
+ja-JP & monolingual & rinna-monolingual & 3.6B & 0.494 & 0.309 \\
+ja-JP & bilingual & rinna-bilingual & 4.0B & \textbf{0.524} & 0.336 \\
+ja-JP & multilingual & Qwen3 & 4.0B & 0.476 & \textbf{0.432} \\
+\midrule
+fr-FR & monolingual & HPLT 2.0-fra & 2.1B & 0.657 & 0.352 \\
+fr-FR & bilingual & CroissantLLM & 1.3B & \textbf{0.674} & 0.362 \\
+fr-FR & multilingual & Qwen3 & 1.7B & 0.669 & \textbf{0.470} \\
+\midrule
+ar-SA & monolingual & HPLT 2.0-ara & 2.1B & \textbf{0.679} & 0.339 \\
+ar-SA & bilingual & Jais & 1.3B & 0.675 & 0.384 \\
+ar-SA & multilingual & Qwen3 & 1.7B & 0.598 & \textbf{0.436} \\
+\midrule
+Mean & monolingual & & & 0.633 & 0.340 \\
+ & bilingual & & & \textbf{0.665} & 0.385 \\
+ & multilingual & & & 0.582 & \textbf{0.442} \\
+\bottomrule
+\end{tabular}
+\end{table*}
