@@ -12,7 +12,6 @@ The PNG and TeX files used by the current manuscript are stored in `diss/outputs
 | `fig_cultural_drop_by_param.png` | [`plot_masking_moderation.py`](plot_masking_moderation.py): `masking_significance_per_cell.csv`, grouped by parameter tier. |
 | `tradeoff_small.png` | [`tradeoff_plots.py`](tradeoff_plots.py): `behavior_summary.csv`, sub-billion regime. |
 | `japanese_countryrc_byte_length.png` | [`option_length_stats.py`](option_length_stats.py): Japanese CountryRC gold-answer and distractor option byte lengths. |
-| `cultural_neuron_locale_overlap.png` | [`cultural_neuron_locale_overlap_plot.py`](cultural_neuron_locale_overlap_plot.py): selected-neuron JSON files across multilingual models and locales. |
 
 The checkpoint script's combined mode writes all three checkpoint figures. Figure scripts save their PNG outputs under `diss/outputs/figures/`.
 
@@ -29,3 +28,16 @@ The checkpoint script's combined mode writes all three checkpoint figures. Figur
 | `tab_layer_concentration.tex` | [`analyze_cultural_neurons.py`](analyze_cultural_neurons.py): consolidated mask-comparison results and selected-neuron JSON files. |
 
 Table scripts save their TeX outputs under `diss/outputs/tables/`. The checked-in files in these directories preserve the versions included by the manuscript.
+
+
+## Additional analysis figures
+
+
+| File | Generator and input |
+| --- | --- |
+| `cultural_neuron_locale_overlap.png` | [`cultural_neuron_locale_overlap_plot.py`](cultural_neuron_locale_overlap_plot.py): selected-neuron JSON files for multilingual models across locales. |
+| `cultural_neuron_layer_dist_monolingual.png` | [`cultural_neuron_layer_distribution.py`](cultural_neuron_layer_distribution.py): selected-neuron JSON files for monolingual models. |
+| `cultural_neuron_layer_dist_bilingual.png` | [`cultural_neuron_layer_distribution.py`](cultural_neuron_layer_distribution.py): selected-neuron JSON files for bilingual models. |
+| `cultural_neuron_layer_dist_multilingual.png` | [`cultural_neuron_layer_distribution.py`](cultural_neuron_layer_distribution.py): selected-neuron JSON files for multilingual models. |
+
+The layer-distribution script writes one figure per regime under `diss/outputs/figures/`.
